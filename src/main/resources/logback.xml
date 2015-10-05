@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <!--
+    <logger name="de.quinscape.reactinject.app.config.InjectionFunctionService" level="DEBUG"/>
+    <logger name="de.quinscape.reactinject.app.injectfn.ReactInjectServerFunctions" level="DEBUG"/>
+    <logger name="de.quinscape.reactinject.app.inject.QueryContext" level="DEBUG"/>
+    -->
+
+    <!-- Debug spring security problems -->
+    <!--
+    <logger name="org.springframework.security" level="DEBUG"/>
+    -->
+    <logger name="org.jooq.Constants" level="WARNING"/>
+    <root level="INFO"/>
+</configuration>
