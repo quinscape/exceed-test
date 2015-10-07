@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
 	<groupId>de.quinscape</groupId>
-	<artifactId>editor</artifactId>
+	<artifactId>exceed-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>React App Editor</name>
-	<description>Application editor</description>
+	<description>Exceed test application</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -21,7 +21,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <start-class>de.quinscape.editor.app.ExceedApplicationConfiguration</start-class>
+        <start-class>de.quinscape.exceedapp.EditorConfiguration</start-class>
         <java.version>1.8</java.version>
     </properties>
 
@@ -160,46 +160,6 @@
             </plugin>
 
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.3</version>
-
-                <executions>
-                    <!--
-                        First we only compile our jooq strategy to then generated our POJOS with it..
-                    -->
-                    <execution>
-                        <id>compile-build-classes</id>
-                        <phase>generate-sources</phase>
-                        <goals>
-                            <goal>compile</goal>
-                        </goals>
-                        <configuration>
-                            <includes>
-                                <include>de/quinscape/editor/build/**</include>
-                            </includes>
-                        </configuration>
-                    </execution>
-                    <!--
-                        Then we compile the rest of the code
-                    -->
-                    <execution>
-                        <id>default-compile</id>
-                        <phase>compile</phase>
-                        <goals>
-                            <goal>compile</goal>
-                        </goals>
-                        <configuration>
-                            <includes>
-                                <include>de/quinscape/editor/app/**</include>
-                                <include>de/quinscape/editor/model/**</include>
-                            </includes>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-
-            <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>properties-maven-plugin</artifactId>
                 <version>1.0-alpha-2</version>
@@ -272,7 +232,7 @@
                             </forcedTypes-->
                         </database>
                         <target>
-                            <packageName>de.quinscape.editor.app.domain.gen</packageName>
+                            <packageName>de.quinscape.exceedapp.domain</packageName>
                             <directory>src/main/java</directory>
                         </target>
                         <generate>

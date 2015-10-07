@@ -11,6 +11,6 @@
     <!--
     <logger name="org.springframework.security" level="DEBUG"/>
     -->
-    <logger name="org.jooq.Constants" level="WARNING"/>
+    <logger name="org.jooq.Constants" level="WARN"/>
     <root level="INFO"/>
 </configuration>

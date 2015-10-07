@@ -1,6 +1,6 @@
 package de.quinscape.exceedapp;
 
-import de.quinscape.exceed.app.ExceedApplicationConfiguration;
+import de.quinscape.exceed.runtime.ExceedApplicationConfiguration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
