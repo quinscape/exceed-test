@@ -54,7 +54,8 @@ var BABEL_JS_WHITELIST = [
     "utility.inlineEnvironmentVariables",
 
     // auto "use strict";
-    "strict"
+    "strict",
+    "es6.arrowFunctions"
 ];
 
 gulp.task("build", function(cb) {
@@ -74,6 +75,7 @@ function bundle(watch, cb) {
         bro = watchify(browserify(MAIN_FILE,
             // Assigning debug to have sourcemaps
             extend(watchify.args, {
+                global: true,
                 debug: true
             })));
         bro.on("update", function() {
@@ -84,6 +86,7 @@ function bundle(watch, cb) {
         });
     } else {
         bro = browserify(MAIN_FILE, {
+            global: true,
             debug: true,
             fullPaths: true
         });

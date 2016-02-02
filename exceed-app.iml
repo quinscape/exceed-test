@@ -19,11 +19,13 @@
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/de/quinscape/exceedapp/EditorConfiguration.java</file>
-          <file>file://$MODULE_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/config/DomainConfiguration.java</file>
-          <file>file://$MODULE_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/ExceedApplicationConfiguration.java</file>
-          <file>file://$MODULE_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/config/ModelConfiguration.java</file>
-          <file>file://$MODULE_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/config/SecurityConfiguration.java</file>
-          <file>file://$MODULE_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/config/WebConfiguration.java</file>
+          <file>file://$MODULE_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/DefaultAppConfiguration.java</file>
+          <file>file://$MODULE_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/DomainConfiguration.java</file>
+          <file>file://$MODULE_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/ExceedApplicationConfiguration.java</file>
+          <file>file://$MODULE_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/ModelConfiguration.java</file>
+          <file>file://$MODULE_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/SecurityConfiguration.java</file>
+          <file>file://$MODULE_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/ServiceConfiguration.java</file>
+          <file>file://$MODULE_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/WebConfiguration.java</file>
         </fileset>
       </configuration>
     </facet>
@@ -83,6 +85,11 @@
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:3.2.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.8" level="project" />
+    <orderEntry type="library" name="Maven: org.opensaga:opensaga-dynamic-stylesheets:3.0.7" level="project" />
+    <orderEntry type="library" name="Maven: org.w3c.css:sac:1.3" level="project" />
+    <orderEntry type="library" name="Maven: net.sourceforge.cssparser:cssparser:0.9.6" level="project" />
+    <orderEntry type="library" name="Maven: commons-cli:commons-cli:1.2" level="project" />
+    <orderEntry type="library" name="Maven: javax.activation:activation:gnu:1.1" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:jstl:1.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-taglibs:3.2.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-acl:3.2.5.RELEASE" level="project" />
@@ -91,7 +98,7 @@
     <orderEntry type="library" name="Maven: org.jooq:jooq:3.6.2" level="project" />
     <orderEntry type="library" name="Maven: org.jooq:jooq-codegen:3.6.2" level="project" />
     <orderEntry type="library" name="Maven: org.jooq:jooq-meta:3.6.2" level="project" />
-    <orderEntry type="library" name="Maven: com.google.code.svenson:svenson:1.5.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.svenson:svenson:1.5.2-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.2" level="project" />
     <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.1" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />

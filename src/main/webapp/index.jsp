@@ -1,2 +1,2 @@
-<% response.sendRedirect(request.getContextPath() + "/app/default/home"); %>
+<% response.sendRedirect(request.getContextPath() + "/app/exceed/"); %>
 
