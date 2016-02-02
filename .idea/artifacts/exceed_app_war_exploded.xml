@@ -40,12 +40,17 @@
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.1.4.RELEASE" />
-          <element id="archive" name="exceed-0.1-SNAPSHOT.jar">
+          <element id="archive" name="exceed-0.2-SNAPSHOT.jar">
             <element id="module-output" name="exceed" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.8" />
+          <element id="library" level="project" name="Maven: org.opensaga:opensaga-dynamic-stylesheets:3.0.7" />
+          <element id="library" level="project" name="Maven: org.w3c.css:sac:1.3" />
+          <element id="library" level="project" name="Maven: net.sourceforge.cssparser:cssparser:0.9.6" />
+          <element id="library" level="project" name="Maven: commons-cli:commons-cli:1.2" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:gnu:1.1" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:3.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:3.2.5.RELEASE" />
@@ -54,12 +59,11 @@
           <element id="library" level="project" name="Maven: org.jooq:jooq:3.6.2" />
           <element id="library" level="project" name="Maven: org.jooq:jooq-codegen:3.6.2" />
           <element id="library" level="project" name="Maven: org.jooq:jooq-meta:3.6.2" />
-          <element id="library" level="project" name="Maven: com.google.code.svenson:svenson:1.5.1-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.google.code.svenson:svenson:1.5.2-SNAPSHOT" />
           <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.9.2" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
           <element id="library" level="project" name="Maven: com.google.guava:guava:15.0" />
-          <element id="library" level="project" name="exceed" />
         </element>
       </element>
       <element id="directory" name="META-INF">

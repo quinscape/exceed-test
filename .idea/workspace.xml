@@ -5,8 +5,125 @@
       <artifact name="exceed-app:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/model/ClientExpressionRendererTest.java" line="101" mnemonic="0" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b50f12fa-5932-4d66-94d4-086e06f13a6c" name="Default" comment="" />
+    <list default="true" id="b50f12fa-5932-4d66-94d4-086e06f13a6c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/sven.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_gnu_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/exceed-app/app.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/exceed/views/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/InvalidClientExpressionException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../exceed/src/main/js/service/view-component-renderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../exceed/src/main/js/ui/ErrorReport.es5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/model/ModelCompositionServiceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../exceed/src/test/js/service/view-component-renderer.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_svenson_svenson_1_5_1_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/editor/app/domain/gen/Keys.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/editor/app/domain/gen/Public.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/editor/app/domain/gen/Tables.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/editor/app/domain/gen/tables/Bar.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/editor/app/domain/gen/tables/Foo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/editor/app/domain/gen/tables/pojos/Bar.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/editor/app/domain/gen/tables/pojos/Foo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/editor/app/domain/gen/tables/records/BarRecord.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/editor/app/domain/gen/tables/records/FooRecord.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ComponentJSONFormat.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../exceed/src/main/js/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../exceed/src/main/js/ui/ViewComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../exceed/src/main/js/util/form-context.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../exceed/src/test/js/ui/ViewComponent.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/exceed_app_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/exceed_app_war.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/exceed_app_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/exceed_app_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/exceed.xml" afterPath="$PROJECT_DIR$/.idea/libraries/exceed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exceed-app.iml" afterPath="$PROJECT_DIR$/exceed-app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/components/custom/Bar.css" afterPath="$PROJECT_DIR$/src/main/webapp/components/custom/Bar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/components/custom/Bar.js" afterPath="$PROJECT_DIR$/src/main/webapp/components/custom/Bar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/components/custom/component.json" afterPath="$PROJECT_DIR$/src/main/webapp/components/custom/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/exceed.iml" afterPath="$PROJECT_DIR$/../exceed/exceed.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/gulpfile.js" afterPath="$PROJECT_DIR$/../exceed/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/package.json" afterPath="$PROJECT_DIR$/../exceed/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/pom.xml" afterPath="$PROJECT_DIR$/../exceed/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/base/models/view/Home.json" afterPath="$PROJECT_DIR$/../exceed/src/main/base/models/view/Home.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/base/resources/css/editor.css" afterPath="$PROJECT_DIR$/../exceed/src/main/base/resources/css/editor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/base/resources/css/layout.css" afterPath="$PROJECT_DIR$/../exceed/src/main/base/resources/css/layout.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/component/ComponentDescriptor.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/component/ComponentDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/component/PropDeclaration.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/component/PropDeclaration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ASTLogicalAnd.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ASTLogicalAnd.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ASTLogicalOr.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ASTLogicalOr.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ExpressionDumpVisitor.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ExpressionDumpVisitor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ExpressionParser.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ExpressionParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ExpressionParserConstants.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ExpressionParserConstants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ExpressionParserDefaultVisitor.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ExpressionParserDefaultVisitor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ExpressionParserTokenManager.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ExpressionParserTokenManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ExpressionParserTreeConstants.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ExpressionParserTreeConstants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ExpressionParserVisitor.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ExpressionParserVisitor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/Operator.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/Operator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/AttributeValue.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/AttributeValue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/AttributeValueType.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/AttributeValueType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/Attributes.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/Attributes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/ComponentModel.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/ComponentModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/View.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/View.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/RuntimeContext.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/RuntimeContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/RuntimeContextHolder.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/RuntimeContextHolder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/Action.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/Action.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/application/RuntimeApplication.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/application/RuntimeApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/component/EntityType.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/component/EntityType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/CommonVariablesInterceptor.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/CommonVariablesInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/DomainConfiguration.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/DomainConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/ModelConfiguration.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/ModelConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/SecurityConfiguration.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/SecurityConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/ServiceConfiguration.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/ServiceConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/WebConfiguration.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/WebConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/controller/ActionController.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/controller/ActionController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/controller/ActionRegistry.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/controller/ActionRegistry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/controller/ApplicationController.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/controller/ApplicationController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/controller/DefaultActionRegistry.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/controller/DefaultActionRegistry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/JOOQQueryExecutor.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/JOOQQueryExecutor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/ExpressionEnvironment.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/ExpressionEnvironment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ComponentModelJSONifier.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ComponentModelJSONifier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ModelCompositionService.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ModelCompositionService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ModelJSONService.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ModelJSONService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ModelJSONServiceImpl.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ModelJSONServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ComponentRegistration.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ComponentRegistration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/RuntimeApplicationFactory.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/RuntimeApplicationFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/bootstrap/component.json" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/bootstrap/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/datagrid/DataGrid.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/datagrid/DataGrid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/datagrid/component.json" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/datagrid/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/editor/InPageEditor.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/editor/InPageEditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/main.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/service/ajax.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/service/ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/service/view.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/service/view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/ui/Alert.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/ui/Alert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/util/uri.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/util/uri.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/resources/Expression.jjt" afterPath="$PROJECT_DIR$/../exceed/src/main/resources/Expression.jjt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/resources/META-INF/resources/exceed/views/react-base.jsp" afterPath="$PROJECT_DIR$/../exceed/src/main/resources/META-INF/resources/exceed/views/react-base.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/expression/ExpressionParserTest.java" afterPath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/expression/ExpressionParserTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/config/DomainConfigurationTest.java" afterPath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/config/DomainConfigurationTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/config/ModelJSONServiceTest.java" afterPath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/config/ModelJSONServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/expression/component/ComponentExpressionTransformerTest.java" afterPath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/expression/component/ComponentExpressionTransformerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/test/js/ui/test-dom.js" afterPath="$PROJECT_DIR$/../exceed/src/test/js/ui/test-dom.js" />
+    </list>
     <ignored path="editor.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,117 +145,102 @@
     <favorites_list name="editor" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/View.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DomainConfigurationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/config/DomainConfigurationTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModelBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/ModelBase.java">
+      <file leaf-file-name="JOOQQueryExecutor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/JOOQQueryExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#784#785#0" expanded="false" />
-                <element signature="e#844#845#0" expanded="false" />
-                <element signature="e#983#984#0" expanded="false" />
-                <element signature="e#1039#1040#0" expanded="false" />
-                <element signature="e#1353#1354#0" expanded="false" />
-                <element signature="e#1386#1387#0" expanded="false" />
-                <element signature="e#1442#1443#0" expanded="false" />
-                <element signature="e#1486#1487#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModelServiceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/app/config/ModelServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="112" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+              <caret line="40" column="20" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/controller/ApplicationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30914825">
-              <caret line="31" column="85" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InputStreamReader.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/local/java/jdk1.8/src.zip!/java/io/InputStreamReader.java">
+      <file leaf-file-name="ModelJSONServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/config/ModelJSONServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <file leaf-file-name="ModelCompositionServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/model/ModelCompositionServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="66" selection-start-line="0" selection-start-column="66" selection-end-line="0" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/local/java/jdk1.8/src.zip!/java/util/Map.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../exceed/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#53227#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ElementNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/ElementNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="78" column="33" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.4557377">
+              <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AttributeValue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/AttributeValue.java">
+      <file leaf-file-name="ComponentRegistry.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ComponentRegistry.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <caret line="73" column="29" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AttributeValueType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/AttributeValueType.java">
+      <file leaf-file-name="DefaultAppConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/DefaultAppConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <caret line="124" column="43" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/model/test-views/Home.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/base/models/view/Home.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/ServiceConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="76" column="109" selection-start-line="76" selection-start-column="109" selection-end-line="76" selection-end-column="109" />
               <folding />
             </state>
           </provider>
@@ -150,68 +252,76 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit3 Test Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="JavaScript File" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../exceed" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/service/component-registry.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/foo/bar/component.json" />
-        <option value="$PROJECT_DIR$/../exceed/package.json" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/component-registry.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/index.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/foo/bar/Bar.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/resources/META-INF/resources/app.js" />
-        <option value="$PROJECT_DIR$/src/main/js/components/custom/component.json" />
-        <option value="$PROJECT_DIR$/src/main/js/components/custom/Bar.js" />
-        <option value="$PROJECT_DIR$/src/main/js/main.js" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/resources/META-INF/resources/app.json" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app.json" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/app.js" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/src/main/js/app.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/ui/Alert.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/main.js" />
-        <option value="$PROJECT_DIR$/target/exceed-app/index.jsp" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/resources/META-INF/resources/exceed/views/react-base.jsp" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/config/DomainConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/config/ApplicationUserDetailsService.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/test/java/PasswordTestCase.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/config/ApplicationUserDetails.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/config/SecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/resources/META-INF/resources/exceed/css/layout.css" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/editor.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/exceed/views/react-base.jsp" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/controller/EditorController.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/controller/ScriptController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/service/component.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/compositor.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/util/form-context.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/util/validation-api.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/service/domain-factory.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/datagrid/component.json" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/datagrid/Datagrid.js" />
-        <option value="$PROJECT_DIR$/../exceed/gulpfile.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/config/JsService.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/config/WebConfiguration.java" />
         <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/AttributeValueType.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/View.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/AttributeValue.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/app/config/ModelServiceTest.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/ElementNode.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/controller/ApplicationController.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/ComponentModel.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/Attributes.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/config/ModelJSONServiceTest.java" />
+        <option value="$PROJECT_DIR$/../exceed/test.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/base/resources/js/main.js" />
+        <option value="$PROJECT_DIR$/../exceed/test.json" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/base/models/view/Home.json" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/editor/code/CodeEditor.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/editor/InPageEditor.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/service/view-api.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/editor/code/ace-mode-exceed.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/exceed/views/react-base.jsp" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/resources/META-INF/resources/exceed/views/react-base.jsp" />
+        <option value="/var/www/test/ctx.html" />
+        <option value="$PROJECT_DIR$/../exceed/node_modules/react-transform-catch-errors/lib/index.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/application/RuntimeApplication.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/JSONBuilder.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ModelJSONServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/ui/ErrorReport.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/datagrid/DataGrid.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/service/render.js" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/3.2.5.RELEASE/spring-security-config-3.2.5.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/ui/Alert.js" />
+        <option value="/JavaScript 1.5 Fragment (view-component-renderer.js:6167).js" />
+        <option value="$PROJECT_DIR$/../exceed/gulpfile.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/ui/ErrorReport.es5.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/base/resources/css/editor.css" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/controller/ApplicationController.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/RuntimeContext.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/RuntimeContextHolder.java" />
+        <option value="/usr/local/java/jdk1.8/src.zip!/java/lang/ThreadLocal.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/test/js/ui/ViewComponent.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/test/js/service/view-component-renderer.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/component/ComponentDescriptor.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ComponentRegistration.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/InvalidClientExpressionException.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ClientExpressionRenderer.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/service/view-component-renderer.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/model/ClientExpressionRendererTest.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/model/ModelJSONServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ModelCompositionService.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/DomainConfiguration.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/ModelConfiguration.java" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-test/4.1.4.RELEASE/spring-test-4.1.4.RELEASE-sources.jar!/org/springframework/test/context/ContextConfiguration.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/config/DomainConfigurationTest.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/ServiceConfiguration.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/model/test-views/Home.json" />
+        <option value="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/model/ModelCompositionServiceTest.java" />
+        <option value="$PROJECT_DIR$/../exceed/pom.xml" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
@@ -234,15 +344,52 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="NamedScopeManager">
-    <order />
+  <component name="NodeJsMochaPackageDirSetting">
+    <data>$PROJECT_DIR$/../exceed/node_modules/mocha</data>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1920" />
-    <option name="height" value="1056" />
+    <option name="height" value="1084" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Convert2streamapi</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -263,20 +410,148 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="Scratches">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="editor" />
+              <option name="myItemId" value="exceed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="editor" />
+              <option name="myItemId" value="exceed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exceed-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exceed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exceed-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exceed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exceed-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exceed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exceed-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exceed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exceed-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exceed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exceed-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quinscape" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exceed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -286,7 +561,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -300,94 +574,110 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exceed/exceed.iml" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$USER_HOME$/tmp/browserify-req" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/de/quinscape/editor/app/model" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="FullScreen" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/domain" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="JavaScriptLanguageLevel" value="JSX" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="216" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="239" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="247" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1146" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="227" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="235" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="244" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1142" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="TemporalU&#9;PSI&#9;JAVA://java.time.temporal.TemporalUnit&#10;defaultDataPro&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.config.ServiceConfiguration#defaultDataProvider" />
+    <property name="javascript.nodejs.core.library.configured.version" value="0.12.7" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="exceed" />
+    <property name="nodejs.mocha.node_interpreter_path" value="/usr/local/bin/node" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/../exceed/node_modules/mocha" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="de.quinscape.exceed.model.view" />
-      <recent name="de.quinscape.exceed.app.config" />
-      <recent name="de.quinscape.editor.app.config" />
-      <recent name="de.quinscape.editor.app.model.structure" />
+      <recent name="de.quinscape.exceed.runtime.util" />
+      <recent name="de.quinscape.exceed.runtime.model" />
+      <recent name="de.quinscape.exceed.runtime.application" />
+      <recent name="de.quinscape.exceed.runtime.service.domain" />
+      <recent name="de.quinscape.exceed.model.domain" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../exceed/src/main/js/ui" />
-      <recent name="$PROJECT_DIR$/../exceed/src/main/js/service" />
-      <recent name="$PROJECT_DIR$/../exceed/src/main/js" />
-      <recent name="$PROJECT_DIR$/../exceed/src/main/js/util" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/exceed/css" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="junit.framework.TestCase" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main" />
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/js" />
-      <recent name="$PROJECT_DIR$/../exceed/src/main/js/components" />
-      <recent name="$PROJECT_DIR$/../exceed/src/main/resources/web" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="de.quinscape.exceed" />
-      <recent name="de.quinscape.editor.app.config" />
-      <recent name="de.quinscape.editor" />
-      <recent name="de.quinscape.editor.app" />
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="de.quinscape.exceed.runtime.controller" />
+      <recent name="de.quinscape.exceed.model" />
+      <recent name="de.quinscape.exceed.runtime.domain" />
+      <recent name="de.quinscape.exceed.runtime.model" />
+      <recent name="de.quinscape.exceed.runtime.resource" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="de.quinscape.editor.app.config" />
+      <recent name="de.quinscape.exceed.runtime.model" />
+      <recent name="de.quinscape.exceed.runtime.util" />
+      <recent name="de.quinscape.exceed.runtime.expression.component" />
+      <recent name="de.quinscape.exceed.runtime.config" />
+      <recent name="de.quinscape.exceed.runtime.expression" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="de.quinscape.exceed.runtime" />
+      <recent name="de.quinscape.exceed.runtime.domain" />
+      <recent name="de.quinscape.exceed.runtime.resource" />
+      <recent name="de.quinscape.exceed.expression" />
+      <recent name="de.quinscape.exceed.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/model/test-views" />
+      <recent name="$PROJECT_DIR$/../exceed/src/main/js/components/bootstrap" />
+      <recent name="$PROJECT_DIR$/../exceed/src/main/js/ace" />
+      <recent name="$PROJECT_DIR$/../exceed/src/main/js/components/layout" />
+      <recent name="$PROJECT_DIR$/../exceed/src/main/js/components/form" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="de.quinscape.exceed.app.controller" />
-      <recent name="de.quinscape.exceed.app.domain" />
-      <recent name="de.quinscape.editor.app.controller" />
-      <recent name="de.quinscape.editor.app.config" />
+      <recent name="de.quinscape.exceed.runtime.model" />
+      <recent name="de.quinscape.exceed.model.view" />
+      <recent name="de.quinscape.exceed.runtime.action" />
+      <recent name="de.quinscape.exceed.runtime.config" />
+      <recent name="de.quinscape.exceed.runtime" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../exceed/src/main/js/editor/code" />
+      <recent name="$PROJECT_DIR$/../exceed/src/main/js/ui/ace" />
+      <recent name="$PROJECT_DIR$/../exceed/src/main/js/ui" />
+      <recent name="$PROJECT_DIR$/../exceed/src/main/js/util" />
+      <recent name="$PROJECT_DIR$/../exceed/src/main/js/editor/gui" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.exceed">
-    <configuration default="false" name="All in exceed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ModelCompositionServiceTest">
+    <configuration default="false" name="ClientExpressionRendererTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exceed" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="DomainConfigurationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exceed" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="de.quinscape.exceed.app.config" />
-      <option name="MAIN_CLASS_NAME" value="de.quinscape.exceed.app.config.DomainConfigurationTest" />
-      <option name="METHOD_NAME" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="de.quinscape.exceed.runtime.model" />
+      <option name="MAIN_CLASS_NAME" value="de.quinscape.exceed.runtime.model.ClientExpressionRendererTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -397,37 +687,17 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="PasswordTestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ClientExpressionRendererTest.testInlining" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exceed" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PasswordTestCase" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ModelServiceTest.testViewToJSON" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exceed" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="de.quinscape.exceed.app.config" />
-      <option name="MAIN_CLASS_NAME" value="de.quinscape.exceed.app.config.ModelServiceTest" />
-      <option name="METHOD_NAME" value="testViewToJSON" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="de.quinscape.exceed.runtime.model" />
+      <option name="MAIN_CLASS_NAME" value="de.quinscape.exceed.runtime.model.ClientExpressionRendererTest" />
+      <option name="METHOD_NAME" value="testInlining" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -437,17 +707,57 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ModelServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ModelCompositionServiceTest.testCreateViewModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exceed" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="de.quinscape.exceed.app.config" />
-      <option name="MAIN_CLASS_NAME" value="de.quinscape.exceed.app.config.ModelServiceTest" />
-      <option name="METHOD_NAME" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="de.quinscape.exceed.runtime.model" />
+      <option name="MAIN_CLASS_NAME" value="de.quinscape.exceed.runtime.model.ModelCompositionServiceTest" />
+      <option name="METHOD_NAME" value="testCreateViewModel" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ModelCompositionServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exceed" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="de.quinscape.exceed.runtime.model" />
+      <option name="MAIN_CLASS_NAME" value="de.quinscape.exceed.runtime.model.ModelCompositionServiceTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DomainConfigurationTest.testDSL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exceed" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="de.quinscape.exceed.runtime.config" />
+      <option name="MAIN_CLASS_NAME" value="de.quinscape.exceed.runtime.config.DomainConfigurationTest" />
+      <option name="METHOD_NAME" value="testDSL" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -494,17 +804,74 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
       <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -514,11 +881,69 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="exceed" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
@@ -564,6 +989,33 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -573,7 +1025,42 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="exceed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="tokens test" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$/../exceed/src/test/js/editor/code</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/../exceed/src/test/js/editor/code/tokens.js</test-file>
+      <method />
+    </configuration>
+    <configuration default="false" name="EditorConfiguration" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="de.quinscape.exceedapp.EditorConfiguration" />
+      <module name="exceed-app" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="exceed (spring-loaded)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="COMMON_VM_ARGUMENTS" value="-noverify -javaagent:$MAVEN_REPOSITORY$/org/springframework/springloaded/1.2.3.RELEASE/springloaded-1.2.3.RELEASE.jar -Dexceed.library.source=$PROJECT_DIR$/../exceed" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -633,21 +1120,83 @@
         </option>
       </method>
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.exceed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.All in exceed" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DomainConfigurationTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PasswordTestCase" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ModelServiceTest.testViewToJSON" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.ModelServiceTest" />
+    <configuration default="false" name="exceed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dexceed.library.source=$PROJECT_DIR$/../exceed" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="exceed-app:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/exceed" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="exceed_(spring-loaded)_(1)_exceed" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="46699" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="exceed-app:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="9">
+      <item index="0" class="java.lang.String" itemvalue="Mocha.tokens test" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.EditorConfiguration" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.exceed (spring-loaded)" />
+      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.exceed" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ClientExpressionRendererTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ClientExpressionRendererTest.testInlining" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.ModelCompositionServiceTest.testCreateViewModel" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.ModelCompositionServiceTest" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.DomainConfigurationTest.testDSL" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ModelServiceTest.testViewToJSON" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ModelServiceTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PasswordTestCase" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DomainConfigurationTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.All in exceed" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ModelCompositionServiceTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ModelCompositionServiceTest.testCreateViewModel" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DomainConfigurationTest.testDSL" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ClientExpressionRendererTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ClientExpressionRendererTest.testInlining" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -673,47 +1222,293 @@
       <workItem from="1443968821091" duration="5017000" />
       <workItem from="1443973928948" duration="12389000" />
       <workItem from="1443987824059" duration="28555000" />
-      <workItem from="1444041017904" duration="2731000" />
+      <workItem from="1444041017904" duration="3358000" />
+      <workItem from="1444050321326" duration="5037000" />
+      <workItem from="1444055517229" duration="21459000" />
+      <workItem from="1444087334372" duration="742000" />
+      <workItem from="1444089689373" duration="21000" />
+      <workItem from="1444089720053" duration="5047000" />
+      <workItem from="1444127506901" duration="4486000" />
+      <workItem from="1444133878477" duration="2000" />
+      <workItem from="1444133890001" duration="3887000" />
+      <workItem from="1444138859929" duration="13312000" />
+      <workItem from="1444155390077" duration="3000" />
+      <workItem from="1444155400764" duration="12945000" />
+      <workItem from="1444169943384" duration="7512000" />
+      <workItem from="1444178386688" duration="2329000" />
+      <workItem from="1444185303319" duration="6515000" />
+      <workItem from="1444218523092" duration="31487000" />
+      <workItem from="1444261408325" duration="13959000" />
+      <workItem from="1444305469526" duration="5175000" />
+      <workItem from="1444312276997" duration="19075000" />
+      <workItem from="1444389945258" duration="23985000" />
+      <workItem from="1444427280419" duration="7013000" />
+      <workItem from="1444475757681" duration="31533000" />
+      <workItem from="1444532569938" duration="2471000" />
+      <workItem from="1444562532272" duration="14258000" />
+      <workItem from="1444648258858" duration="9218000" />
+      <workItem from="1444660713040" duration="8335000" />
+      <workItem from="1444670175250" duration="15501000" />
+      <workItem from="1444694594391" duration="1351000" />
+      <workItem from="1444732575448" duration="31244000" />
+      <workItem from="1444788397417" duration="5172000" />
+      <workItem from="1444818070134" duration="7557000" />
+      <workItem from="1444855407398" duration="1509000" />
+      <workItem from="1444864116031" duration="9820000" />
+      <workItem from="1444920757152" duration="19915000" />
+      <workItem from="1445009713037" duration="16909000" />
+      <workItem from="1445076144027" duration="13256000" />
+      <workItem from="1445163713410" duration="14677000" />
+      <workItem from="1445248350104" duration="14000" />
+      <workItem from="1445254836924" duration="22659000" />
+      <workItem from="1445296521809" duration="651000" />
+      <workItem from="1445332655133" duration="14469000" />
+      <workItem from="1445419818137" duration="14056000" />
+      <workItem from="1445509974276" duration="8482000" />
+      <workItem from="1445523345527" duration="29562000" />
+      <workItem from="1445599249932" duration="13000" />
+      <workItem from="1445600090335" duration="1808000" />
+      <workItem from="1445602469447" duration="15076000" />
+      <workItem from="1445625919826" duration="3358000" />
+      <workItem from="1445632024487" duration="2702000" />
+      <workItem from="1445680128908" duration="10385000" />
+      <workItem from="1445691918025" duration="55334000" />
+      <workItem from="1445857944680" duration="22462000" />
+      <workItem from="1445942624222" duration="7929000" />
+      <workItem from="1445954265356" duration="50147000" />
+      <workItem from="1446032662808" duration="28505000" />
+      <workItem from="1446064251829" duration="12473000" />
+      <workItem from="1446206634826" duration="5493000" />
+      <workItem from="1446244564012" duration="1482000" />
+      <workItem from="1446305014098" duration="896000" />
+      <workItem from="1446380935895" duration="25241000" />
+      <workItem from="1446417768190" duration="4785000" />
+      <workItem from="1446462621030" duration="2192000" />
+      <workItem from="1446548830329" duration="328000" />
+      <workItem from="1446549279302" duration="14000" />
+      <workItem from="1446549304851" duration="119000" />
+      <workItem from="1446549739799" duration="4893000" />
+      <workItem from="1446664393122" duration="8842000" />
+      <workItem from="1446725129677" duration="9258000" />
+      <workItem from="1446805393152" duration="1597000" />
+      <workItem from="1446898036815" duration="3762000" />
+      <workItem from="1446905187190" duration="5802000" />
+      <workItem from="1446922216912" duration="646000" />
+      <workItem from="1446922898553" duration="10893000" />
+      <workItem from="1446980943991" duration="13654000" />
+      <workItem from="1447017295641" duration="2520000" />
+      <workItem from="1447056526990" duration="12875000" />
+      <workItem from="1447152877522" duration="1487000" />
+      <workItem from="1447499090345" duration="613000" />
+      <workItem from="1447549547829" duration="603000" />
+      <workItem from="1447605344433" duration="10487000" />
+      <workItem from="1447677596047" duration="9000" />
+      <workItem from="1447710452454" duration="4060000" />
+      <workItem from="1447758569728" duration="23000" />
+      <workItem from="1448124332944" duration="747000" />
+      <workItem from="1448200254472" duration="1631000" />
+      <workItem from="1448282240684" duration="9000" />
+      <workItem from="1448311083092" duration="3902000" />
+      <workItem from="1448365239342" duration="43000" />
+      <workItem from="1449374178471" duration="1307000" />
+      <workItem from="1449414395325" duration="4186000" />
+      <workItem from="1449500448516" duration="1214000" />
+      <workItem from="1449584611074" duration="1132000" />
+      <workItem from="1449665586850" duration="3479000" />
+      <workItem from="1449702772462" duration="599000" />
+      <workItem from="1449765014305" duration="159000" />
+      <workItem from="1449832602148" duration="124000" />
+      <workItem from="1449834997052" duration="44000" />
+      <workItem from="1449835050550" duration="1919000" />
+      <workItem from="1449880884165" duration="2039000" />
+      <workItem from="1450037952926" duration="2824000" />
+      <workItem from="1450108600425" duration="3000" />
+      <workItem from="1450182985282" duration="2137000" />
+      <workItem from="1450188971609" duration="10000" />
+      <workItem from="1450199692794" duration="4955000" />
+      <workItem from="1450268183802" duration="4317000" />
+      <workItem from="1450351067737" duration="5000" />
+      <workItem from="1450371553248" duration="602000" />
+      <workItem from="1450445454383" duration="16000" />
+      <workItem from="1450547194536" duration="77000" />
+      <workItem from="1450627653612" duration="843000" />
+      <workItem from="1450706962791" duration="112000" />
+      <workItem from="1450707085823" duration="3030000" />
+      <workItem from="1450784837277" duration="1650000" />
+      <workItem from="1450825777999" duration="69000" />
+      <workItem from="1450889495487" duration="599000" />
+      <workItem from="1451139717809" duration="1463000" />
+      <workItem from="1451433098532" duration="599000" />
+      <workItem from="1451492517365" duration="3540000" />
+      <workItem from="1451836082077" duration="4484000" />
+      <workItem from="1451925724772" duration="1224000" />
+      <workItem from="1452004530675" duration="599000" />
+      <workItem from="1452204884375" duration="599000" />
+      <workItem from="1452289154488" duration="742000" />
+      <workItem from="1452390020056" duration="3661000" />
+      <workItem from="1452442010733" duration="6232000" />
+      <workItem from="1452538676730" duration="599000" />
+      <workItem from="1452594340813" duration="17990000" />
+      <workItem from="1452617885349" duration="3278000" />
+      <workItem from="1452635778701" duration="1549000" />
+      <workItem from="1452639030571" duration="2674000" />
+      <workItem from="1452694019457" duration="4899000" />
+      <workItem from="1452739312766" duration="603000" />
+      <workItem from="1452776833564" duration="4203000" />
+      <workItem from="1452867054591" duration="2032000" />
+      <workItem from="1452871358523" duration="16121000" />
+      <workItem from="1452899170022" duration="4804000" />
+      <workItem from="1452965455382" duration="4980000" />
+      <workItem from="1453055055738" duration="4871000" />
+      <workItem from="1453124044182" duration="1183000" />
+      <workItem from="1453132234269" duration="2131000" />
+      <workItem from="1453164455758" duration="6520000" />
+      <workItem from="1453210638957" duration="3000" />
+      <workItem from="1453212337440" duration="18018000" />
+      <workItem from="1453244945551" duration="819000" />
+      <workItem from="1453245783246" duration="12000" />
+      <workItem from="1453245809833" duration="81000" />
+      <workItem from="1453245907544" duration="1537000" />
+      <workItem from="1453276905181" duration="698000" />
+      <workItem from="1453279064962" duration="12071000" />
+      <workItem from="1453302219825" duration="19670000" />
+      <workItem from="1453368603131" duration="10489000" />
+      <workItem from="1453462618241" duration="37000" />
+      <workItem from="1453470413669" duration="7981000" />
+      <workItem from="1453549036921" duration="9071000" />
+      <workItem from="1453639030856" duration="13652000" />
+      <workItem from="1453715019046" duration="17840000" />
+      <workItem from="1453810663845" duration="20511000" />
+      <workItem from="1453899176259" duration="17847000" />
+      <workItem from="1453978353565" duration="12141000" />
+      <workItem from="1454063815665" duration="38747000" />
+      <workItem from="1454156785229" duration="17421000" />
+      <workItem from="1454240706301" duration="10997000" />
+      <workItem from="1454328622074" duration="8020000" />
+      <workItem from="1454367521204" duration="11198000" />
+      <workItem from="1454411491334" duration="27000" />
     </task>
+    <task id="LOCAL-00001" summary="Shorten watcher thread name">
+      <created>1445086219627</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1445086219627</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="DomainConfigurationTest_testDSL - 2016.02.02 at 05h 30m 44s.xml">
+      <configuration name="DomainConfigurationTest.testDSL" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DomainConfigurationTest_testDSL - 2016.02.02 at 05h 31m 24s.xml">
+      <configuration name="DomainConfigurationTest.testDSL" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DomainConfigurationTest_testDSL - 2016.02.02 at 05h 31m 48s.xml">
+      <configuration name="DomainConfigurationTest.testDSL" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModelCompositionServiceTest - 2016.02.02 at 05h 20m 18s.xml">
+      <configuration name="ModelCompositionServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModelCompositionServiceTest - 2016.02.02 at 05h 26m 45s.xml">
+      <configuration name="ModelCompositionServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModelCompositionServiceTest - 2016.02.02 at 05h 32m 11s.xml">
+      <configuration name="ModelCompositionServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModelCompositionServiceTest - 2016.02.02 at 05h 36m 40s.xml">
+      <configuration name="ModelCompositionServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModelCompositionServiceTest - 2016.02.02 at 05h 38m 34s.xml">
+      <configuration name="ModelCompositionServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModelCompositionServiceTest - 2016.02.02 at 05h 41m 12s.xml">
+      <configuration name="ModelCompositionServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModelCompositionServiceTest_testCreateViewModel - 2016.02.02 at 05h 35m 47s.xml">
+      <configuration name="ModelCompositionServiceTest.testCreateViewModel" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65455000" />
+    <option name="totallyTimeSpent" value="1279709000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
+    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36825725" sideWeight="0.5021299" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3195021" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296146" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286004" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19009584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24387646" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3973029" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3246888" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3620332" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2852697" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36825725" sideWeight="0.5021299" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24387646" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3973029" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3246888" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3195021" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3620332" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296146" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286004" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20074548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2852697" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sh" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -726,246 +1521,158 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Shorten watcher thread name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shorten watcher thread name" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/application/RuntimeApplication.java</url>
+          <line>165</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/model/ClientExpressionRendererTest.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="69" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/exceed/css/layout.css">
+    <entry file="file://$PROJECT_DIR$/../exceed/node_modules/react-transform-catch-errors/lib/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/resources/META-INF/resources/exceed/views/react-base.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.916666">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.2.5.RELEASE/spring-security-core-3.2.5.RELEASE-sources.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/ui/Alert.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/3.2.5.RELEASE/spring-security-web-3.2.5.RELEASE-sources.jar!/org/springframework/security/web/authentication/RememberMeServices.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <caret line="32" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/3.2.5.RELEASE/spring-security-web-3.2.5.RELEASE-sources.jar!/org/springframework/security/web/authentication/rememberme/TokenBasedRememberMeServices.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="82" selection-start-line="72" selection-start-column="82" selection-end-line="72" selection-end-column="82" />
+          <caret line="174" column="16" selection-start-line="174" selection-start-column="16" selection-end-line="174" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/3.2.5.RELEASE/spring-security-web-3.2.5.RELEASE-sources.jar!/org/springframework/security/web/authentication/rememberme/PersistentTokenBasedRememberMeServices.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/ui/ErrorReport.es5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="41" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="51" />
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/3.2.5.RELEASE/spring-security-config-3.2.5.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/base/resources/css/editor.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-34.625">
+          <caret line="220" column="1" selection-start-line="220" selection-start-column="1" selection-end-line="220" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/RuntimeContextFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="159" column="19" selection-start-line="159" selection-start-column="19" selection-end-line="159" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/3.2.5.RELEASE/spring-security-web-3.2.5.RELEASE-sources.jar!/org/springframework/security/web/authentication/rememberme/JdbcTokenRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/config/DomainConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="34" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-120.53571">
-          <caret line="255" column="61" selection-start-line="255" selection-start-column="57" selection-end-line="255" selection-end-column="61" />
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.2.5.RELEASE/spring-security-core-3.2.5.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/controller/ActionController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <caret line="104" column="62" selection-start-line="104" selection-start-column="62" selection-end-line="104" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.2.5.RELEASE/spring-security-core-3.2.5.RELEASE-sources.jar!/org/springframework/security/access/hierarchicalroles/UserDetailsWrapper.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/application/RuntimeApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <caret line="182" column="34" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/RuntimeContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="e#1990#1991#0" expanded="false" />
+            <element signature="e#2022#2023#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/PasswordTestCase.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/controller/ApplicationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/config/ApplicationUserDetails.java">
+    <entry file="jar:///usr/local/java/jdk1.8/src.zip!/java/lang/ThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/config/ApplicationUserDetailsService.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/RuntimeContextHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="42" />
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#1142#1143#0" expanded="false" />
+            <element signature="e#1203#1204#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/config/SecurityConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/js/service/action.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+          <caret line="52" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/resources/META-INF/resources/exceed/css/layout.css">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/render.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/editor.js">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ComponentPath.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/exceed/views/react-base.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.791667">
-          <caret line="48" column="62" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/util/enum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/mixin/form-element.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/mixin/complex-component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/compositor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/util/form-context.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/util/validation-api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/cando.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/domain-factory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/dispatcher.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/ajax.js">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/js/ui/test-dom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -974,150 +1681,285 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/datagrid/component.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        <state vertical-scroll-proportion="-15.625">
+          <caret line="40" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/ui/PagingComponent.js">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/component/ComponentDescriptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="123" column="21" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/datagrid/Datagrid.js">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ComponentRegistration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="112" column="72" selection-start-line="112" selection-start-column="72" selection-end-line="112" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/controller/ScriptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/config/JsService.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/js/service/view-component-renderer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="59" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
-          <folding />
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/config/WebConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/view-api.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="90" selection-start-line="37" selection-start-column="90" selection-end-line="37" selection-end-column="90" />
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/view-component-renderer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="311" column="8" selection-start-line="311" selection-start-column="8" selection-end-line="311" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/SimpleNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ASTPropertyChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/InvalidClientExpressionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/AttributeValueType.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ClientExpressionRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/ModelBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#784#785#0" expanded="false" />
-            <element signature="e#844#845#0" expanded="false" />
-            <element signature="e#983#984#0" expanded="false" />
-            <element signature="e#1039#1040#0" expanded="false" />
-            <element signature="e#1353#1354#0" expanded="false" />
-            <element signature="e#1386#1387#0" expanded="false" />
-            <element signature="e#1442#1443#0" expanded="false" />
-            <element signature="e#1486#1487#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/AttributeValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/java/jdk1.8/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#53227#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/ElementNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="33" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/app/config/ModelServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="112" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="66" selection-start-line="0" selection-start-column="66" selection-end-line="0" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/java/jdk1.8/src.zip!/java/io/InputStreamReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/app/controller/ApplicationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30914825">
-          <caret line="31" column="85" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
+        <state vertical-scroll-proportion="-8.392858">
+          <caret line="165" column="27" selection-start-line="165" selection-start-column="27" selection-end-line="165" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/model/ClientExpressionRendererTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ModelCreationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="78" selection-start-line="84" selection-start-column="78" selection-end-line="84" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/ExceedApplicationConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="11" selection-start-line="17" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/resource/DefaultResourceCacheFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ModelCompositionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/DomainConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/ModelConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ApplicationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.1.4.RELEASE/spring-test-4.1.4.RELEASE-sources.jar!/org/springframework/test/context/ContextConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/config/TestConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#318#319#0" expanded="false" />
+            <element signature="e#379#380#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/config/TransactionTestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#588#589#0" expanded="false" />
+            <element signature="e#632#633#0" expanded="false" />
+            <element signature="e#1205#1206#0" expanded="false" />
+            <element signature="e#1258#1259#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/config/ModelJSONServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/JOOQQueryExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/ServiceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="109" selection-start-line="76" selection-start-column="109" selection-end-line="76" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/config/DomainConfigurationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/base/models/view/Home.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/model/test-views/Home.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ComponentRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="29" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/DefaultAppConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="124" column="43" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/model/ModelCompositionServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4557377">
+          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,7 +1982,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Web (exceed-app)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1164,7 +2006,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1176,11 +2018,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>exceed</last-edited>
+          <last-edited>exceed-app</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1200,7 +2043,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <last-edited>exceed node_modules</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
