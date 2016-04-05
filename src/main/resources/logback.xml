@@ -4,8 +4,15 @@
     <!--
     <logger name="de.quinscape.reactinject.app.config.InjectionFunctionService" level="DEBUG"/>
     <logger name="de.quinscape.reactinject.app.injectfn.ReactInjectServerFunctions" level="DEBUG"/>
-    <logger name="de.quinscape.reactinject.app.inject.QueryContext" level="DEBUG"/>
+    <logger name="de.quinscape.exceed.runtime.controller.EditorController" level="DEBUG"/>
+    <logger name="de.quinscape.exceed.runtime.expression.query.QueryFilterEnvironment" level="DEBUG"/>
+    <logger name="de.quinscape.exceed.runtime.expression.query.QueryFilterOperations" level="DEBUG"/>
+    <logger name="de.quinscape.exceed.runtime.domain.JOOQQueryExecutor" level="DEBUG"/>
+    <logger name="de.quinscape.exceed.runtime.model.ModelCompositionService" level="DEBUG"/>
+    <logger name="de.quinscape.exceed.model.process.Process" level="DEBUG"/>
     -->
+    <logger name="de.quinscape.exceed.runtime.config.ModelDocsProvider" level="DEBUG"/>
+    <logger name="org.jooq" level="DEBUG"/>
 
     <!-- Debug spring security problems -->
     <!--

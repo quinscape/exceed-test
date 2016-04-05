@@ -9,7 +9,7 @@ import java.time.Instant;
 public class Test
 {
 
-    private static Logger log = LoggerFactory.getLogger(Test.class);
+    private final static Logger log = LoggerFactory.getLogger(Test.class);
 
 
     @org.junit.Test

@@ -18,7 +18,7 @@ import org.springframework.context.annotation.Import;
 public class EditorConfiguration
     extends SpringBootServletInitializer
 {
-    private static Logger log = LoggerFactory.getLogger(EditorConfiguration.class);
+    private final static Logger log = LoggerFactory.getLogger(EditorConfiguration.class);
 
     public static void main(String[] args)
     {
