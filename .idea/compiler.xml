@@ -23,20 +23,8 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="editor" />
-      </profile>
-      <profile default="false" name="Annotation profile for exceed-app" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="exceed-app" />
-      </profile>
-      <profile default="false" name="Annotation profile for exceed" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
         <module name="exceed" />
+        <module name="exceed-app" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
