@@ -6,7 +6,7 @@ var browserify = require("browserify");
 var buffer = require("vinyl-buffer");
 var chalk = require("chalk");
 var espower = require("gulp-espower");
-var extend = require("extend");
+const assign = require("object-assign");
 var gulpif = require("gulp-if");
 var gulp = require("gulp");
 var gutil = require("gulp-util");
@@ -74,7 +74,7 @@ function bundle(watch, cb) {
     if (watch) {
         bro = watchify(browserify(MAIN_FILE,
             // Assigning debug to have sourcemaps
-            extend(watchify.args, {
+            assign(watchify.args, {
                 global: true,
                 debug: true
             })));
