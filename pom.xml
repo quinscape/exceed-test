@@ -87,7 +87,7 @@
         <dependency>
             <groupId>com.google.code.svenson</groupId>
             <artifactId>svenson</artifactId>
-            <version>1.5.5</version>
+            <version>1.5.7-SNAPSHOT</version>
         </dependency>
 
         <dependency>
