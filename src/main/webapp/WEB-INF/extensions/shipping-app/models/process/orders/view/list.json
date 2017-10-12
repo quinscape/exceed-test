@@ -1,0 +1,96 @@
+{
+    "title": "{ i18n('Orders') }",
+    "content": {
+        "main": {
+            "name": "Grid",
+            "attrs": {
+                "fluid": "{ true }"
+            },
+            "kids": [
+                {
+                    "name": "Row",
+                    "kids": [
+                        {
+                            "name": "Col",
+                            "attrs": {
+                                "md": "{ 12 }"
+                            },
+                            "kids": [
+                                {
+                                    "name": "Heading",
+                                    "attrs": {
+                                        "value": "{ i18n('Orders') }"
+                                    }
+                                },
+                                {
+                                    "name": "Toolbar",
+                                    "kids": [
+                                        {
+                                            "name": "TButton",
+                                            "attrs": {
+                                                "transition": "takeOrder",
+                                                "text": "{ i18n('Take Order') }"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "DataGrid",
+                                    "attrs": {
+                                        "id": "customerTable",
+                                        "limit": "{ 10 }",
+                                        "type": "{ Order.as(order).join( Customer.as(customer)).on( order.customerId == customer.id) }"
+                                    },
+                                    "kids": [
+                                        {
+                                            "name": "DataGrid.Column",
+                                            "attrs": {
+                                                "id": "detailColumn",
+                                                "name": "order.id",
+                                                "heading": "Detail"
+                                            },
+                                            "kids": [
+                                                {
+                                                    "name": "TButton",
+                                                    "attrs": {
+                                                        "transition": "detail",
+                                                        "className": "btn-primary",
+                                                        "text": "Detail"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "DataGrid.Column",
+                                            "attrs": {
+                                                "name": "order.number"
+                                            }
+                                        },
+                                        {
+                                            "name": "DataGrid.Column",
+                                            "attrs": {
+                                                "name": "customer.number"
+                                            }
+                                        },
+                                        {
+                                            "name": "DataGrid.Column",
+                                            "attrs": {
+                                                "name": "customer.name"
+                                            }
+                                        },
+                                        {
+                                            "name": "DataGrid.Column",
+                                            "attrs": {
+                                                "name": "sum"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "context": {
+        "properties": {
+        }
+    },
+    "root": {
+        "name" : "div",
+        "kids": [
+            {
+                "name": "ShopNav"
+            },
+            {
+                "name": "Content"
+            },
+            {
+                "name": "Footer"
+            }
+        ]
+    }
+}

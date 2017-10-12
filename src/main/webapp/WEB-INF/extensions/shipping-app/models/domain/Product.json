@@ -1,0 +1,33 @@
+{
+    "name":"Product",
+    
+    "properties":[
+        {
+            "name":"id",
+            "type":"UUID",
+            "required":true,
+            "maxLength":36
+        },
+        {
+            "name":"number",
+            "type":"PlainText",
+            "required": true,
+            "maxLength": 36
+        },
+        {
+            "name":"name",
+            "type":"PlainText",
+            "required":true,
+            "maxLength":64
+        },
+        {
+            "name":"description",
+            "type":"PlainText"
+        },
+        {
+            "name":"price",
+            "type":"Currency",
+            "required":true
+        }
+    ]
+}

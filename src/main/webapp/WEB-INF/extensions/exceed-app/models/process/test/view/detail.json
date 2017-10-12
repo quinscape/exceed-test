@@ -1,0 +1,162 @@
+{
+    "title": "{ i18n('Test Process Detail') }",
+
+    "domainType" : "Foo",
+
+    "content": {
+        "main": {
+            "name": "Grid",
+            "attrs": {
+                "fluid": "{ true }"
+            },
+            "kids": [
+                {
+                    "name": "Row",
+                    "kids": [
+                        {
+                            "name": "Col",
+                            "attrs": {
+                                "md": "{ 6 }"
+                            },
+                            "kids": [
+                                {
+                                    "name": "Heading",
+                                    "attrs": {
+                                        "id": "myHeading",
+                                        "value": "{ 'Detail: ' + current.id }"
+                                    }
+                                },
+                                {
+                                    "name": "Form",
+                                    "attrs": {
+                                        "id": "myForm",
+                                        "data": "{ current }"
+                                    },
+                                    "kids": [
+                                        {
+                                            "name": "StaticText",
+                                            "attrs": {
+                                                "value": "id"
+                                            }
+                                        },
+                                        {
+                                            "name": "Field",
+                                            "attrs": {
+                                                "value": "name"
+                                            }
+                                        },
+                                        {
+                                            "name": "Field",
+                                            "attrs": {
+                                                "value": "created"
+                                            }
+                                        },
+                                        {
+                                            "name": "Field",
+                                            "attrs": {
+                                                "value": "num"
+                                            }
+                                        },
+                                        {
+                                            "name": "Field",
+                                            "attrs": {
+                                                "value": "type"
+                                            }
+                                        },
+                                        {
+                                            "name": "Toolbar",
+                                            "kids": [
+                                                {
+                                                    "name": "TButton",
+                                                    "attrs": {
+                                                        "text": "{ i18n('Cancel') }",
+                                                        "transition": "cancel"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "TButton",
+                                                    "attrs": {
+                                                        "text": "{ i18n('Save') }",
+                                                        "transition": "save"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "InfoBlock",
+                                            "attrs": {
+                                                "heading": "Transition (Action-Expression)",
+                                                "text": "Shows how to trigger transitions as actions"
+                                            }
+                                        },
+                                        {
+                                            "name": "Toolbar",
+                                            "kids": [
+                                                {
+                                                    "name": "Button",
+                                                    "attrs": {
+                                                        "text": "{ i18n('Cancel Action') }",
+                                                        "action": "{ transition('cancel') }",
+                                                        "title" : "Executes the cancel transition as action"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "Button",
+                                                    "attrs": {
+                                                        "text": "{ i18n('Save Action') }",
+                                                        "action": "{ current = context; transition('save') }",
+
+                                                        "title" : "Mimics the TButton functionality with action as action"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "DataGrid",
+                                    "attrs": {
+                                        "type": "{ QFoo }",
+                                        "params": "{ { type: current.type } }",
+                                        "id": "qFooTable"
+                                    },
+                                    "kids": [
+                                        {
+                                            "name": "DataGrid.Column",
+                                            "attrs": {
+                                                "name": "fooType",
+                                                "heading": "Detail"
+                                            },
+                                            "kids": [
+                                                {
+                                                    "name": "Button",
+                                                    "attrs": {
+                                                        "text": "Tst Context",
+                                                        "action": "{ alert(popCursor(context)) }"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "DataGrid.Column",
+                                            "attrs": {
+                                                "name": "fooType"
+                                            }
+                                        },
+                                        {
+                                            "name": "DataGrid.Column",
+                                            "attrs": {
+                                                "name": "sumOfNums"
+                                            }
+                                        }
+                                    ]
+                                }
+
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

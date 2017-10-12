@@ -2,6 +2,8 @@
   <dictionary name="sven">
     <words>
       <w>combinator</w>
+      <w>transpile</w>
+      <w>transpiled</w>
       <w>transpiler</w>
     </words>
   </dictionary>

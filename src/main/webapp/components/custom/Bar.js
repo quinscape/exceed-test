@@ -2,7 +2,11 @@
 
 var React = require("react");
 
-var Custom = React.createClass({
+var createReactClass = require("create-react-class");
+
+
+
+var Custom = createReactClass({
     render: function ()
     {
         return ( <div/> );

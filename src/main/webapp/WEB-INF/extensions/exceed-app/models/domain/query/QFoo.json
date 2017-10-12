@@ -1,0 +1,24 @@
+{
+    "query" : "SELECT type, avg(num) from foo where type = ? group by type order by type",
+    "count" : "1",
+    "parameterTypes" :[
+        {
+            "name" : "type",
+            "type":"Enum",
+            "typeParam":"MyEnum",
+            "defaultValue" : "1"
+        }
+    ],
+    "columnTypes" : [
+        {
+            "name" : "fooType",
+            "type":"Enum",
+            "typeParam":"MyEnum"
+        },
+        {
+            "name" : "sumOfNums",
+            "type" : "Decimal"
+        }
+    ]
+}
+

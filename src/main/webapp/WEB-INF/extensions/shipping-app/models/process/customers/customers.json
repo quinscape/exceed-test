@@ -1,0 +1,95 @@
+{
+    "startTransition": {
+        "to": "list"
+    },
+    "context": {
+        "properties": {
+            "billingAddress": {
+                "type": "DomainType",
+                "typeParam": "Address",
+                "private": true
+            },
+            "deliveryAddress": {
+                "type": "DomainType",
+                "typeParam": "Address",
+                "private": true
+            },
+            "hasDeliveryAddress": {
+                "type": "Boolean",
+                "private": true
+            }
+        }
+    },
+    "states": {
+        "list": {
+            "type": "xcd.process.ViewState",
+            "transitions": {
+                "newCustomer": {
+                    "to": "detail",
+                    "action": [
+                        "current = newObject('Customer');",
+                        "billingAddress = newObject('Address');",
+                        "deliveryAddress = newObject('Address');",
+                        "current.billingAddressId = billingAddress.id;",
+                        "hasDeliveryAddress = false;",
+                        "current.number = newCustomerNumber()"
+                    ]
+                },
+                "detail": {
+                    "to": "detail",
+                    "action": "current = merge(current); hasDeliveryAddress = current.deliveryAddressId != null"
+                },
+                "detail2": {
+                    "to": "detail2",
+                    "action": "current = merge(current); hasDeliveryAddress = current.deliveryAddressId != null"
+                }
+            }
+        },
+        "detail": {
+            "type": "xcd.process.ViewState",
+            "transitions": {
+                "save": {
+                    "to": "list",
+                    "action": "shopSaveCustomer(current, billingAddress, hasDeliveryAddress, deliveryAddress)"
+                },
+                "cancel": {
+                    "to": "list",
+                    "discard": true
+                },
+                "delete": {
+                    "to": "list",
+                    "discard": true,
+                    "confirmation": {
+                        "title": "i18n('Delete Customer Confirmation')",
+                        "message": "i18n('Delete Customer?')",
+                        "okLabel": "i18n('Delete')"
+                    },
+                    "action": "delete(current, billingAddress) ; when(current.deliveryAddressId != null).then(delete(deliveryAddress))"
+                }
+            }
+        },
+        "detail2": {
+            "type": "xcd.process.ViewState",
+            "transitions": {
+                "save": {
+                    "to": "list",
+                    "action": "shopSaveCustomer(current, billingAddress, hasDeliveryAddress, deliveryAddress)"
+                },
+                "cancel": {
+                    "to": "list",
+                    "discard": true
+                },
+                "delete": {
+                    "to": "list",
+                    "discard": true,
+                    "confirmation": {
+                        "title": "i18n('Delete Customer Confirmation')",
+                        "message": "i18n('Delete Customer?')",
+                        "okLabel": "i18n('Delete')"
+                    },
+                    "action": "delete(current, billingAddress) ; when(current.deliveryAddressId != null).then(delete(deliveryAddress))"
+                }
+            }
+        }
+    }
+}

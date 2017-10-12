@@ -1,0 +1,21 @@
+{
+    "title": "Test",
+    "content": {
+        "main": {
+            "name": "div",
+            "kids" : [
+                {
+                    "name": "em",
+                    "kids" : [
+                        {
+                            "name": "[String]",
+                            "attrs": {
+                                "value": "{ '[[]]' }"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

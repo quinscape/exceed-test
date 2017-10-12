@@ -1,0 +1,160 @@
+{
+    "title": "{ i18n('New Order') }",
+    "domainType": "Order",
+    "content": {
+        "main": {
+            "name": "Form",
+            "attrs": {
+                "id": "myForm",
+                "data": "{ current }"
+            },
+            "kids": [
+                {
+                    "name": "Grid",
+                    "attrs": {
+                        "fluid": "{ true }"
+                    },
+                    "kids": [
+                        {
+                            "name": "Row",
+                            "kids": [
+                                {
+                                    "name": "Col",
+                                    "attrs": {
+                                        "md": "{ 12 }"
+                                    },
+                                    "kids": [
+                                        {
+                                            "name": "Heading",
+                                            "attrs": {
+                                                "id": "myHeading",
+                                                "value": "{ 'Order: ' + current.number }"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Row",
+                            "kids": [
+                                {
+                                    "name": "Col",
+                                    "attrs": {
+                                        "md": "{ 6 }"
+                                    },
+                                    "kids": [
+                                        {
+                                            "name": "FKSelect",
+                                            "attrs": {
+                                                "value": "customerId",
+                                                "title" : "{ i18n('Select Customer') }",
+                                                "icon" : "user",
+                                                "limit": "{ 3 }"
+                                            },
+                                            "kids": [
+                                                {
+                                                    "name": "FKSelect.Property",
+                                                    "attrs": {
+                                                        "name": "number"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "FKSelect.Property",
+                                                    "attrs": {
+                                                        "name": "name"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "h3",
+                                            "kids" : [
+                                                {
+                                                    "name" : "[String]",
+                                                    "attrs": {
+                                                        "value" : "{ i18n('Order Items') }"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "ListEditor",
+                                            "attrs": {
+                                                "id" : "orderItemsEditor",
+                                                "data": "{ orderItems }",
+                                                "icon" : "usd"
+                                            },
+                                            "kids" : [
+                                                {
+                                                    "name": "Field",
+                                                    "attrs": {
+                                                        "value": "quantity"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "FKSelect",
+                                                    "attrs": {
+                                                        "value": "productId",
+                                                        "title" : "{ i18n('Select Product') }"
+                                                    },
+                                                    "kids": [
+                                                        {
+                                                            "name": "FKSelect.Property",
+                                                            "attrs": {
+                                                                "name": "number"
+                                                            }
+                                                        },
+                                                        {
+                                                            "name": "FKSelect.Property",
+                                                            "attrs": {
+                                                                "name": "name"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Row",
+                            "kids": [
+                                {
+                                    "name": "Col",
+                                    "attrs": {
+                                        "md": "{ 12 }"
+                                    },
+                                    "kids": [
+                                        {
+                                            "name": "Toolbar",
+                                            "kids": [
+                                                {
+                                                    "name": "TButton",
+                                                    "attrs": {
+                                                        "text": "{ i18n('Cancel') }",
+                                                        "transition": "cancel"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "Button",
+                                                    "attrs": {
+                                                        "className": "btn-primary",
+                                                        "text": "{ i18n('Save') }",
+                                                        "action": "{ transition('save') }"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <!--
+    <logger name="de.quinscape.reactinject.app.config.InjectionFunctionService" level="DEBUG"/>
+    <logger name="de.quinscape.reactinject.app.injectfn.ReactInjectServerFunctions" level="DEBUG"/>
+    <logger name="de.quinscape.exceed.runtime.controller.EditorController" level="DEBUG"/>
+    <logger name="de.quinscape.exceed.runtime.expression.query.QueryFilterEnvironment" level="DEBUG"/>
+    <logger name="de.quinscape.exceed.runtime.expression.query.QueryFilterOperations" level="DEBUG"/>
+    <logger name="de.quinscape.exceed.runtime.domain.JOOQQueryExecutor" level="DEBUG"/>
+    <logger name="de.quinscape.exceed.model.process.Process" level="DEBUG"/>
+    <logger name="de.quinscape.exceed.runtime.controller.ActionController" level="DEBUG" />
+    <logger name="de.quinscape.exceed.runtime.i18n.DefaultTranslator" level="DEBUG"/>
+    <logger name="de.quinscape.exceed.runtime.service.SpringContextFunctionExecutor" level="DEBUG"/>
+    <logger name="de.quinscape.exceed.runtime.action.UpdateDomainAction" level="DEBUG" />
+    <logger name="de.quinscape.exceed.runtime.service.ProcessService" level="DEBUG" />
+    -->
+    <!--logger name="org.jooq" level="DEBUG"/-->
+
+    <!-- Debug spring security problems -->
+    <!--logger name="org.springframework.security" level="DEBUG"/-->
+
+
+    <!-- Debug log schema operations (and other JdbcTemplate operations) -->
+    <!--
+    <logger name="org.springframework.jdbc.core.JdbcTemplate" level="DEBUG" />
+    -->
+
+    <!-- Debug module and file reloading -->
+    <!--
+    <logger name="de.quinscape.exceed.runtime.model.ModelCompositionService" level="DEBUG"/>
+    <logger name="de.quinscape.exceed.runtime.application.DefaultRuntimeApplication" level="DEBUG"/>
+    <logger name="de.quinscape.exceed.runtime.resource.file.watch.Java7NIOResourceWatcher" level="DEBUG" />
+    <logger name="de.quinscape.exceed.runtime.datalist.DataGraphService" level="DEBUG" />
+    <logger name="de.quinscape.exceed.runtime.service.model.ModelSchemaService" level="DEBUG" />
+    <logger name="de.quinscape.exceed.runtime.service.client.provider.editor.EditorDataProvider" level="DEBUG" />
+    -->
+
+    <logger name="org.jooq.Constants" level="WARN"/>
+    <root level="INFO"/>
+</configuration>

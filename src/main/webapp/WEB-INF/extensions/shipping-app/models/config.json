@@ -1,0 +1,12 @@
+{
+    "schema" : "shipping",
+    
+    "defaultLayout" : "ShopLayout",
+
+    "styleSheets": [
+        "/resources/css/bootstrap.min.css",
+        "/resources/css/cerulan-bootstrap.min.css",
+        "/resources/css/editor.css",
+        "/resources/css/layout.css"
+    ]
+}

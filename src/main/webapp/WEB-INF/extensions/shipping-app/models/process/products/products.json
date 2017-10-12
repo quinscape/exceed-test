@@ -1,0 +1,16 @@
+{
+    "startTransition": {
+        "to": "list"
+    },
+    "context": {
+        "properties": {
+        }
+    },
+    "states": {
+        "list": {
+            "type": "xcd.process.ViewState",
+            "transitions": {
+            }
+        }
+    }
+}

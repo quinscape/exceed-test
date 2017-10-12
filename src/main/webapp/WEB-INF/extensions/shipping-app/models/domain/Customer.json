@@ -1,0 +1,45 @@
+{
+    "name":"Customer",
+    "properties":[
+        {
+            "name":"id",
+            "type":"UUID",
+            "required":true,
+            "maxLength":36
+        },
+        {
+            "name":"salutation",
+            "type":"PlainText",
+            "maxLength":50
+        },
+        {
+            "name":"number",
+            "type":"PlainText",
+            "required":true,
+            "maxLength":36
+        },
+        {
+            "name":"name",
+            "type":"PlainText",
+            "required":true,
+            "maxLength":120
+        },
+        {
+            "name":"billingAddressId",
+            "type":"UUID",
+            "maxLength":36,
+            "required" : true,
+            "foreignKey":{
+                "type":"Address"
+            }
+        },
+        {
+            "name":"deliveryAddressId",
+            "type":"UUID",
+            "maxLength":36,
+            "foreignKey":{
+                "type":"Address"
+            }
+        }
+    ]
+}

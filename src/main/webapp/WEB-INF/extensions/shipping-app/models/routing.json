@@ -1,0 +1,19 @@
+{
+    "mappings": {
+        "/": {
+            "viewName": "Home"
+        },
+        "/admin": {
+            "viewName": "AdminHome"
+        },
+        "/customers": {
+            "processName": "customers"
+        },
+        "/orders": {
+            "processName": "orders"
+        },
+        "/products": {
+            "processName": "products"
+        }
+    }
+}

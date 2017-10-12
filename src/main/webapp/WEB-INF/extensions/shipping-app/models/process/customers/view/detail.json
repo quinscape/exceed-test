@@ -1,0 +1,222 @@
+{
+    "title": "{ i18n('Customer Detail') }",
+    "domainType": "Customer",
+    "content": {
+        "main": {
+            "name": "Form",
+            "attrs": {
+                "id": "myForm",
+                "data": "{ current }"
+            },
+            "kids": [
+                {
+                    "name": "Grid",
+                    "attrs": {
+                        "fluid": "{ true }"
+                    },
+                    "kids": [
+                        {
+                            "name": "Row",
+                            "kids": [
+                                {
+                                    "name": "Col",
+                                    "attrs": {
+                                        "md": "{ 12 }"
+                                    },
+                                    "kids": [
+                                        {
+                                            "name": "Heading",
+                                            "attrs": {
+                                                "id": "myHeading",
+                                                "value": "{ 'Customer: ' + current.number }"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Row",
+                            "kids": [
+                                {
+                                    "name": "Col",
+                                    "attrs": {
+                                        "md": "{ 6 }"
+                                    },
+                                    "kids": [
+                                        {
+                                            "name": "Field",
+                                            "attrs": {
+                                                "value": "salutation"
+                                            }
+                                        },
+                                        {
+                                            "name": "Field",
+                                            "attrs": {
+                                                "value": "name"
+                                            }
+                                        },
+                                        {
+                                            "name": "h3",
+                                            "kids": [
+                                                {
+                                                    "name": "[String]",
+                                                    "attrs": {
+                                                        "value": "{ i18n('Billing Address') }"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "FormBlock",
+                                            "attrs": {
+                                                "data": "{ billingAddress }"
+                                            },
+                                            "kids": [
+                                                {
+                                                    "name": "Field",
+                                                    "attrs": {
+                                                        "value": "recipient"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "Field",
+                                                    "attrs": {
+                                                        "value": "addressLine"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "Field",
+                                                    "attrs": {
+                                                        "value": "addressExtra"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "Field",
+                                                    "attrs": {
+                                                        "value": "postal"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "Field",
+                                                    "attrs": {
+                                                        "value": "country"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Col",
+                                    "attrs": {
+                                        "md": "{ 6 }"
+                                    },
+                                    "kids": [
+                                        {
+                                            "name": "h3",
+                                            "kids": [
+                                                {
+                                                    "name": "[String]",
+                                                    "attrs": {
+                                                        "value": "{ i18n('Delivery Address') }"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Field",
+                                            "attrs": {
+                                                "value": "{ hasDeliveryAddress }"
+                                            }
+                                        },
+                                        {
+                                            "name": "FormBlock",
+                                            "attrs": {
+                                                "data": "{ deliveryAddress }",
+                                                "disabledIf" : "{ !hasDeliveryAddress }"
+                                            },
+                                            "kids": [
+                                                {
+                                                    "name": "Field",
+                                                    "attrs": {
+                                                        "value": "recipient"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "Field",
+                                                    "attrs": {
+                                                        "value": "addressLine"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "Field",
+                                                    "attrs": {
+                                                        "value": "addressExtra"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "Field",
+                                                    "attrs": {
+                                                        "value": "postal"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "Field",
+                                                    "attrs": {
+                                                        "value": "country"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Row",
+                            "kids": [
+                                {
+                                    "name": "Col",
+                                    "attrs": {
+                                        "md": "{ 12 }"
+                                    },
+                                    "kids": [
+                                        {
+                                            "name": "Toolbar",
+                                            "kids": [
+                                                {
+                                                    "name": "TButton",
+                                                    "attrs": {
+                                                        "text": "{ i18n('Cancel') }",
+                                                        "transition": "cancel"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "Button",
+                                                    "attrs": {
+                                                        "className" : "btn-primary",
+                                                        "text": "{ i18n('Save') }",
+                                                        "action": "{ transition('save') }"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "Button",
+                                                    "attrs": {
+                                                        "className" : "btn-danger",
+                                                        "text": "{ i18n('Delete') }",
+                                                        "action": "{ transition('delete') }"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

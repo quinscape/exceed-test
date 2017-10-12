@@ -12,8 +12,10 @@
     <logger name="de.quinscape.exceed.runtime.controller.ActionController" level="DEBUG" />
     <logger name="de.quinscape.exceed.runtime.i18n.DefaultTranslator" level="DEBUG"/>
     <logger name="de.quinscape.exceed.runtime.service.SpringContextFunctionExecutor" level="DEBUG"/>
+    <logger name="de.quinscape.exceed.runtime.action.UpdateDomainAction" level="DEBUG" />
+    <logger name="de.quinscape.exceed.runtime.service.ProcessService" level="DEBUG" />
     -->
-    <!--logger name="org.jooq" level="DEBUG"/-->
+    <logger name="org.jooq" level="DEBUG"/>
 
     <!-- Debug spring security problems -->
     <!--logger name="org.springframework.security" level="DEBUG"/-->
@@ -26,13 +28,27 @@
 
     <!-- Debug module and file reloading -->
     <!--
+    <logger name="de.quinscape.exceed.runtime.datalist.DataGraphService" level="DEBUG" />
+    <logger name="de.quinscape.exceed.runtime.service.model.ModelSchemaService" level="DEBUG" />
+    <logger name="de.quinscape.exceed.runtime.service.client.provider.editor.EditorDataProvider" level="DEBUG" />
+    <logger name="de.quinscape.exceed.runtime.js.JsEnvironment" level="DEBUG" />
+    <logger name="de.quinscape.exceed.runtime.js.JsEnvironmentTest" level="DEBUG" />
+    <logger name="de.quinscape.exceed.runtime.js.TypeAnalyzer" level="DEBUG" />
+    <logger name="de.quinscape.exceed.expression.NodeAnnotation" level="DEBUG" />
+    <logger name="de.quinscape.exceed.model.context.ScopeMetaModel" level="DEBUG" />
+    <logger name="de.quinscape.exceed.runtime.service.model.ModelSchemaService" level="DEBUG" />
     <logger name="de.quinscape.exceed.runtime.model.ModelCompositionService" level="DEBUG"/>
     <logger name="de.quinscape.exceed.runtime.application.DefaultRuntimeApplication" level="DEBUG"/>
-    -->
-
-    <logger name="de.quinscape.exceed.runtime.action.UpdateDomainAction" level="DEBUG" />
-    <logger name="de.quinscape.exceed.runtime.service.ProcessService" level="DEBUG" />
     <logger name="de.quinscape.exceed.runtime.resource.file.watch.Java7NIOResourceWatcher" level="DEBUG" />
+    <logger name="de.quinscape.exceed.runtime.js.JsEnvironment" level="DEBUG" />
+    -->
+    
+    <!-- Debug log server side expression bundle -->
+    <!--
+    -->
+    <logger name="de.quinscape.exceed.runtime.js.DefaultExpressionCompiler" level="DEBUG" />
+    <!--
+    -->
 
     <logger name="org.jooq.Constants" level="WARN"/>
     <root level="INFO"/>

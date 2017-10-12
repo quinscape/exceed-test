@@ -1,0 +1,127 @@
+{
+    "title": "{ i18n('Customers') }",
+    "content": {
+        "main": {
+            "name": "Grid",
+            "attrs": {
+                "fluid": "{ true }"
+            },
+            "kids": [
+                {
+                    "name": "Row",
+                    "kids": [
+                        {
+                            "name": "Col",
+                            "attrs": {
+                                "md": "{ 12 }"
+                            },
+                            "kids": [
+                                {
+                                    "name": "Heading",
+                                    "attrs": {
+                                        "value": "{ i18n('Customers') }"
+                                    }
+                                },
+                                {
+                                    "name": "Toolbar",
+                                    "kids": [
+                                        {
+                                            "name": "TButton",
+                                            "attrs": {
+                                                "transition": "newCustomer",
+                                                "text": "{ i18n('New Customer') }"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "DataGrid",
+                                    "attrs": {
+                                        "id": "customerTable",
+                                        "limit": "{ 10 }",
+                                        "type": "{ Customer.as(customer).join( Address.as(billingAddress)).on( customer.billingAddressId == billingAddress.id).leftOuterJoin( Address.as(deliveryAddress)).on(customer.deliveryAddressId == deliveryAddress.id) }"
+                                    },
+                                    "kids": [
+                                        {
+                                            "name": "DataGrid.Column",
+                                            "attrs": {
+                                                "id": "detailColumn",
+                                                "name": "customer.id",
+                                                "heading": "Detail"
+                                            },
+                                            "kids": [
+                                                {
+                                                    "name": "Toolbar",
+                                                    "kids": [
+                                                        {
+                                                            "name": "TButton",
+                                                            "attrs": {
+                                                                "transition": "detail",
+                                                                "className": "btn-primary",
+                                                                "text": "Detail"
+                                                            }
+                                                        },
+                                                        {
+                                                            "name": "TButton",
+                                                            "attrs": {
+                                                                "transition": "detail2",
+                                                                "text": "Detail v2"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "DataGrid.Column",
+                                            "attrs": {
+                                                "name": "number"
+                                            }
+                                        },
+                                        {
+                                            "name": "DataGrid.Column",
+                                            "attrs": {
+                                                "name": "name"
+                                            }
+                                        },
+                                        {
+                                            "name": "DataGrid.Column",
+                                            "attrs": {
+                                                "heading": "Billing Address",
+                                                "name": "billingAddress"
+                                            },
+                                            "kids": [
+                                                {
+                                                    "name": "ShopAddress",
+                                                    "attrs": {
+                                                        "value": "{ context }"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "DataGrid.Column",
+                                            "attrs": {
+                                                "heading": "Delivery Address",
+                                                "name": "deliveryAddress"
+                                            },
+                                            "kids": [
+                                                {
+                                                    "name": "ShopAddress",
+                                                    "attrs": {
+                                                        "renderedIf": "{ !isNew(context) }",
+                                                        "value": "{ context }"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

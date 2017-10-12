@@ -7,6 +7,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
@@ -14,15 +16,23 @@ import org.springframework.context.annotation.Import;
 @Import({
     ExceedApplicationConfiguration.class,
 })
+@ComponentScan(basePackages = "de.quinscape.exceedapp.config")
 @Configuration
-public class EditorConfiguration
+public class AppConfiguration
     extends SpringBootServletInitializer
 {
-    private final static Logger log = LoggerFactory.getLogger(EditorConfiguration.class);
+    private final static Logger log = LoggerFactory.getLogger(AppConfiguration.class);
 
     public static void main(String[] args)
     {
-        SpringApplication.run(EditorConfiguration.class, args);
+        SpringApplication.run(AppConfiguration.class, args);
+    }
+
+
+    @Bean
+    public AppSpecificProviderFactory appSpecificProvider()
+    {
+        return new AppSpecificProviderFactory();
     }
 
     @Override

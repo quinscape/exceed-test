@@ -1,0 +1,32 @@
+{
+    "name":"OrderItem",
+    "properties":[
+        {
+            "name":"id",
+            "type":"UUID",
+            "required":true,
+            "maxLength":36
+        },
+        {
+            "name":"quantity",
+            "type":"Integer",
+            "defaultValue": "1"
+        },
+        {
+            "name":"productId",
+            "type":"UUID",
+            "maxLength":36,
+            "foreignKey":{
+                "type":"Product"
+            }
+        },
+        {
+            "name":"orderId",
+            "type":"UUID",
+            "maxLength":36,
+            "foreignKey":{
+                "type":"Order"
+            }
+        }
+    ]
+}

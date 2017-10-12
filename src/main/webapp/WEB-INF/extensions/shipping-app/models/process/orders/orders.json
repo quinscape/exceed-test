@@ -1,0 +1,47 @@
+{
+    "startTransition": {
+        "to": "list"
+    },
+    "context": {
+        "properties": {
+            "orderItems" : {
+                "type" : "List",
+                "typeParam" : "OrderItem",
+                "defaultValue" : "[]"
+            }
+        }
+    },
+    "states": {
+        "list": {
+            "type": "xcd.process.ViewState",
+            "transitions": {
+                "takeOrder": {
+                    "to": "newOrder",
+                    "action": "current = newObject('Order'); current.number = newOrderNumber()"
+                },
+                "detail": {
+                    "to": "detail",
+                    "action": "current = merge(current)"
+                }
+            }
+        },
+        "newOrder": {
+            "type": "xcd.process.ViewState",
+            "transitions": {
+                "save": {
+                    "action": "store(current)",
+                    "to": "list"
+                },
+                "cancel": {
+                    "to": "list",
+                    "discard": true
+                }
+            }
+        },
+        "detail": {
+            "type": "xcd.process.ViewState",
+            "transitions": {
+            }
+        }
+    }
+}

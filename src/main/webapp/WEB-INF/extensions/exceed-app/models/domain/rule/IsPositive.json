@@ -1,0 +1,6 @@
+{
+    "rule": "value >= 0",
+    "target" : {
+        "type" : "Integer"
+    }
+}

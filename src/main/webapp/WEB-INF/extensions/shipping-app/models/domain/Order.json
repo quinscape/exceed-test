@@ -1,0 +1,53 @@
+{
+    "name":"Order",
+    "properties":[
+        {
+            "name":"id",
+            "type":"UUID",
+            "required":true,
+            "maxLength":36
+        },
+        {
+            "name":"number",
+            "type":"PlainText",
+            "maxLength": 36,
+            "required": true
+        },
+        {
+            "name":"sum",
+            "type":"Currency",
+            "required":true
+        },
+        {
+            "name":"trackingNumber",
+            "type":"PlainText",
+            "maxLength":255
+        },
+        {
+            "name":"shippingType",
+            "type":"Enum",
+            "typeParam":"ShippingType",
+            "required":true
+        },
+        {
+            "name":"status",
+            "type":"State",
+            "typeParam":"OrderStatus",
+            "required":true
+        },
+        {
+            "name":"accepted",
+            "type":"Timestamp",
+            "defaultValue" : "now()"
+        },
+        {
+            "name":"customerId",
+            "type":"UUID",
+            "maxLength":36,
+            "required":true,
+            "foreignKey":{
+                "type":"Customer"
+            }
+        }
+    ]
+}
