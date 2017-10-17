@@ -10,11 +10,13 @@
         {
             "name":"quantity",
             "type":"Integer",
+            "required":true,
             "defaultValue": "1"
         },
         {
             "name":"productId",
             "type":"UUID",
+            "required":true,
             "maxLength":36,
             "foreignKey":{
                 "type":"Product"
@@ -23,6 +25,7 @@
         {
             "name":"orderId",
             "type":"UUID",
+            "required":true,
             "maxLength":36,
             "foreignKey":{
                 "type":"Order"

@@ -6,8 +6,7 @@
         "properties": {
             "orderItems" : {
                 "type" : "List",
-                "typeParam" : "OrderItem",
-                "defaultValue" : "[]"
+                "typeParam" : "OrderItem"
             }
         }
     },
@@ -17,11 +16,11 @@
             "transitions": {
                 "takeOrder": {
                     "to": "newOrder",
-                    "action": "current = newObject('Order'); current.number = newOrderNumber()"
+                    "action": "current = newObject('Order'); current.number = newOrderNumber(); orderItems=[]"
                 },
                 "detail": {
                     "to": "detail",
-                    "action": "current = merge(current)"
+                    "action": "current = merge(current); orderItems = query( OrderItem.as(oi) ).filter( oi.orderId == current.id)"
                 }
             }
         },
@@ -29,7 +28,7 @@
             "type": "xcd.process.ViewState",
             "transitions": {
                 "save": {
-                    "action": "store(current)",
+                    "action": "shopTakeOrder(current)",
                     "to": "list"
                 },
                 "cancel": {
@@ -41,6 +40,10 @@
         "detail": {
             "type": "xcd.process.ViewState",
             "transitions": {
+                "cancel": {
+                    "to": "list",
+                    "discard": true
+                }
             }
         }
     }

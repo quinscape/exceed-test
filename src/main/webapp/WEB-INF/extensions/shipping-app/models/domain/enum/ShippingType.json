@@ -1,4 +1,4 @@
 {
     "name": "ShippingType",
-    "values" : ["Standard", "Express", "Heavy"]
+    "values" : ["STANDARD", "EXPRESS", "HEAVY"]
 }

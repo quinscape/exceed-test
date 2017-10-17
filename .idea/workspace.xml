@@ -9,7 +9,7 @@
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/component/QueryDataProvider.java" description="implements DataProvider" line="24" />
+    <bookmark url="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/component/QueryDataProvider.java" description="implements DataProvider" line="25" />
     <bookmark url="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/resource/file/PathResources.java" line="24" mnemonic="8" />
     <bookmark url="file://$PROJECT_DIR$/../exceed/src/main/js/editor/code/ExceedCompleter.js" line="275" mnemonic="W" />
     <bookmark url="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/component/ComponentRegistration.java" line="59" mnemonic="0" />
@@ -19,164 +19,123 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b50f12fa-5932-4d66-94d4-086e06f13a6c" name="Default" comment="Shorten watcher thread name">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_svenson_svenson_1_5_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/exceed-app/models/domain/enum/MyEnum.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/exceed-app/models/domain/rule/IsPositive.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_svenson_svenson_1_5_7_SNAPSHOT.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_14.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_14.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/EditorConfiguration.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/JsPropertyConverter.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/exceed_app_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/exceed_app_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/sven.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/sven.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/component/ComponentViewContext.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/client/provider/ComponentConfigProvider.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/client/provider/ApplicationNameProvider.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/client/provider/ApplicationConfigProvider.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exceed-app.iml" afterPath="$PROJECT_DIR$/exceed-app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/config/ShopActions.java" afterPath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/config/ShopActions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/domain/tables/Order.java" afterPath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/domain/tables/Order.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/domain/tables/OrderItem.java" afterPath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/domain/tables/OrderItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/domain/tables/Product.java" afterPath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/domain/tables/Product.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/domain/tables/pojos/Order.java" afterPath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/domain/tables/pojos/Order.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/domain/tables/pojos/OrderItem.java" afterPath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/domain/tables/pojos/OrderItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/domain/tables/pojos/Product.java" afterPath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/domain/tables/pojos/Product.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/domain/tables/records/OrderItemRecord.java" afterPath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/domain/tables/records/OrderItemRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/domain/tables/records/OrderRecord.java" afterPath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/domain/tables/records/OrderRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/domain/tables/records/ProductRecord.java" afterPath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/domain/tables/records/ProductRecord.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/cfg/exceed-app.properties" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/cfg/exceed-app.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/components/custom/Bar.js" afterPath="$PROJECT_DIR$/src/main/webapp/components/custom/Bar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Test.java" afterPath="$PROJECT_DIR$/src/test/java/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/package.json" afterPath="$PROJECT_DIR$/../exceed/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/base/models/domain/AppState.json" afterPath="$PROJECT_DIR$/../exceed/src/main/base/models/domain/AppState.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/base/models/domain/AppTranslation.json" afterPath="$PROJECT_DIR$/../exceed/src/main/base/models/domain/AppTranslation.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/base/models/domain/AppUser.json" afterPath="$PROJECT_DIR$/../exceed/src/main/base/models/domain/AppUser.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/config.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain/Order.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain/Order.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain/OrderItem.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain/OrderItem.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain/Product.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain/Product.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain/enum/ShippingType.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain/enum/ShippingType.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/orders.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/orders.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/view/newOrder.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/view/newOrder.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/products/products.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/products/products.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/products/view/list.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/products/view/list.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/doc/class-index.html" afterPath="$PROJECT_DIR$/../exceed/doc/class-index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/doc/component.html" afterPath="$PROJECT_DIR$/../exceed/doc/component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/doc/index.html" afterPath="$PROJECT_DIR$/../exceed/doc/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/doc/model.html" afterPath="$PROJECT_DIR$/../exceed/doc/model.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/base/resources/js/model-docs.json" afterPath="$PROJECT_DIR$/../exceed/src/main/base/resources/js/model-docs.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ExpressionParser.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/ExpressionParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/Operator.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/Operator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/AutoVersionedModel.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/AutoVersionedModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/TopLevelModelVisitor.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/TopLevelModelVisitor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/component/ComponentClasses.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/component/ComponentClasses.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/component/ComponentDescriptor.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/component/ComponentDescriptor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/component/ComponentPackageDescriptor.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/component/ComponentPackageDescriptor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/component/PropType.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/component/PropType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/context/ScopeMetaModel.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/context/ScopeMetaModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/domain/property/PropertyTypeModel.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/domain/property/PropertyTypeModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/ApplicationError.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/ApplicationError.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/config/ComponentConfig.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/config/ComponentConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/ApplicationMetaData.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/ApplicationMetaData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/ModelValidationContext.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/ModelValidationContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/PropertyType.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/PropertyType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/process/Transition.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/process/Transition.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/process/ViewState.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/process/ViewState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/state/StateMachine.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/state/StateMachine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/TestStorageConfigurationRepository.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/TestStorageConfigurationRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/Action.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/Action.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/DefaultActionResult.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/DefaultActionResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/View.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/View.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/DefaultActionService.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/DefaultActionService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/JSParameters.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/JSParameters.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/MethodAccessRegistration.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/MethodAccessRegistration.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/builtin/ExceedBaseActions.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/builtin/ExceedBaseActions.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/component/QueryDataProvider.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/component/QueryDataProvider.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/ExpressionConfiguration.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/ExpressionConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/CommonDomainOperations.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/CommonDomainOperations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/DomainObject.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/DomainObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/DomainOperations.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/DomainOperations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/DomainService.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/DomainService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/DomainServiceImpl.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/DomainServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/JOOQDomainOperations.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/JOOQDomainOperations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/QueryTypeOperations.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/QueryTypeOperations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/SystemStorageOperations.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/SystemStorageOperations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/CurrencyConverter.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/CurrencyConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/CurrencyConverterFactory.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/CurrencyConverterFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/DataGraphConverter.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/DataGraphConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/DateConverter.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/DateConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/DecimalConverter.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/DecimalConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/DecimalConverterFactory.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/DecimalConverterFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/DomainObjectConverter.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/DomainObjectConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/DomainObjectConverterFactory.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/DomainObjectConverterFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/EnumConverterFactory.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/EnumConverterFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/IntegerConverter.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/IntegerConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/JavaEnumConverter.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/JavaEnumConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/ListConverter.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/ListConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/ListConverterFactory.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/ListConverterFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/MapConverter.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/MapConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/MapConverterFactory.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/MapConverterFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/NeutralConverter.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/NeutralConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/PropertyConverter.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/PropertyConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/PropertyConverterFactory.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/PropertyConverterFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/TimestampConverter.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/TimestampConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/VoidConverter.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/VoidConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/editor/completion/expression/PropCompleteOperations.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/editor/completion/expression/PropCompleteOperations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/ExpressionServiceImpl.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/ExpressionServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/annotation/Operation.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/annotation/Operation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/controller/ApplicationController.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/controller/ApplicationController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/datalist/DataGraphService.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/datalist/DataGraphService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/ComponentQueryTransformer.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/ComponentQueryTransformer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryContext.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryDefinition.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryDefinition.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryDomainType.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryDomainType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryFilterEnvironment.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryFilterEnvironment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryFilterOperations.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryFilterOperations.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryTransformerEnvironment.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryTransformerEnvironment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryTransformerOperations.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryTransformerOperations.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/ActionExpressionTransformer.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/ActionExpressionTransformer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/ComponentExpressionTransformer.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/ComponentExpressionTransformer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/ExpressionType.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/ExpressionType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/DefaultExpressionTransformerFactory.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/DefaultExpressionTransformerFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/StateMachineValueTransformer.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/StateMachineValueTransformer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/JsEnvironment.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/JsEnvironment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/env/AbstractConvertingFunction.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/env/AbstractConvertingFunction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/env/DomainServiceCreateFunction.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/env/DomainServiceCreateFunction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/env/UpdateScopeFunction.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/env/UpdateScopeFunction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ClientViewJSONGenerator.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ClientViewJSONGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ComponentRenderPath.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ComponentRenderPath.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ExpressionModelContext.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ExpressionModelContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/TypeAnalyzer.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/TypeAnalyzer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/TypeAnalyzerContext.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/TypeAnalyzerContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/def/DefinitionBuilderBase.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/def/DefinitionBuilderBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/def/DefinitionsBuilder.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/def/DefinitionsBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/def/FunctionDefinition.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/def/FunctionDefinition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/def/FunctionDefinitionBuilder.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/def/FunctionDefinitionBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/def/IdentifierDefinition.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/def/IdentifierDefinition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/def/IdentifierDefinitionBuilder.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/def/IdentifierDefinitionBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/env/NewObjectDefinitionRenderer.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/env/NewObjectDefinitionRenderer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/env/StateMachineTypeResolver.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/env/StateMachineTypeResolver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ModelCompositionService.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ModelCompositionService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ComponentRegistryImpl.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ComponentRegistryImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ProcessService.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ProcessService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/client/provider/ComponentErrorProvider.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/client/provider/ComponentErrorProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/client/provider/ComponentStateProvider.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/client/provider/ComponentStateProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/client/scope/ScopeReferenceService.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/client/scope/ScopeReferenceService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/search/TopLevelModelSearcher.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/search/TopLevelModelSearcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/spring/ExceedViewResolver.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/spring/ExceedViewResolver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/ComponentUtil.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/ComponentUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/DomainUtil.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/DomainUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/ExpressionUtil.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/ExpressionUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/action/transition.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/action/transition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/actions/component.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/actions/component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/actions/index.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/actions/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/tooling/GenerateComponentClasses.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/tooling/GenerateComponentClasses.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/tooling/GenerateModelDocs.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/tooling/GenerateModelDocs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/action/syslog.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/action/syslog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/actions/form-state.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/actions/form-state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/actions/reset.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/actions/reset.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/actions/scope.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/actions/scope.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/actions/view.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/actions/view.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/app-main.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/app-main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/component-classes.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/component-classes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/common/components.json" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/common/components.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/datagrid/DataGrid.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/datagrid/DataGrid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/datagrid/components.json" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/datagrid/components.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/Button.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/Button.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/EnumSelect.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/EnumSelect.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/ErrorMessages.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/ErrorMessages.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FKSelect.css" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FKSelect.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FKSelect.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FKSelect.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/Field.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/Field.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/Form.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/Form.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FormBlock.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FormBlock.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FormElement.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FormElement.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/SelectField.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/SelectField.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/StaticText.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/StaticText.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/ListEditor.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/ListEditor.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/TButton.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/TButton.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/components.json" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/components.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/shim/ShopNav.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/shim/ShopNav.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/domain/cursor.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/domain/cursor.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/domain/graph.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/domain/graph.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/reducers/component.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/reducers/component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/reducers/index.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/reducers/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/form/form-state.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/form/form-state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/reducers/form-state.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/reducers/form-state.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/reducers/meta.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/reducers/meta.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/service/app-history.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/service/app-history.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/service/component.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/service/component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/service/domain.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/service/domain.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/service/process.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/service/process.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/service/property-converter.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/service/property-converter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/service/runtime-view-api.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/service/runtime-view-api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/service/store.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/service/store.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/service/view-renderer.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/service/view-renderer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/service/view.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/service/view.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/services.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/ui/ComponentError.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/ui/ComponentError.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/ui/FormProvider.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/ui/FormProvider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/ui/PagingComponent.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/ui/PagingComponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/util/cast.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/util/cast.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/util/convert.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/util/convert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/util/dialog.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/util/dialog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/util/component-util.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/util/component-util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/util/describe-property.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/util/describe-property.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/util/walk.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/util/walk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/util/when.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/util/when.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/TestDomainServiceBase.java" afterPath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/TestDomainServiceBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/resources/Expression.jjt" afterPath="$PROJECT_DIR$/../exceed/src/main/resources/Expression.jjt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/expression/ExpressionParserTest.java" afterPath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/expression/ExpressionParserTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/TestApplicationBuilder.java" afterPath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/TestApplicationBuilder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/editor/completion/PropCompleteEnvironmentTest.java" afterPath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/editor/completion/PropCompleteEnvironmentTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/expression/query/QueryTransformerTest.java" afterPath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/expression/query/QueryTransformerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/expression/transform/ActionExpressionTest.java" afterPath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/expression/transform/ActionExpressionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/expression/transform/ComponentExpressionTransformerTest.java" afterPath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/expression/transform/ComponentExpressionTransformerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/js/TypeAnalyzerTest.java" afterPath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/js/TypeAnalyzerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/model/ExpressionRendererTest.java" afterPath="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/model/ExpressionRendererTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/test.js" afterPath="$PROJECT_DIR$/../exceed/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/test.json" afterPath="$PROJECT_DIR$/../exceed/test.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/tooling/build-docs.js" afterPath="$PROJECT_DIR$/../exceed/tooling/build-docs.js" />
     </list>
     <ignored path="editor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -208,93 +167,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ListEditor.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/form/ListEditor.js">
+      <file leaf-file-name="ActionExpressionTransformer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/ActionExpressionTransformer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="43" lean-forward="true" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+            <state relative-caret-position="333">
+              <caret line="264" column="49" lean-forward="false" selection-start-line="264" selection-start-column="49" selection-end-line="264" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view-renderer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/view-renderer.js">
+      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
+            <state relative-caret-position="75">
+              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="component-classes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/component-classes.js">
+      <file leaf-file-name="FunctionDefinition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/def/FunctionDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="render-with-context.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/util/render-with-context.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FormElement.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FormElement.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="506">
+              <caret line="269" column="38" lean-forward="false" selection-start-line="269" selection-start-column="38" selection-end-line="269" selection-end-column="38" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#6721#6722#0" expanded="true" />
+                <element signature="e#6767#6768#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form-state.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/reducers/form-state.js">
+      <file leaf-file-name="SimpleNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/SimpleNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="189" column="16" lean-forward="false" selection-start-line="189" selection-start-column="16" selection-end-line="189" selection-end-column="16" />
+            <state relative-caret-position="230">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding>
+                <element signature="e#1155#1156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActionExpressionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/expression/transform/ActionExpressionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="361" column="147" lean-forward="false" selection-start-line="361" selection-start-column="147" selection-end-line="361" selection-end-column="147" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form-state.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/actions/form-state.js">
+      <file leaf-file-name="QueryDomainType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryDomainType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="215">
+              <caret line="100" column="27" lean-forward="true" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form-state.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/form/form-state.js">
+      <file leaf-file-name="QueryFilterEnvironment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryFilterEnvironment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="289" column="29" lean-forward="false" selection-start-line="289" selection-start-column="18" selection-end-line="289" selection-end-column="29" />
+            <state relative-caret-position="432">
+              <caret line="276" column="0" lean-forward="false" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scope.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/actions/scope.js">
+      <file leaf-file-name="JsExpressionRenderer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/JsExpressionRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="177" column="12" lean-forward="false" selection-start-line="177" selection-start-column="12" selection-end-line="177" selection-end-column="12" />
+            <state relative-caret-position="458">
+              <caret line="46" column="64" lean-forward="false" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultTransformationContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/DefaultTransformationContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExpressionModelContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ExpressionModelContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -313,51 +285,45 @@
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>renderWithContext</find>
-      <find>setScopeGraph</find>
-      <find>uns</find>
-      <find>iterationIndex</find>
-      <find>update</find>
-      <find>updateComponent</find>
-      <find>Form</find>
-      <find>FormElement</find>
-      <find>FK</find>
-      <find>ComponentError</find>
-      <find>hasInjection</find>
-      <find>assign</find>
-      <find>assign</find>
-      <find>isFormStateComponent</find>
-      <find>name</find>
-      <find>des</find>
-      <find>componentDescriptor</find>
-      <find>ctx.</find>
-      <find>inIterativeContext</find>
-      <find>iterationH</find>
-      <find>fieldId</find>
-      <find>Frow</find>
-      <find>form</find>
-      <find>eva</find>
-      <find>evaluateState</find>
-      <find>fieldStates</find>
-      <find>console.og</find>
-      <find>changeFormField</find>
-      <find>iteration-</find>
-      <find>console.log</find>
+      <find>fieldState</find>
+      <find>&quot;form-config-provider&quot;</find>
+      <find>getFieldState</find>
+      <find>FieldState</find>
+      <find>VOID_TYPE</find>
+      <find>query</find>
+      <find>_a.action</find>
+      <find>OrderItem</find>
+      <find>Node</find>
+      <find>__Expression</find>
+      <find>===</find>
+      <find>Promise.res</find>
+      <find>action_productslist_t_detail</find>
+      <find>meta</find>
+      <find>view</find>
+      <find>views</find>
+      <find>foo(</find>
+      <find>foo</find>
+      <find>singl</find>
+      <find>analyzeFunctionParameter</find>
+      <find>newO</find>
+      <find>catch</find>
+      <find>CATCH</find>
+      <find>integer</find>
+      <find>getActionDefinition</find>
+      <find>__Ex</find>
+      <find>action_customersdetail2_t_delete</find>
+      <find>hasResultAssignment</find>
+      <find>action_customerslist_t_detail2</find>
+      <find>})</find>
     </findStrings>
     <replaceStrings>
-      <replace>//console.log</replace>
-      <replace>extract</replace>
-      <replace>a</replace>
-      <replace>===</replace>
-      <replace>.then(_v.conditional)</replace>
-      <replace>map.get(&quot;$1&quot;);</replace>
       <replace>transitionInput</replace>
       <replace>DataGraphType.ARRAY</replace>
       <replace>custOmer</replace>
@@ -382,6 +348,12 @@
       <replace>DataCursor</replace>
       <replace>candidates</replace>
       <replace>={ $1 }</replace>
+      <replace>fieldValues</replace>
+      <replace>this.state</replace>
+      <replace>store.getState()</replace>
+      <replace>this.store</replace>
+      <replace>this.getState()</replace>
+      <replace>ASTExpression</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/../exceed/src/test/js/domain/test-lists</dir>
@@ -405,57 +377,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/JsPropertyConverter.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/domain/property/PropertyTypeModel.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/CurrencyConverterFactory.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/PropertyConverterFactory.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/DomainObjectConverterFactory.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/DecimalConverterFactory.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/MapConverterFactory.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/EnumConverterFactory.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/ListConverterFactory.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/VoidConverter.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/PropertyType.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/ApplicationMetaData.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/PropertyConverter.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/JsEnvironment.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/env/DomainServiceCreateFunction.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/JSParameters.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/DefaultActionResult.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/env/AbstractConvertingFunction.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/env/UpdateScopeFunction.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/DomainObjectConverter.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/DataGraphConverter.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/editor/completion/PropCompleteEnvironmentTest.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/DateConverter.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/TimestampConverter.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/JavaEnumConverter.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/JsListWrapper.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/ListConverter.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/MapConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain/Product.json" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/ComponentUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/products/products.json" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/products/view/detail.json" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FormBlock.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/view/detail.json" />
         <option value="$PROJECT_DIR$/../exceed/src/main/js/service/runtime-view-api.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/ExpressionConfiguration.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/component/ComponentClasses.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/ContextVarInfo.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/components.json" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryTransformerOperations.java" />
-        <option value="$PROJECT_DIR$/../exceed/test.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/util/component-util.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/reducers/form-state.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/domain/cursor.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/util/walk.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/view/newOrder.json" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FKSelect.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/ui/ComponentError.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/util/iteration-helper.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/ComponentUtil.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/service/component.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/actions/reset.js" />
         <option value="$PROJECT_DIR$/../exceed/src/main/js/actions/scope.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FormElement.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/actions/form-state.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/component/ComponentClasses.java" />
+        <option value="/JavaScript 1.6 Fragment (GenerateComponentClasses.java:1083).js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/component-classes.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/tooling/GenerateComponentClasses.java" />
         <option value="$PROJECT_DIR$/../exceed/src/main/js/form/form-state.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/service/view-renderer.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/components.json" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/Button.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/TButton.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FKSelect.js" />
         <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/ListEditor.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FKSelect.css" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryTransformerOperations.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/ComponentQueryTransformer.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/context/ScopeDeclarations.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/ApplicationMetaData.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/def/FunctionDefinitionBuilder.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/DefaultActionService.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/JsEnvironment.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/base/models/domain/property/Expression.json" />
+        <option value="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/TestApplicationBuilder.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/ExpressionUtil.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/env/ExpressionFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/Operator.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/DefaultExpressionTransformerFactory.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/ExpressionConverter.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/builtin/ExceedBaseActions.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryTransformerEnvironment.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/TestApplication.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/editor/completion/PropCompleteEnvironmentTest.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/expression/query/QueryTransformerTest.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/EqualityTransformer.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/env/NewObjectDefinitionRenderer.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/TypeAnalyzer.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/js/TypeAnalyzerTest.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/model/ExpressionRendererTest.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/ExpressionConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/orders.json" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/def/FunctionDefinition.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/ActionExpressionTransformer.java" />
+        <option value="$PROJECT_DIR$/../exceed/test.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/expression/transform/ActionExpressionTest.java" />
       </list>
     </option>
   </component>
@@ -500,8 +472,7 @@
     <handled-path value="$PROJECT_DIR$/../exceed/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="11" />
-    <option name="y" value="64" />
+    <option name="y" value="-4" />
     <option name="width" value="1920" />
     <option name="height" value="1084" />
   </component>
@@ -807,9 +778,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -860,16 +831,6 @@
               <item name="base" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="enum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="property" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -904,224 +865,283 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="exceed" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="migration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="expression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="property" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
+              <item name="expression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
+              <item name="expression" type="462c0819:PsiDirectoryNode" />
+              <item name="query" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="def" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="env" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="std" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="std" type="462c0819:PsiDirectoryNode" />
+              <item name="form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exceed" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
               <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="runtime" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="runtime" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="runtime" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="property" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="runtime" type="462c0819:PsiDirectoryNode" />
-              <item name="expression" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="runtime" type="462c0819:PsiDirectoryNode" />
-              <item name="expression" type="462c0819:PsiDirectoryNode" />
-              <item name="query" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="runtime" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="runtime" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="std" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="std" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="std" type="462c0819:PsiDirectoryNode" />
-              <item name="datagrid" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="std" type="462c0819:PsiDirectoryNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="runtime" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="runtime" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="runtime" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="runtime" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="runtime" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="enum" type="462c0819:PsiDirectoryNode" />
+              <item name="tooling" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
@@ -1167,16 +1187,6 @@
               <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="quinscape" type="462c0819:PsiDirectoryNode" />
-              <item name="exceedapp" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1195,52 +1205,6 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="extensions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="enum" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
@@ -1274,32 +1238,6 @@
               <item name="shipping-app" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="shipping-app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="enum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="shipping-app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="query" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
@@ -1423,7 +1361,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exceed/src/main/js/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../miscjs" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.43043044" />
@@ -1449,7 +1387,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1131" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="getFieldCur&#9;null&#9;null&#10;walk&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.js.TypeAnalyzerContext#walk&#10;hasFieldC&#9;null&#9;null&#10;QueryM&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.domain.JOOQDomainOperations.QueryMapper&#10;describe&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.ExpressionUtil#describe&#10;registerSt&#9;PSI&#9;JAVA://de.quinscape.exceed.model.meta.ApplicationMetaData#registerStateMachineIdentifiers&#10;getColl&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.ExpressionUtil#getCollectionType&#10;getCol&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.ExpressionUtil#getCollectionType&#10;resetA&#9;null&#9;null&#10;updateComp&#9;null&#9;null&#10;fieldOf&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.editor.completion.expression.PropCompleteOperations#fieldOf&#10;updateCom&#9;null&#9;null&#10;convertCom&#9;null&#9;null&#10;maxDec&#9;PSI&#9;JAVA://de.quinscape.exceed.model.config.DecimalConfig#setMaxDecimalPlaces&#10;initializeDef&#9;PSI&#9;JAVA://de.quinscape.exceed.model.translation.TranslationEditorState#initializeDefaults&#10;previewV&#9;null&#9;null&#10;enterV&#9;null&#9;null&#10;loadE&#9;null&#9;null&#10;loadEditor&#9;null&#9;null&#10;CLEAR_F&#9;null&#9;null&#10;searchM&#9;null&#9;null&#10;DOMAIN_TYPE_P&#9;PSI&#9;JAVA://de.quinscape.exceed.model.domain.DomainProperty#DOMAIN_TYPE_PROPERTY_TYPE&#10;saveV&#9;null&#9;null&#10;PreviewM&#9;null&#9;null&#10;loadEditorV&#9;null&#9;null&#10;applyL&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.model.ModelCompositionService#applyLayout&#10;getScopeQ&#9;null&#9;null&#10;ViewCom&#9;null&#9;null&#10;ViewWr&#9;null&#9;null&#10;getServerSideActionsInSystem&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.config.ExceedViewResolver#getServerSideActionsInSystem&#10;dumpV&#9;null&#9;null&#10;EditorState&#9;null&#9;null&#10;setCached&#9;PSI&#9;JAVA://de.quinscape.exceed.model.view.View#setCachedJSON&#10;Entity&#9;null&#9;null&#10;entity&#9;null&#9;null&#10;parseSing&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.Util#parseSingleQuotedString&#10;Col&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.controller.ActionController.CollectionConversion&#10;Coll&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.controller.ActionController.CollectionConversion&#10;CollectionC&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.controller.ActionController.CollectionConversion&#10;system&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.domain.SystemStorageExecutor&#10;modelStorage&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.config.DomainConfiguration#modelStorage&#10;domainSer&#9;FILE&#9;file:///home/sven/ideaprojects/exceed/src/main/java/de/quinscape/exceed/runtime/service/DomainServiceFactory.java&#10;ModelMapper&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.model.ModelJSONServiceImpl.ModelMapper&#10;route&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.application.DefaultRuntimeApplication#route&#10;TemporalU&#9;PSI&#9;JAVA://java.time.temporal.TemporalUnit&#10;defaultDataPro&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.config.ServiceConfiguration#defaultDataProvider" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/sven/ideaprojects/exceed/src/test/java/de/quinscape/exceed/runtime/js/js-action-test/models/process/test/view/list.json&#10;hydr&#9;null&#9;null&#10;getFieldCur&#9;null&#9;null&#10;walk&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.js.TypeAnalyzerContext#walk&#10;hasFieldC&#9;null&#9;null&#10;QueryM&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.domain.JOOQDomainOperations.QueryMapper&#10;describe&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.ExpressionUtil#describe&#10;registerSt&#9;PSI&#9;JAVA://de.quinscape.exceed.model.meta.ApplicationMetaData#registerStateMachineIdentifiers&#10;getColl&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.ExpressionUtil#getCollectionType&#10;getCol&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.ExpressionUtil#getCollectionType&#10;resetA&#9;null&#9;null&#10;updateComp&#9;null&#9;null&#10;fieldOf&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.editor.completion.expression.PropCompleteOperations#fieldOf&#10;updateCom&#9;null&#9;null&#10;convertCom&#9;null&#9;null&#10;maxDec&#9;PSI&#9;JAVA://de.quinscape.exceed.model.config.DecimalConfig#setMaxDecimalPlaces&#10;initializeDef&#9;PSI&#9;JAVA://de.quinscape.exceed.model.translation.TranslationEditorState#initializeDefaults&#10;previewV&#9;null&#9;null&#10;enterV&#9;null&#9;null&#10;loadE&#9;null&#9;null&#10;loadEditor&#9;null&#9;null&#10;CLEAR_F&#9;null&#9;null&#10;searchM&#9;null&#9;null&#10;DOMAIN_TYPE_P&#9;PSI&#9;JAVA://de.quinscape.exceed.model.domain.DomainProperty#DOMAIN_TYPE_PROPERTY_TYPE&#10;saveV&#9;null&#9;null&#10;PreviewM&#9;null&#9;null&#10;loadEditorV&#9;null&#9;null&#10;applyL&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.model.ModelCompositionService#applyLayout&#10;getScopeQ&#9;null&#9;null&#10;ViewCom&#9;null&#9;null&#10;ViewWr&#9;null&#9;null&#10;getServerSideActionsInSystem&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.config.ExceedViewResolver#getServerSideActionsInSystem&#10;dumpV&#9;null&#9;null&#10;EditorState&#9;null&#9;null&#10;setCached&#9;PSI&#9;JAVA://de.quinscape.exceed.model.view.View#setCachedJSON&#10;Entity&#9;null&#9;null&#10;entity&#9;null&#9;null&#10;parseSing&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.Util#parseSingleQuotedString&#10;Col&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.controller.ActionController.CollectionConversion&#10;Coll&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.controller.ActionController.CollectionConversion&#10;CollectionC&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.controller.ActionController.CollectionConversion&#10;system&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.domain.SystemStorageExecutor&#10;modelStorage&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.config.DomainConfiguration#modelStorage&#10;domainSer&#9;FILE&#9;file:///home/sven/ideaprojects/exceed/src/main/java/de/quinscape/exceed/runtime/service/DomainServiceFactory.java&#10;ModelMapper&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.model.ModelJSONServiceImpl.ModelMapper&#10;route&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.application.DefaultRuntimeApplication#route&#10;TemporalU&#9;PSI&#9;JAVA://java.time.temporal.TemporalUnit&#10;defaultDataPro&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.config.ServiceConfiguration#defaultDataProvider" />
     <property name="javascript.nodejs.core.library.configured.version" value="7.10.1" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
@@ -1477,11 +1415,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="de.quinscape.exceed.runtime.expression.query" />
-      <recent name="de.quinscape.exceed.runtime.js" />
-      <recent name="de.quinscape.exceed.runtime.domain.property" />
+      <recent name="de.quinscape.exceed.runtime.expression.transform" />
       <recent name="de.quinscape.exceed.runtime.js.env" />
-      <recent name="de.quinscape.exceed.model.process" />
+      <recent name="de.quinscape.exceed.runtime.service" />
+      <recent name="de.quinscape.exceed.tooling" />
+      <recent name="de.quinscape.exceed.runtime.expression.query" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="de.quinscape.exceed.model.domain.type" />
@@ -1509,18 +1447,18 @@
       <recent name="de.quinscape.exceed.expression" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/js/js-action-test/models/domain/enum" />
-      <recent name="$PROJECT_DIR$/../exceed/src/main/js/components/std/form" />
+      <recent name="$PROJECT_DIR$/../exceed/src/main/base/models/domain/property" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/view" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/products/view" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process" />
+      <recent name="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/js/js-action-test/models/domain/enum" />
+      <recent name="$PROJECT_DIR$/../exceed/src/main/js/components/std/form" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.quinscape.exceed.runtime.domain.property" />
       <recent name="de.quinscape.exceed.runtime.action" />
       <recent name="de.quinscape.exceed.runtime.action.param" />
       <recent name="de.quinscape.exceed.model.process" />
       <recent name="de.quinscape.exceed.tooling" />
-      <recent name="de.quinscape.exceed.runtime.expression.transform" />
     </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="de.quinscape.exceed.model.domain.type.DomainType" />
@@ -1549,7 +1487,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GenerateComponentClasses">
+  <component name="RunManager" selected="Tomcat Server.exceed">
     <configuration name="Action Service" type="mocha-javascript-test-runner" factoryName="Mocha" singleton="false">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -1560,6 +1498,44 @@
       <extra-mocha-options>--compilers js:babel-register -r tooling/webpack</extra-mocha-options>
       <test-kind>TEST_FILE</test-kind>
       <test-file>$PROJECT_DIR$/../exceed/src/test/js/service/action.js</test-file>
+    </configuration>
+    <configuration name="ActionExpressionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exceed" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="de.quinscape.exceed.runtime.expression.transform" />
+      <option name="MAIN_CLASS_NAME" value="de.quinscape.exceed.runtime.expression.transform.ActionExpressionTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ActionExpressionTest.testForeignExpression" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exceed" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="de.quinscape.exceed.runtime.expression.transform" />
+      <option name="MAIN_CLASS_NAME" value="de.quinscape.exceed.runtime.expression.transform.ActionExpressionTest" />
+      <option name="METHOD_NAME" value="testForeignExpression" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="All in exceed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exceed" />
@@ -1591,56 +1567,18 @@
       <test-kind>TEST_FILE</test-kind>
       <test-file>$PROJECT_DIR$/../exceed/src/test/js/ui/Annotate.js</test-file>
     </configuration>
-    <configuration name="ComponentExpressionTransformerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exceed" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="de.quinscape.exceed.runtime.expression.transform" />
-      <option name="MAIN_CLASS_NAME" value="de.quinscape.exceed.runtime.expression.transform.ComponentExpressionTransformerTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="EditorConfiguration" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="SPRING_BOOT_MAIN_CLASS" value="de.quinscape.exceedapp.AppConfiguration" />
       <module name="exceed-app" />
       <envs />
     </configuration>
-    <configuration name="JsEnvironmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExpressionRendererTest.testASTEquality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exceed" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="de.quinscape.exceed.runtime.js" />
-      <option name="MAIN_CLASS_NAME" value="de.quinscape.exceed.runtime.js.JsEnvironmentTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="PropCompleteEnvironmentTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exceed" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="de.quinscape.exceed.runtime.editor.completion" />
-      <option name="MAIN_CLASS_NAME" value="de.quinscape.exceed.runtime.editor.completion.PropCompleteEnvironmentTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="de.quinscape.exceed.runtime.model" />
+      <option name="MAIN_CLASS_NAME" value="de.quinscape.exceed.runtime.model.ExpressionRendererTest" />
+      <option name="METHOD_NAME" value="testASTEquality" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
@@ -1653,14 +1591,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="QueryTransformerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsEnvironmentTest.testActions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exceed" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="de.quinscape.exceed.runtime.expression.query" />
-      <option name="MAIN_CLASS_NAME" value="de.quinscape.exceed.runtime.expression.query.QueryTransformerTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="de.quinscape.exceed.runtime.js" />
+      <option name="MAIN_CLASS_NAME" value="de.quinscape.exceed.runtime.js.JsEnvironmentTest" />
+      <option name="METHOD_NAME" value="testActions" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
@@ -2069,18 +2007,18 @@
       <item index="7" class="java.lang.String" itemvalue="Tomcat Server.exceed (spring-loaded)" />
       <item index="8" class="java.lang.String" itemvalue="Tomcat Server.exceed" />
       <item index="9" class="java.lang.String" itemvalue="JUnit.All in exceed" />
-      <item index="10" class="java.lang.String" itemvalue="JUnit.ComponentExpressionTransformerTest" />
-      <item index="11" class="java.lang.String" itemvalue="JUnit.QueryTransformerTest" />
-      <item index="12" class="java.lang.String" itemvalue="JUnit.PropCompleteEnvironmentTest.test" />
-      <item index="13" class="java.lang.String" itemvalue="JUnit.JsEnvironmentTest" />
+      <item index="10" class="java.lang.String" itemvalue="JUnit.JsEnvironmentTest.testActions" />
+      <item index="11" class="java.lang.String" itemvalue="JUnit.ExpressionRendererTest.testASTEquality" />
+      <item index="12" class="java.lang.String" itemvalue="JUnit.ActionExpressionTest.testForeignExpression" />
+      <item index="13" class="java.lang.String" itemvalue="JUnit.ActionExpressionTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.JsEnvironmentTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in exceed" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PropCompleteEnvironmentTest.test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.QueryTransformerTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ComponentExpressionTransformerTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in exceed" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ActionExpressionTest.testForeignExpression" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ActionExpressionTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ExpressionRendererTest.testASTEquality" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.JsEnvironmentTest.testActions" />
       </list>
     </recent_temporary>
   </component>
@@ -2872,6 +2810,12 @@
       <workItem from="1507553688607" duration="20918000" />
       <workItem from="1507631872697" duration="37740000" />
       <workItem from="1507718906623" duration="25570000" />
+      <workItem from="1507829455019" duration="14113000" />
+      <workItem from="1507883605758" duration="35547000" />
+      <workItem from="1507928533491" duration="13515000" />
+      <workItem from="1507976024996" duration="13474000" />
+      <workItem from="1508077224018" duration="6305000" />
+      <workItem from="1508148972293" duration="28451000" />
     </task>
     <task id="LOCAL-00001" summary="Shorten watcher thread name">
       <created>1445086219627</created>
@@ -2884,39 +2828,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_exceed - 2017.10.11 at 14h 51m 24s.xml">
+    <history-entry file="ActionExpressionTest - 2017.10.16 at 22h 32m 06s.xml">
+      <configuration name="ActionExpressionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActionExpressionTest - 2017.10.16 at 22h 35m 20s.xml">
+      <configuration name="ActionExpressionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActionExpressionTest - 2017.10.16 at 22h 36m 57s.xml">
+      <configuration name="ActionExpressionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActionExpressionTest_testForeignExpression - 2017.10.16 at 22h 30m 01s.xml">
+      <configuration name="ActionExpressionTest.testForeignExpression" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActionExpressionTest_testForeignExpression - 2017.10.16 at 22h 31m 20s.xml">
+      <configuration name="ActionExpressionTest.testForeignExpression" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActionExpressionTest_testForeignExpression - 2017.10.16 at 22h 31m 54s.xml">
+      <configuration name="ActionExpressionTest.testForeignExpression" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActionExpressionTest_testForeignExpression - 2017.10.16 at 22h 37m 20s.xml">
+      <configuration name="ActionExpressionTest.testForeignExpression" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActionExpressionTest_testForeignExpression - 2017.10.16 at 22h 37m 54s.xml">
+      <configuration name="ActionExpressionTest.testForeignExpression" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActionExpressionTest_testForeignExpression - 2017.10.16 at 22h 38m 39s.xml">
+      <configuration name="ActionExpressionTest.testForeignExpression" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_exceed - 2017.10.16 at 22h 38m 59s.xml">
       <configuration name="All in exceed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_exceed - 2017.10.11 at 14h 53m 40s.xml">
-      <configuration name="All in exceed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ComponentExpressionTransformerTest - 2017.10.05 at 14h 10m 18s.xml">
-      <configuration name="ComponentExpressionTransformerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ComponentExpressionTransformerTest - 2017.10.05 at 14h 10m 52s.xml">
-      <configuration name="ComponentExpressionTransformerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JsEnvironmentTest - 2017.10.11 at 14h 54m 45s.xml">
-      <configuration name="JsEnvironmentTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JsEnvironmentTest - 2017.10.11 at 15h 17m 10s.xml">
-      <configuration name="JsEnvironmentTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PropCompleteEnvironmentTest_test - 2017.10.11 at 14h 53m 19s.xml">
-      <configuration name="PropCompleteEnvironmentTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueryTransformerTest - 2017.10.11 at 00h 42m 34s.xml">
-      <configuration name="QueryTransformerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueryTransformerTest - 2017.10.11 at 00h 43m 12s.xml">
-      <configuration name="QueryTransformerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueryTransformerTest - 2017.10.11 at 00h 43m 51s.xml">
-      <configuration name="QueryTransformerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6358130000" />
+    <option name="totallyTimeSpent" value="6469535000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2928,7 +2872,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
+    <frame x="0" y="-4" width="1922" height="1092" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2942,10 +2886,10 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32780084" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3397231" sideWeight="0.512474" order="0" side_tool="false" content_ui="combo" x="726" y="99" width="468" height="962" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3546326" sideWeight="0.512474" order="0" side_tool="false" content_ui="combo" x="726" y="99" width="468" height="962" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40582725" sideWeight="0.47440585" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40582725" sideWeight="0.47440585" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920128" sideWeight="0.487526" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2988,11 +2932,11 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31737775" sideWeight="0.49583334" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3007284" sideWeight="0.86206895" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3007284" sideWeight="0.86206895" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32780084" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32641107" sideWeight="0.512474" order="0" side_tool="false" content_ui="combo" x="726" y="99" width="468" height="962" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3434505" sideWeight="0.512474" order="0" side_tool="false" content_ui="combo" x="726" y="99" width="468" height="962" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40582725" sideWeight="0.47440585" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -3059,20 +3003,64 @@
     <breakpoint-manager>
       <breakpoints>
         <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="434" />
+          <properties class="de.quinscape.exceed.runtime.js.InvalidReferenceException" package="de.quinscape.exceed.runtime.js" />
+          <option name="timeStamp" value="840" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryTransformerOperations.java</url>
-          <line>704</line>
+          <line>710</line>
           <properties />
           <option name="timeStamp" value="829" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/scope/AbstractScopedContext.java</url>
+          <line>125</line>
+          <properties />
+          <option name="timeStamp" value="832" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/js/TypeAnalyzerTest.java</url>
+          <line>361</line>
+          <properties />
+          <option name="timeStamp" value="837" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="definition.getName().equals(&quot;query&quot;)" language="JAVA" />
+          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/TypeAnalyzer.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="839" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/context/ScopeMetaModel.java</url>
+          <line>223</line>
+          <properties />
+          <option name="timeStamp" value="841" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/env/NewObjectTypeResolver.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="844" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="ExpressionRenderer.render(astExpression).equals(&quot;newObject()&quot;)" language="JAVA" custom="de.quinscape.exceed.runtime.model.ExpressionRenderer" />
+          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/DefaultExpressionCompiler.java</url>
+          <line>582</line>
+          <properties />
+          <option name="timeStamp" value="846" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/expression/transform/ActionExpressionTest.java</url>
+          <line>351</line>
+          <properties />
+          <option name="timeStamp" value="847" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="830" />
+      <option name="time" value="848" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -3082,44 +3070,12 @@
         <watch expression="componentDescriptor" />
       </configuration>
       <configuration name="JUnit">
-        <watch expression="ExpressionUtil.renderExpressionOf(node)" language="JAVA" custom="de.quinscape.exceed.runtime.util.ExpressionUtil,de.quinscape.exceed.runtime.model.ExpressionRenderer" />
+        <watch expression="ExpressionRenderer.render(node)" language="JAVA" custom="de.quinscape.exceed.runtime.util.ExpressionUtil,de.quinscape.exceed.runtime.model.ExpressionRenderer" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/MapConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="121" column="11" lean-forward="true" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain/Order.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain/Product.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain/OrderItem.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/datagrid/DataGrid.js">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/base/models/domain/property/Void.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -3127,378 +3083,420 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/datagrid/components.json">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/base/models/domain/property/Expression.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="60" lean-forward="true" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/test/js/service/view-renderer.js">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/VoidConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="154" column="27" lean-forward="false" selection-start-line="154" selection-start-column="23" selection-end-line="154" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/runtime-view-api.js">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/Action.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="176" column="15" lean-forward="false" selection-start-line="176" selection-start-column="15" selection-end-line="176" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/ActionExpressionTransformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        <state relative-caret-position="240">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/ExpressionUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="627" column="39" lean-forward="true" selection-start-line="627" selection-start-column="26" selection-end-line="627" selection-end-column="42" />
+        <state relative-caret-position="327">
+          <caret line="312" column="34" lean-forward="false" selection-start-line="312" selection-start-column="34" selection-end-line="312" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/def/DefinitionsBuilder.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/JsEnvironment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="215">
+          <caret line="294" column="0" lean-forward="false" selection-start-line="294" selection-start-column="0" selection-end-line="294" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/scope/AbstractScopedContext.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/env/ExpressionFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/client/provider/ScopeDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/ScopeExpressionTransformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="173" column="74" lean-forward="false" selection-start-line="173" selection-start-column="74" selection-end-line="173" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/ComponentUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="221" column="0" lean-forward="false" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/component/ComponentDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="254" column="0" lean-forward="false" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
+        <state relative-caret-position="128">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="31" />
           <folding>
-            <element signature="e#7337#7338#0" expanded="false" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/component/ComponentClasses.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="71" lean-forward="false" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
+        <state relative-caret-position="308">
+          <caret line="42" column="85" lean-forward="true" selection-start-line="42" selection-start-column="85" selection-end-line="42" selection-end-column="85" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/ContextVarInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/form/components.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="269" column="0" lean-forward="false" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryTransformerOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="793">
-          <caret line="797" column="0" lean-forward="false" selection-start-line="797" selection-start-column="0" selection-end-line="797" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FKSelect.css">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/DefaultExpressionTransformerFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/PropertyConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/property/ExpressionConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <element signature="e#845#846#0" expanded="false" />
+            <element signature="e#873#874#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/builtin/ExceedBaseActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="214" column="11" lean-forward="true" selection-start-line="214" selection-start-column="11" selection-end-line="214" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/state/StateMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/java/jdk1.8/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/expression/query/QueryFilterEnvironmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/ComponentQueryTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/TestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="82" column="29" lean-forward="true" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
+          <folding>
+            <element signature="e#1935#1936#0" expanded="false" />
+            <element signature="e#1990#1991#0" expanded="false" />
+            <element signature="e#2054#2055#0" expanded="false" />
+            <element signature="e#2109#2110#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryTransformerEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="41" column="68" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/context/ScopeDeclarations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/context/ScopeMetaModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="74" column="18" lean-forward="false" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/ApplicationMetaData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="272" column="0" lean-forward="false" selection-start-line="272" selection-start-column="0" selection-end-line="272" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/editor/completion/PropCompleteEnvironmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="58" column="31" lean-forward="false" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/expression/query/QueryTransformerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="135" column="41" lean-forward="false" selection-start-line="135" selection-start-column="41" selection-end-line="135" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/ScriptBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/EqualityTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/TestApplicationBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="381" column="0" lean-forward="false" selection-start-line="381" selection-start-column="0" selection-end-line="381" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ModelCompositionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="339" column="0" lean-forward="false" selection-start-line="339" selection-start-column="0" selection-end-line="339" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/env/NewObjectDefinitionRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/env/NewObjectTypeResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/js/js-action-test/models/process/test/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/DefaultExpressionCompiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="582" column="0" lean-forward="false" selection-start-line="582" selection-start-column="0" selection-end-line="582" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/js/JsEnvironmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="376" column="26" lean-forward="false" selection-start-line="376" selection-start-column="26" selection-end-line="376" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/js/js-action-test/models/process/test/view/list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="83" lean-forward="true" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/TypeAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/js/TypeAnalyzerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="106" column="68" lean-forward="false" selection-start-line="106" selection-start-column="68" selection-end-line="106" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/model/ExpressionRendererTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/ExpressionConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="264" column="33" lean-forward="true" selection-start-line="264" selection-start-column="33" selection-end-line="264" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/orders.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="129" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <element signature="e#2424#2425#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/ComponentModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/model/ExpressionModelContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/expression/SimpleNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#1155#1156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/def/FunctionDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="269" column="38" lean-forward="false" selection-start-line="269" selection-start-column="38" selection-end-line="269" selection-end-column="38" />
+          <folding>
+            <element signature="e#6721#6722#0" expanded="true" />
+            <element signature="e#6767#6768#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/JsExpressionRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="46" column="64" lean-forward="false" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/DefaultTransformationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/ActionExpressionTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="264" column="49" lean-forward="false" selection-start-line="264" selection-start-column="49" selection-end-line="264" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../exceed/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="53" column="57" lean-forward="false" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="57" />
+        <state relative-caret-position="75">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/ComponentModel.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/expression/transform/ActionExpressionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="361" column="147" lean-forward="false" selection-start-line="361" selection-start-column="147" selection-end-line="361" selection-end-column="147" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryDomainType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="129" column="18" lean-forward="false" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="18" />
+          <caret line="100" column="27" lean-forward="true" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/tooling/GenerateComponentClasses.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryFilterEnvironment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/util/cursor-expression.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/reducers/meta.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/app-main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/editor/domain-editor/DomainEditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="141" column="50" lean-forward="true" selection-start-line="141" selection-start-column="50" selection-end-line="141" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/form/EnumSelect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/property-converter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="167" column="35" lean-forward="false" selection-start-line="167" selection-start-column="35" selection-end-line="167" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/util/describe-property.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/util/walk.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/util/component-util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="124" column="18" lean-forward="false" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/view/newOrder.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-750">
-          <caret line="73" column="71" lean-forward="true" selection-start-line="73" selection-start-column="71" selection-end-line="73" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/domain.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/reducers/scope.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/domain/cursor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/form/Field.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1062">
-          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/ui/ComponentError.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/application/ComponentError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FKSelect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/util/render-with-context.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/component-classes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/view-renderer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/util/iteration-helper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/actions/scope.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="177" column="12" lean-forward="false" selection-start-line="177" selection-start-column="12" selection-end-line="177" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/form/form-state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="289" column="29" lean-forward="false" selection-start-line="289" selection-start-column="18" selection-end-line="289" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/actions/form-state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/reducers/form-state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="189" column="16" lean-forward="false" selection-start-line="189" selection-start-column="16" selection-end-line="189" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FormElement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/form/ListEditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="43" lean-forward="true" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        <state relative-caret-position="432">
+          <caret line="276" column="0" lean-forward="false" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -15,7 +15,6 @@
     <logger name="de.quinscape.exceed.runtime.action.UpdateDomainAction" level="DEBUG" />
     <logger name="de.quinscape.exceed.runtime.service.ProcessService" level="DEBUG" />
     -->
-    <logger name="org.jooq" level="DEBUG"/>
 
     <!-- Debug spring security problems -->
     <!--logger name="org.springframework.security" level="DEBUG"/-->
@@ -48,8 +47,12 @@
     -->
     <logger name="de.quinscape.exceed.runtime.js.DefaultExpressionCompiler" level="DEBUG" />
     <!--
+    <logger name="org.jooq" level="DEBUG"/>
+    <logger name="org.jooq.Constants" level="WARN"/>
     -->
 
-    <logger name="org.jooq.Constants" level="WARN"/>
+    <logger name="de.quinscape.exceed.runtime.component.QueryDataProvider" level="DEBUG"/>
+    <logger name="de.quinscape.exceed.runtime.controller.ApplicationController" level="DEBUG"/>
+    <logger name="de.quinscape.exceed.runtime.js.env.ExpressionFunction" level="DEBUG"/>
     <root level="INFO"/>
 </configuration>

@@ -5,7 +5,7 @@
 
     "styleSheets": [
         "/resources/css/bootstrap.min.css",
-        "/resources/css/cerulan-bootstrap.min.css",
+        "/resources/css/yeti-bootstrap.min.css",
         "/resources/css/editor.css",
         "/resources/css/layout.css"
     ]

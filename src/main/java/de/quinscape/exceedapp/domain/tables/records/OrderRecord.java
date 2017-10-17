@@ -32,7 +32,7 @@ import org.jooq.impl.UpdatableRecordImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class OrderRecord extends UpdatableRecordImpl<OrderRecord> implements Record8<String, Long, String, Integer, String, String, String, Timestamp> {
 
-	private static final long serialVersionUID = -1422451976;
+	private static final long serialVersionUID = 2036765311;
 
 	/**
 	 * Setter for <code>shipping.order.id</code>.
@@ -120,6 +120,7 @@ public class OrderRecord extends UpdatableRecordImpl<OrderRecord> implements Rec
 	/**
 	 * Getter for <code>shipping.order.customer_id</code>.
 	 */
+	@NotNull
 	@Size(max = 36)
 	public String getCustomerId() {
 		return (String) getValue(5);

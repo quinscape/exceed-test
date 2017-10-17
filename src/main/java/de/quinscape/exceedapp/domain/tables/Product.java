@@ -33,7 +33,7 @@ import org.jooq.impl.TableImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Product extends TableImpl<ProductRecord> {
 
-	private static final long serialVersionUID = -2032831773;
+	private static final long serialVersionUID = -281350215;
 
 	/**
 	 * The reference instance of <code>shipping.product</code>
@@ -67,6 +67,16 @@ public class Product extends TableImpl<ProductRecord> {
 	 * The column <code>shipping.product.price</code>.
 	 */
 	public final TableField<ProductRecord, Long> PRICE = createField("price", org.jooq.impl.SQLDataType.BIGINT.nullable(false), this, "");
+
+	/**
+	 * The column <code>shipping.product.number</code>.
+	 */
+	public final TableField<ProductRecord, String> NUMBER = createField("number", org.jooq.impl.SQLDataType.VARCHAR.length(36).nullable(false), this, "");
+
+	/**
+	 * The column <code>shipping.product.discontinued</code>.
+	 */
+	public final TableField<ProductRecord, Boolean> DISCONTINUED = createField("discontinued", org.jooq.impl.SQLDataType.BOOLEAN.nullable(false), this, "");
 
 	/**
 	 * Create a <code>shipping.product</code> table reference

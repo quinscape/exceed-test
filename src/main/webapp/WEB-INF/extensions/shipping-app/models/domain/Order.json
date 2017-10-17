@@ -27,7 +27,8 @@
             "name":"shippingType",
             "type":"Enum",
             "typeParam":"ShippingType",
-            "required":true
+            "required":true,
+            "defaultValue" : "ShippingType.STANDARD"
         },
         {
             "name":"status",

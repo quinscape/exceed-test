@@ -26,12 +26,14 @@ import javax.validation.constraints.Size;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Product extends GeneratedDomainObject implements Serializable {
 
-	private static final long serialVersionUID = -837890355;
+	private static final long serialVersionUID = -454280596;
 
-	private String id;
-	private String name;
-	private String description;
-	private Long   price;
+	private String  id;
+	private String  name;
+	private String  description;
+	private Long    price;
+	private String  number;
+	private Boolean discontinued;
 
 	public Product() {}
 
@@ -40,18 +42,24 @@ public class Product extends GeneratedDomainObject implements Serializable {
 		this.name = value.name;
 		this.description = value.description;
 		this.price = value.price;
+		this.number = value.number;
+		this.discontinued = value.discontinued;
 	}
 
 	public Product(
-		String id,
-		String name,
-		String description,
-		Long   price
+		String  id,
+		String  name,
+		String  description,
+		Long    price,
+		String  number,
+		Boolean discontinued
 	) {
 		this.id = id;
 		this.name = name;
 		this.description = description;
 		this.price = price;
+		this.number = number;
+		this.discontinued = discontinued;
 	}
 
 	@NotNull
@@ -89,5 +97,24 @@ public class Product extends GeneratedDomainObject implements Serializable {
 
 	public void setPrice(Long price) {
 		this.price = price;
+	}
+
+	@NotNull
+	@Size(max = 36)
+	public String getNumber() {
+		return this.number;
+	}
+
+	public void setNumber(String number) {
+		this.number = number;
+	}
+
+	@NotNull
+	public Boolean getDiscontinued() {
+		return this.discontinued;
+	}
+
+	public void setDiscontinued(Boolean discontinued) {
+		this.discontinued = discontinued;
 	}
 }

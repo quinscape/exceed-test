@@ -1,4 +1,5 @@
 {
+
     "startTransition": {
         "to": "list"
     },
@@ -10,6 +11,40 @@
         "list": {
             "type": "xcd.process.ViewState",
             "transitions": {
+                "newProduct": {
+                    "to": "detail",
+                    "action": " current = newObject('Product'); current.number = newProductNumber()"
+                },
+                "detail": {
+                    "to": "detail",
+                    "action": "current = merge(current)"
+                }
+            }
+        },
+        "detail": {
+            "type": "xcd.process.ViewState",
+            "transitions": {
+                "cancel": {
+                    "to": "list",
+                    "discard": true,
+                    "description" : "Cancel transition"
+                },
+                "save": {
+                    "to": "list",
+                    "action": "store(current)",
+                    "description" : "Save transition"
+                },
+                "discontinue": {
+                    "to": "list",
+                    "action": "current.discontinued = true ; store(current)",
+                    "description" : "Save transition",
+
+                    "confirmation": {
+                        "title": "i18n('Discontinue Product')",
+                        "message": "i18n('Discontinue Customer?')",
+                        "okLabel": "i18n('Discontinue')"
+                    }
+                }
             }
         }
     }

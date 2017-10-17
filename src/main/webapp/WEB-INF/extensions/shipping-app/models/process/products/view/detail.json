@@ -1,0 +1,97 @@
+{
+    "title": "{ i18n('Product Detail') }",
+    "domainType" : "Product",
+    "content": {
+        "main": {
+            "name": "Form",
+            "attrs": {
+                "id": "myForm",
+                "data": "{ current }"
+            },
+            "kids": [
+                {
+                    "name": "Grid",
+                    "attrs": {
+                    },
+                    "kids": [
+                        {
+                            "name": "Row",
+                            "kids": [
+                                {
+                                    "name": "Col",
+                                    "attrs": {
+                                        "md": "{ 12 }"
+                                    },
+                                    "kids": [
+                                        {
+                                            "name": "Heading",
+                                            "attrs": {
+                                                "value": "{ i18n('Product {0}', current.number) }"
+                                            }
+                                        },
+                                        {
+                                            "name": "Field",
+                                            "attrs": {
+                                                "value": "name"
+                                            }
+                                        },
+                                        {
+                                            "name": "Field",
+                                            "attrs": {
+                                                "value": "description"
+                                            }
+                                        },
+                                        {
+                                            "name": "Field",
+                                            "attrs": {
+                                                "value": "price"
+                                            }
+                                        },
+                                        {
+                                            "name": "Toolbar",
+                                            "kids": [
+                                                {
+                                                    "name": "TButton",
+                                                    "attrs": {
+                                                        "text": "{ i18n('Cancel') }",
+                                                        "transition": "cancel"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "Button",
+                                                    "attrs": {
+                                                        "className" : "btn-primary",
+                                                        "text": "{ i18n('Save') }",
+                                                        "action": "{ transition('save') }"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "Button",
+                                                    "attrs": {
+                                                        "renderedIf" : "{ current.discontinued }",
+                                                        "className" : "btn-primary",
+                                                        "text": "{ i18n('Relaunch') }",
+                                                        "action": "{ current.discontinued = false; transition('save') }"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "TButton",
+                                                    "attrs": {
+                                                        "renderedIf" : "{ !current.discontinued }",
+                                                        "className" : "btn-danger",
+                                                        "text": "{ i18n('Discontinue') }",
+                                                        "transition": "discontinue"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

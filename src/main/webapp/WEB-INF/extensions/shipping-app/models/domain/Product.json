@@ -28,6 +28,12 @@
             "name":"price",
             "type":"Currency",
             "required":true
+        },
+        {
+            "name":"discontinued",
+            "type":"Boolean",
+            "defaultValue" : "false",
+            "required" : true
         }
     ]
 }

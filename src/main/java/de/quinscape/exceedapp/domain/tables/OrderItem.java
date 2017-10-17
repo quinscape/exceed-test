@@ -34,7 +34,7 @@ import org.jooq.impl.TableImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class OrderItem extends TableImpl<OrderItemRecord> {
 
-	private static final long serialVersionUID = -1333184974;
+	private static final long serialVersionUID = -713693135;
 
 	/**
 	 * The reference instance of <code>shipping.order_item</code>
@@ -57,17 +57,17 @@ public class OrderItem extends TableImpl<OrderItemRecord> {
 	/**
 	 * The column <code>shipping.order_item.quantity</code>.
 	 */
-	public final TableField<OrderItemRecord, Integer> QUANTITY = createField("quantity", org.jooq.impl.SQLDataType.INTEGER, this, "");
+	public final TableField<OrderItemRecord, Integer> QUANTITY = createField("quantity", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
 	/**
 	 * The column <code>shipping.order_item.product_id</code>.
 	 */
-	public final TableField<OrderItemRecord, String> PRODUCT_ID = createField("product_id", org.jooq.impl.SQLDataType.VARCHAR.length(36), this, "");
+	public final TableField<OrderItemRecord, String> PRODUCT_ID = createField("product_id", org.jooq.impl.SQLDataType.VARCHAR.length(36).nullable(false), this, "");
 
 	/**
 	 * The column <code>shipping.order_item.order_id</code>.
 	 */
-	public final TableField<OrderItemRecord, String> ORDER_ID = createField("order_id", org.jooq.impl.SQLDataType.VARCHAR.length(36), this, "");
+	public final TableField<OrderItemRecord, String> ORDER_ID = createField("order_id", org.jooq.impl.SQLDataType.VARCHAR.length(36).nullable(false), this, "");
 
 	/**
 	 * Create a <code>shipping.order_item</code> table reference

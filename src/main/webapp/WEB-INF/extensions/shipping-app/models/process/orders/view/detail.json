@@ -1,11 +1,12 @@
 {
-    "title": "{ i18n('New Order') }",
+    "title": "{ i18n('Order Detail') }",
     "domainType": "Order",
     "content": {
         "main": {
             "name": "Form",
             "attrs": {
                 "id": "myForm",
+                "disabledIf": "{ true }",
                 "data": "{ current }"
             },
             "kids": [
@@ -51,8 +52,8 @@
                                             "name": "FKSelect",
                                             "attrs": {
                                                 "value": "customerId",
-                                                "title" : "{ i18n('Select Customer') }",
-                                                "icon" : "user",
+                                                "title": "{ i18n('Select Customer') }",
+                                                "icon": "user",
                                                 "limit": "{ 3 }"
                                             },
                                             "kids": [
@@ -72,11 +73,11 @@
                                         },
                                         {
                                             "name": "h3",
-                                            "kids" : [
+                                            "kids": [
                                                 {
-                                                    "name" : "[String]",
+                                                    "name": "[String]",
                                                     "attrs": {
-                                                        "value" : "{ i18n('Order Items') }"
+                                                        "value": "{ i18n('Order Items') }"
                                                     }
                                                 }
                                             ]
@@ -84,13 +85,13 @@
                                         {
                                             "name": "ListEditor",
                                             "attrs": {
-                                                "id" : "orderItemsEditor",
+                                                "id": "orderItemsEditor",
                                                 "data": "{ orderItems }",
-                                                "canReorder" : "{ false }",
-                                                "onNewObject" : "{ orderItems[orderItems.length - 1].orderId = current.id ; orderItems[orderItems.length - 1].quantity = 1 }",
-                                                "icon" : "usd"
+                                                "disabledIf": "{ true }",
+                                                "onNewObject": "{ orderItems[orderItems.length - 1].orderId = current.id ; orderItems[orderItems.length - 1].quantity = 1 }",
+                                                "icon": "usd"
                                             },
-                                            "kids" : [
+                                            "kids": [
                                                 {
                                                     "name": "Field",
                                                     "attrs": {
@@ -101,7 +102,7 @@
                                                     "name": "FKSelect",
                                                     "attrs": {
                                                         "value": "productId",
-                                                        "title" : "{ i18n('Select Product') }"
+                                                        "title": "{ i18n('Select Product') }"
                                                     },
                                                     "kids": [
                                                         {
@@ -138,7 +139,6 @@
                                                 "value": "shippingType"
                                             }
                                         }
-
                                     ]
                                 }
                             ]
@@ -160,14 +160,6 @@
                                                     "attrs": {
                                                         "text": "{ i18n('Cancel') }",
                                                         "transition": "cancel"
-                                                    }
-                                                },
-                                                {
-                                                    "name": "Button",
-                                                    "attrs": {
-                                                        "className": "btn-primary",
-                                                        "text": "{ i18n('Save') }",
-                                                        "action": "{ transition('save') }"
                                                     }
                                                 }
                                             ]

@@ -30,7 +30,7 @@ import org.jooq.impl.UpdatableRecordImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class OrderItemRecord extends UpdatableRecordImpl<OrderItemRecord> implements Record4<String, Integer, String, String> {
 
-	private static final long serialVersionUID = -17795883;
+	private static final long serialVersionUID = 1462869994;
 
 	/**
 	 * Setter for <code>shipping.order_item.id</code>.
@@ -58,6 +58,7 @@ public class OrderItemRecord extends UpdatableRecordImpl<OrderItemRecord> implem
 	/**
 	 * Getter for <code>shipping.order_item.quantity</code>.
 	 */
+	@NotNull
 	public Integer getQuantity() {
 		return (Integer) getValue(1);
 	}
@@ -72,6 +73,7 @@ public class OrderItemRecord extends UpdatableRecordImpl<OrderItemRecord> implem
 	/**
 	 * Getter for <code>shipping.order_item.product_id</code>.
 	 */
+	@NotNull
 	@Size(max = 36)
 	public String getProductId() {
 		return (String) getValue(2);
@@ -87,6 +89,7 @@ public class OrderItemRecord extends UpdatableRecordImpl<OrderItemRecord> implem
 	/**
 	 * Getter for <code>shipping.order_item.order_id</code>.
 	 */
+	@NotNull
 	@Size(max = 36)
 	public String getOrderId() {
 		return (String) getValue(3);
