@@ -54,6 +54,7 @@
                                                     "name": "TButton",
                                                     "attrs": {
                                                         "text": "{ i18n('Cancel') }",
+                                                        "icon" : "remove",
                                                         "transition": "cancel"
                                                     }
                                                 },
@@ -62,6 +63,7 @@
                                                     "attrs": {
                                                         "className" : "btn-primary",
                                                         "text": "{ i18n('Save') }",
+                                                        "icon" : "save",
                                                         "action": "{ transition('save') }"
                                                     }
                                                 },
@@ -71,6 +73,7 @@
                                                         "renderedIf" : "{ current.discontinued }",
                                                         "className" : "btn-primary",
                                                         "text": "{ i18n('Relaunch') }",
+                                                        "icon" : "leaf",
                                                         "action": "{ current.discontinued = false; transition('save') }"
                                                     }
                                                 },
@@ -79,6 +82,7 @@
                                                     "attrs": {
                                                         "renderedIf" : "{ !current.discontinued }",
                                                         "className" : "btn-danger",
+                                                        "icon" : "remove-sign",
                                                         "text": "{ i18n('Discontinue') }",
                                                         "transition": "discontinue"
                                                     }

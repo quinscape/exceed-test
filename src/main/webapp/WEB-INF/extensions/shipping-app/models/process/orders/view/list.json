@@ -69,6 +69,18 @@
                                         {
                                             "name": "DataGrid.Column",
                                             "attrs": {
+                                                "name": "order.status"
+                                            }
+                                        },
+                                        {
+                                            "name": "DataGrid.Column",
+                                            "attrs": {
+                                                "name": "order.shippingType"
+                                            }
+                                        },
+                                        {
+                                            "name": "DataGrid.Column",
+                                            "attrs": {
                                                 "name": "customer.number"
                                             }
                                         },

@@ -7,6 +7,10 @@
             "orderItems" : {
                 "type" : "List",
                 "typeParam" : "OrderItem"
+            },
+            "newStatus" : {
+                "type" : "State",
+                "typeParam" : "OrderStatus"
             }
         }
     },
@@ -40,9 +44,13 @@
         "detail": {
             "type": "xcd.process.ViewState",
             "transitions": {
-                "cancel": {
+                "back": {
                     "to": "list",
                     "discard": true
+                },
+                "changeStatus": {
+                    "action": "store(current)",
+                    "to": "detail"
                 }
             }
         }

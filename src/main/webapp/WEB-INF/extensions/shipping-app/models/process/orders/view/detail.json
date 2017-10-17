@@ -6,7 +6,6 @@
             "name": "Form",
             "attrs": {
                 "id": "myForm",
-                "disabledIf": "{ true }",
                 "data": "{ current }"
             },
             "kids": [
@@ -49,60 +48,24 @@
                                             "name": "ErrorMessages"
                                         },
                                         {
-                                            "name": "FKSelect",
+                                            "name": "FormBlock",
                                             "attrs": {
-                                                "value": "customerId",
-                                                "title": "{ i18n('Select Customer') }",
-                                                "icon": "user",
-                                                "limit": "{ 3 }"
+                                                "disabledIf": "{ true }"
                                             },
                                             "kids": [
                                                 {
-                                                    "name": "FKSelect.Property",
+                                                    "name": "StaticText",
                                                     "attrs": {
-                                                        "name": "number"
-                                                    }
-                                                },
-                                                {
-                                                    "name": "FKSelect.Property",
-                                                    "attrs": {
-                                                        "name": "name"
-                                                    }
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "name": "h3",
-                                            "kids": [
-                                                {
-                                                    "name": "[String]",
-                                                    "attrs": {
-                                                        "value": "{ i18n('Order Items') }"
-                                                    }
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "name": "ListEditor",
-                                            "attrs": {
-                                                "id": "orderItemsEditor",
-                                                "data": "{ orderItems }",
-                                                "disabledIf": "{ true }",
-                                                "onNewObject": "{ orderItems[orderItems.length - 1].orderId = current.id ; orderItems[orderItems.length - 1].quantity = 1 }",
-                                                "icon": "usd"
-                                            },
-                                            "kids": [
-                                                {
-                                                    "name": "Field",
-                                                    "attrs": {
-                                                        "value": "quantity"
+                                                        "value": "status"
                                                     }
                                                 },
                                                 {
                                                     "name": "FKSelect",
                                                     "attrs": {
-                                                        "value": "productId",
-                                                        "title": "{ i18n('Select Product') }"
+                                                        "value": "customerId",
+                                                        "title": "{ i18n('Select Customer') }",
+                                                        "icon": "user",
+                                                        "limit": "{ 3 }"
                                                     },
                                                     "kids": [
                                                         {
@@ -116,28 +79,78 @@
                                                             "attrs": {
                                                                 "name": "name"
                                                             }
-                                                        },
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "h3",
+                                                    "kids": [
                                                         {
                                                             "name": "[String]",
                                                             "attrs": {
-                                                                "value": ": "
-                                                            }
-                                                        },
-                                                        {
-                                                            "name": "FKSelect.Property",
-                                                            "attrs": {
-                                                                "name": "price"
+                                                                "value": "{ i18n('Order Items') }"
                                                             }
                                                         }
                                                     ]
+                                                },
+                                                {
+                                                    "name": "ListEditor",
+                                                    "attrs": {
+                                                        "id": "orderItemsEditor",
+                                                        "data": "{ orderItems }",
+                                                        "disabledIf": "{ true }",
+                                                        "onNewObject": "{ orderItems[orderItems.length - 1].orderId = current.id ; orderItems[orderItems.length - 1].quantity = 1 }",
+                                                        "icon": "usd"
+                                                    },
+                                                    "kids": [
+                                                        {
+                                                            "name": "Field",
+                                                            "attrs": {
+                                                                "value": "quantity"
+                                                            }
+                                                        },
+                                                        {
+                                                            "name": "FKSelect",
+                                                            "attrs": {
+                                                                "value": "productId",
+                                                                "title": "{ i18n('Select Product') }"
+                                                            },
+                                                            "kids": [
+                                                                {
+                                                                    "name": "FKSelect.Property",
+                                                                    "attrs": {
+                                                                        "name": "number"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "name": "FKSelect.Property",
+                                                                    "attrs": {
+                                                                        "name": "name"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "name": "[String]",
+                                                                    "attrs": {
+                                                                        "value": ": "
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "name": "FKSelect.Property",
+                                                                    "attrs": {
+                                                                        "name": "price"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Field",
+                                                    "attrs": {
+                                                        "value": "shippingType"
+                                                    }
                                                 }
                                             ]
-                                        },
-                                        {
-                                            "name": "Field",
-                                            "attrs": {
-                                                "value": "shippingType"
-                                            }
                                         }
                                     ]
                                 }
@@ -158,8 +171,18 @@
                                                 {
                                                     "name": "TButton",
                                                     "attrs": {
-                                                        "text": "{ i18n('Cancel') }",
-                                                        "transition": "cancel"
+                                                        "icon" : "arrow-left",
+                                                        "text": "{ i18n('Back') }",
+                                                        "transition": "back"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "StateMachineButtons",
+                                                    "attrs": {
+                                                        "value": "status",
+                                                        "transition" : "changeStatus",
+                                                        "stateClasses" : "{ { READY : 'btn-primary', SENT : 'btn-primary', DELIVERED : 'btn-primary', PAID : 'btn-primary' } }",
+                                                        "stateIcons" : "{ { READY : 'ok', SENT : 'plane', DELIVERED : 'ok', PAID : 'usd' } }"
                                                     }
                                                 }
                                             ]

@@ -2,6 +2,7 @@ package de.quinscape.exceedapp.config;
 
 import de.quinscape.exceed.model.annotation.ExceedPropertyType;
 import de.quinscape.exceed.model.meta.PropertyType;
+import de.quinscape.exceed.model.state.StateMachine;
 import de.quinscape.exceed.runtime.RuntimeContext;
 import de.quinscape.exceed.runtime.action.Action;
 import de.quinscape.exceed.runtime.action.ActionEnvironment;
@@ -32,34 +33,41 @@ public class ShopActions
 {
     private final static Logger log = LoggerFactory.getLogger(ShopActions.class);
 
-    private final OrderService orderService;
+    private static final String ORDER_STATUS = "OrderStatus";
 
     private final DSLContext dslContext;
 
 
     @Autowired
     public ShopActions(
-        OrderService orderService,
         DSLContext dslContext
     )
     {
-        this.orderService = orderService;
         this.dslContext = dslContext;
     }
 
-
     @Action
-    public void shopCancelOrder(
+    public void shopChangeOrderStatus(
         RuntimeContext runtimeContext,
-        @ExceedPropertyType(type = PropertyType.DOMAIN_TYPE, typeParam = "Order")
-            DomainObject domainObject
+        Order order,
+        String newState
     )
     {
-        domainObject.setProperty("status", OrderStatus.CANCELED.ordinal());
-        domainObject.update(runtimeContext);
+        final StateMachine stateMachine = runtimeContext.getApplicationModel().getStateMachines().get(ORDER_STATUS);
 
-        orderService.cancelOrder(runtimeContext, domainObject);
+        final String currentState = order.getStatus();
+        if (!stateMachine.isValidTransition(currentState, newState))
+        {
+            throw new IllegalStateException("Cannot change order state from " + currentState + " to " + newState );
+        }
+
+        order.setStatus(newState);
+        order.update(runtimeContext);
+
+        log.info("ORDER {} set to {}", order.getId(), newState);
     }
+
+
 
 
     @Action(
@@ -176,7 +184,6 @@ public class ShopActions
 
             customer.setDeliveryAddressId(null);
             
-            deliveryAddress.insertOrUpdate(runtimeContext);
             billingAddress.insertOrUpdate(runtimeContext);
             customer.insertOrUpdate(runtimeContext);
         }

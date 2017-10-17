@@ -189,6 +189,7 @@
                                                     "name": "TButton",
                                                     "attrs": {
                                                         "text": "{ i18n('Cancel') }",
+                                                        "icon" : "remove",
                                                         "transition": "cancel"
                                                     }
                                                 },
@@ -196,6 +197,7 @@
                                                     "name": "Button",
                                                     "attrs": {
                                                         "className" : "btn-primary",
+                                                        "icon" : "save",
                                                         "text": "{ i18n('Save') }",
                                                         "action": "{ transition('save') }"
                                                     }
@@ -204,6 +206,7 @@
                                                     "name": "Button",
                                                     "attrs": {
                                                         "className" : "btn-danger",
+                                                        "icon" : "erase",
                                                         "text": "{ i18n('Delete') }",
                                                         "action": "{ transition('delete') }"
                                                     }
