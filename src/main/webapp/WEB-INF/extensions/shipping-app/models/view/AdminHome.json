@@ -1,0 +1,55 @@
+ {
+    "name": "Home",
+    "title": "Home",
+    "content": {
+        "main": {
+            "name": "Grid",
+            "attrs": {
+                "fluid": "{ true }"
+            },
+            "kids": [
+                {
+                    "name": "Row",
+                    "kids": [
+                        {
+                            "name": "Col",
+                            "attrs": {
+                                "md": "{ 12 }"
+                            },
+                            "kids": [
+                                {
+                                    "name": "div",
+                                    "attrs": {
+                                        "style" : "{ { textAlign : 'center' }}"
+                                    },
+                                    "kids" : [
+                                        {
+                                            "name": "ResourceImage",
+                                            "attrs": {
+                                                "resource": "/image/acme_logo.jpg"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "h1",
+                                    "attrs": {
+                                        "className": "text-center"
+                                    },
+                                    "kids" : [
+                                        {
+                                            "name": "[String]",
+                                            "attrs": {
+                                                "value": "{ i18n('ACME Shipping Administration') }"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

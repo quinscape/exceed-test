@@ -1,0 +1,16 @@
+{
+    "query" : "select date_trunc('month', accepted) as month, sum(\"sum\") from shipping.\"order\" group by month order by month desc;",
+    "count" : "12",
+    "columnTypes" : [
+        {
+            "name" : "month",
+            "type":"PlainText"
+        },
+        {
+            "name" : "sumOfOrders",
+            "type" : "Currency"
+        }
+    ]
+}
+
+

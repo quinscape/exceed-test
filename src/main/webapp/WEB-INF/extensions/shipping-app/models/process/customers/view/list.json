@@ -58,7 +58,7 @@
                                                             "attrs": {
                                                                 "transition": "detail",
                                                                 "className": "btn-primary",
-                                                                "text": "Detail"
+                                                                "text": "{ i18n('Detail') }"
                                                             }
                                                         },
                                                         {

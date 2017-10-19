@@ -179,6 +179,7 @@
                                                 {
                                                     "name": "StateMachineButtons",
                                                     "attrs": {
+                                                        "stateMachine" : "OrderStatus",
                                                         "value": "status",
                                                         "transition" : "changeStatus",
                                                         "stateClasses" : "{ { READY : 'btn-primary', SENT : 'btn-primary', DELIVERED : 'btn-primary', PAID : 'btn-primary' } }",
