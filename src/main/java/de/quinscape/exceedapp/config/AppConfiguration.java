@@ -1,13 +1,13 @@
-package de.quinscape.exceedapp;
+package de.quinscape.exceedapp.config;
 
 import de.quinscape.exceed.runtime.ExceedApplicationConfiguration;
+import de.quinscape.exceedapp.AppSpecificProviderFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
@@ -29,7 +29,7 @@ public class AppConfiguration
     }
 
 
-    @Bean
+    //@Bean
     public AppSpecificProviderFactory appSpecificProvider()
     {
         return new AppSpecificProviderFactory();

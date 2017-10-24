@@ -1,5 +1,5 @@
 {
-    "query" : "select date_trunc('month', accepted) as month, sum(\"sum\") from shipping.\"order\" group by month order by month desc;",
+    "query" : "select date_trunc('month', accepted) as month, sum(\"sum\") from shipping.\"order\" where date_trunc('year', accepted) = date_trunc('year', current_date) group by month order by month;",
     "count" : "12",
     "columnTypes" : [
         {
@@ -7,7 +7,7 @@
             "type":"PlainText"
         },
         {
-            "name" : "sumOfOrders",
+            "name" : "sum",
             "type" : "Currency"
         }
     ]

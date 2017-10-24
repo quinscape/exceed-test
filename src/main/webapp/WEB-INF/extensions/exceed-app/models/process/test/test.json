@@ -22,7 +22,7 @@
             "transitions": {
                 "detail": {
                     "to": "detail",
-                    "action": " current = merge(current) ; syslog('Detail')"
+                    "action": "syslog('Detail')"
                 },
                 "inc": {
                     "to": "check",

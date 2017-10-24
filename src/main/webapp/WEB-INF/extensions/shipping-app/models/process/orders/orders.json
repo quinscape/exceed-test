@@ -24,7 +24,7 @@
                 },
                 "detail": {
                     "to": "detail",
-                    "action": "current = merge(current); orderItems = query( OrderItem.as(oi) ).filter( oi.orderId == current.id)"
+                    "action": "orderItems = query( OrderItem.as(oi) ).filter( oi.orderId == current.id)"
                 }
             }
         },

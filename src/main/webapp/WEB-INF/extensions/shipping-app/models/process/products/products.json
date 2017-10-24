@@ -16,8 +16,7 @@
                     "action": " current = newObject('Product'); current.number = newProductNumber()"
                 },
                 "detail": {
-                    "to": "detail",
-                    "action": "current = merge(current)"
+                    "to": "detail"
                 }
             }
         },

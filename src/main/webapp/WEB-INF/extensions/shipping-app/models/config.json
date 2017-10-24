@@ -7,6 +7,7 @@
         "/resources/css/bootstrap.min.css",
         "/resources/css/yeti-bootstrap.min.css",
         "/resources/css/editor.css",
+        "/resources/css/shippingApp-layout.css",
         "/resources/css/layout.css"
     ]
 }

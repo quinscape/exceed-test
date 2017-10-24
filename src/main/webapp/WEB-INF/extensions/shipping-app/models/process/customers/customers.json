@@ -37,11 +37,11 @@
                 },
                 "detail": {
                     "to": "detail",
-                    "action": "current = merge(current); hasDeliveryAddress = current.deliveryAddressId != null"
+                    "action": "hasDeliveryAddress = current.deliveryAddressId != null"
                 },
                 "detail2": {
                     "to": "detail2",
-                    "action": "current = merge(current); hasDeliveryAddress = current.deliveryAddressId != null"
+                    "action": "hasDeliveryAddress = current.deliveryAddressId != null"
                 }
             }
         },

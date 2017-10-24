@@ -9,7 +9,7 @@
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/component/QueryDataProvider.java" description="implements DataProvider" line="25" />
+    <bookmark url="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/component/QueryDataProvider.java" description="implements DataProvider" line="28" />
     <bookmark url="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/resource/file/PathResources.java" line="24" mnemonic="8" />
     <bookmark url="file://$PROJECT_DIR$/../exceed/src/main/js/editor/code/ExceedCompleter.js" line="275" mnemonic="W" />
     <bookmark url="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/component/ComponentRegistration.java" line="59" mnemonic="0" />
@@ -18,48 +18,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b50f12fa-5932-4d66-94d4-086e06f13a6c" name="Default" comment="Shorten watcher thread name">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/config/DummyOrderService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/service/OrderService.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/customers/view/list.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/customers/view/list.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/view/detail.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/view/detail.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/view/list.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/view/list.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/products/view/detail.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/products/view/detail.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/products/view/list.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/products/view/list.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/config/AppConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/config/AppConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/config/ShopActions.java" afterPath="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/config/ShopActions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/exceed-app/models/process/test/test.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/exceed-app/models/process/test/test.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/config.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain/query/QOrdersPerMonth.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain/query/QOrdersPerMonth.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/customers/customers.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/customers/customers.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/orders.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/orders.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/products/products.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/products/products.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/view/AdminHome.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/view/AdminHome.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/view/Home.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/view/Home.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/exceed.iml" afterPath="$PROJECT_DIR$/../exceed/exceed.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/component/PropType.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/component/PropType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/ApplicationMetaData.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/ApplicationMetaData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/component/QueryDataProvider.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/component/QueryDataProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/component/domain/DomainEditorProvider.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/component/domain/DomainEditorProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/controller/ApplicationController.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/controller/ApplicationController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryDefinition.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryDefinition.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryDomainType.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryDomainType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/client/provider/RuntimeTranslationProvider.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/client/provider/RuntimeTranslationProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/client/provider/editor/EditorDataProvider.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/client/provider/editor/EditorDataProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/spring/ExceedViewResolver.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/spring/ExceedViewResolver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/ExpressionUtil.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/ExpressionUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/view/DataProviderContext.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/view/DataProviderContext.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/view/ViewData.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/view/ViewData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/actions/form-state.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/actions/form-state.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/actions/scope.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/actions/scope.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/app-main.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/app-main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/editor/domain-editor/DomainEditor.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/editor/domain-editor/DomainEditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FKSelect.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FKSelect.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FormElement.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FormElement.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/StateMachineButtons.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/StateMachineButtons.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/TButton.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/TButton.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/components.json" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/components.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/create-store.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/create-store.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/domain/graph.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/domain/graph.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/editor/ace-loader.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/editor/ace-loader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/editor/code/tokens.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/editor/code/tokens.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/form/form-state.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/form/form-state.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/reducers/form-state.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/reducers/form-state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/reducers/meta.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/reducers/meta.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/service/component.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/service/component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/service/i18n.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/service/i18n.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/service/process.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/service/process.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/service/property-converter.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/service/property-converter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/service/runtime-view-api.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/service/runtime-view-api.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/service/undo.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/service/undo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/service/view-renderer.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/service/view-renderer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/service/view.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/service/view.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/services.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/services.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/ui/ActionComponent.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/ui/ActionComponent.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/ui/NewWindow.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/ui/NewWindow.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/ui/PagingComponent.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/ui/PagingComponent.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/ui/Symbol.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/ui/Symbol.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/util/warn-once.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/util/warn-once.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../exceed/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/test/resources/log4j2-test.xml" afterPath="$PROJECT_DIR$/../exceed/src/test/resources/log4j2-test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/test.js" afterPath="$PROJECT_DIR$/../exceed/test.js" />
@@ -95,103 +98,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FormElement.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FormElement.js">
+      <file leaf-file-name="EndState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/process/EndState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="119" column="24" lean-forward="false" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Field.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/form/Field.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-799">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form-state.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/reducers/form-state.js">
+      <file leaf-file-name="SubprocessState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/process/SubprocessState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="180" column="16" lean-forward="false" selection-start-line="180" selection-start-column="16" selection-end-line="180" selection-end-column="16" />
+            <state relative-caret-position="735">
+              <caret line="55" column="27" lean-forward="false" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Form.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/form/Form.js">
+      <file leaf-file-name="ConfigEditor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/editor/ConfigEditor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="89" column="20" lean-forward="false" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+            <state relative-caret-position="195">
+              <caret line="13" column="58" lean-forward="false" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form-state.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/actions/form-state.js">
+      <file leaf-file-name="create-store.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/create-store.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="-944">
+              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail2.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/customers/view/detail2.json">
+      <file leaf-file-name="services.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="127" column="78" lean-forward="false" selection-start-line="127" selection-start-column="78" selection-end-line="127" selection-end-column="78" />
+            <state relative-caret-position="511">
+              <caret line="80" column="42" lean-forward="false" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/products/view/detail.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="47" column="73" lean-forward="false" selection-start-line="47" selection-start-column="73" selection-end-line="47" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="property-converter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/property-converter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scope.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/actions/scope.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3420">
-              <caret line="246" column="16" lean-forward="false" selection-start-line="246" selection-start-column="16" selection-end-line="246" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form-state.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/form/form-state.js">
+      <file leaf-file-name="index.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/node_modules/redux/index.d.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="319">
-              <caret line="457" column="65" lean-forward="false" selection-start-line="457" selection-start-column="65" selection-end-line="457" selection-end-column="65" />
+              <caret line="261" column="13" lean-forward="false" selection-start-line="261" selection-start-column="13" selection-end-line="261" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/actions/editor/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form-state.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/form/form-state.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7110">
+              <caret line="474" column="27" lean-forward="false" selection-start-line="474" selection-start-column="27" selection-end-line="474" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormProvider.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/ui/FormProvider.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/view.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1665">
+              <caret line="111" column="21" lean-forward="false" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -210,58 +211,45 @@
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Enum" />
-        <option value="JavaScript File" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>contains</find>
-      <find>stateLists</find>
-      <find>&quot;icon&quot;</find>
-      <find>&quot;Button&quot;</find>
-      <find>&quot;cancel&quot;</find>
-      <find>\&quot;</find>
-      <find>skip</find>
-      <find>Query</find>
-      <find>chap</find>
-      <find>pop</find>
-      <find>&quot;query-ids&quot;</find>
-      <find>boot</find>
-      <find>hub</find>
-      <find>rtView</find>
-      <find>current = queryDefinition.getQueryDomainType()</find>
-      <find>QueryDomainType current</find>
-      <find>registerTranslations</find>
-      <find>visitor</find>
-      <find>^\s*console.log</find>
-      <find>CONFIRMATION</find>
-      <find>TRANSITION</find>
-      <find>getFieldValues</find>
-      <find>.toUser</find>
-      <find>readFieldValue</find>
-      <find>price</find>
-      <find>updateComponent</find>
-      <find>isFinal</find>
-      <find>getFormConfig(</find>
-      <find>config</find>
-      <find>fieldValues</find>
+      <find>current = merge(current) ;</find>
+      <find>current = merge(current)</find>
+      <find>current = merge(current);</find>
+      <find>contextUpdate</find>
+      <find>catch</find>
+      <find>&quot;wrapper-webpack-plugin&quot;</find>
+      <find>^([ ]*)console.</find>
+      <find>^([ ]*)console\.</find>
+      <find>^([ ]*)console\.log</find>
+      <find>@keyframes</find>
+      <find>@ke</find>
+      <find>zoomOu</find>
+      <find>ease-in</find>
+      <find>radar-</find>
+      <find>.close</find>
+      <find>th</find>
+      <find>componentD</find>
+      <find>this.close</find>
+      <find>this.closeInfo</find>
+      <find>1s</find>
+      <find>TargetF</find>
+      <find>shopChangeOrderStatus</find>
+      <find>changeStatus</find>
+      <find>SIZE_LABEL</find>
+      <find>FONT_SIZE_LABEL</find>
+      <find>LAYOUT_LABEL</find>
+      <find>STATE_MACHIN</find>
+      <find>?</find>
+      <find>ProcessEnd</find>
+      <find>FormProvider</find>
     </findStrings>
     <replaceStrings>
-      <replace>cfg</replace>
-      <replace>&quot;field&quot;, &quot;needs-id&quot;,</replace>
-      <replace>disabledId</replace>
-      <replace>disabledIf</replace>
-      <replace>env = ActionEnvironment.CLIENT</replace>
-      <replace>getEnumType</replace>
-      <replace>getEnumType(</replace>
-      <replace>DIALOG_CLOSED</replace>
-      <replace>DIALOG_OPEN</replace>
-      <replace>Long</replace>
-      <replace>RETURN</replace>
-      <replace>RETURNED</replace>
-      <replace>{... this.props }</replace>
       <replace>when</replace>
       <replace>methodName</replace>
       <replace>DataCursor</replace>
@@ -279,6 +267,19 @@
       <replace>td&gt;</replace>
       <replace>Number</replace>
       <replace>&quot;</replace>
+      <replace>queries</replace>
+      <replace>query.name</replace>
+      <replace>160</replace>
+      <replace>80</replace>
+      <replace>halfHeight *</replace>
+      <replace>label</replace>
+      <replace>infoIndex</replace>
+      <replace>chartConfig</replace>
+      <replace>$1</replace>
+      <replace>$1console.</replace>
+      <replace>//$1console.log</replace>
+      <replace>ease-out</replace>
+      <replace>0.8s</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/../exceed/src/test/js/domain/test-lists</dir>
@@ -289,11 +290,12 @@
       <dir>$PROJECT_DIR$/src/main/webapp/extensions/exceed-app/models/domain</dir>
       <dir>$PROJECT_DIR$/../exceed/src/main/js/service</dir>
       <dir>$PROJECT_DIR$/../exceed/node_modules</dir>
-      <dir>$PROJECT_DIR$/../exceed/src</dir>
       <dir>$PROJECT_DIR$/../exceed</dir>
       <dir>$PROJECT_DIR$/../exceed/src/main/js/components</dir>
       <dir>$PROJECT_DIR$/../exceed/src/main/js</dir>
       <dir>$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app</dir>
+      <dir>$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime</dir>
+      <dir>$PROJECT_DIR$/../exceed/src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -303,57 +305,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../exceed/src/test/js/domain/graph.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/tooling/ExpressionConfigMock.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/tooling/ExpressionDocBaseConfiguration.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/def/Definition.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/def/FunctionDefinition.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/tooling/GenerateModelDocs.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/def/DefinitionsBuilder.java" />
-        <option value="$PROJECT_DIR$/../exceed/pom.xml" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/ApplicationModel.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/editor/ace-loader.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/app-main.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/service/view-renderer.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/spring/ExceedViewResolver.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/controller/ApplicationController.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/client/provider/editor/EditorDataProvider.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/service/component.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/exceed-app/models/process/test/test.json" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/customers/customers.json" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/orders.json" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/products/products.json" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/builtin/ExceedBaseActions.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/process/TransitionInput.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/ContextUpdate.java" />
+        <option value="/JavaScript 1.6 Fragment (Home.json:4242).js" />
+        <option value="$PROJECT_DIR$/../exceed/test.json" />
+        <option value="/var/www/test/react.html" />
+        <option value="$PROJECT_DIR$/../exceed/webpack.config.js" />
+        <option value="$PROJECT_DIR$/../exceed/package.json" />
+        <option value="$PROJECT_DIR$/../exceed/src/test/js/ui/test-dom.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/config.json" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/server-main.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/service/hub.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/actions/editor/editorView.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/actions/editor/index.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/editor/domain-editor/DomainEditor.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/editor/domain-editor/MergeModal.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/ErrorMessages.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FormBlock.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/SelectField.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/editor-main.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/editor/Editor.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/editor/NamedGroup.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/editor/code/EditorDocument.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/editor/code/ExceedCompleter.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/editor/code/XMLEditor.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/editor/gui/gui-context.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/editor/util/match-url.js" />
         <option value="$PROJECT_DIR$/../exceed/src/main/js/service/runtime-view-api.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryDomainType.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/view/DataProviderContext.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/component/QueryDataProvider.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/client/provider/RuntimeTranslationProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/view/detail.json" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/components.json" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/StateMachineButtons.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/ui/ErrorBoundary.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/util/click-outside.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/resources/css/shippingApp-layout.css" />
+        <option value="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/config/AppConfiguration.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FKSelect.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/service/view-renderer.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/gfx/svg-layout.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/util/DocumentClick.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/ExceedContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/config/ShopActions.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/chart/BarChart.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/util/is-array.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/util/convert.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/chart/RadarChart.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/DomainUtil.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/domain/graph.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/service/view.js" />
         <option value="$PROJECT_DIR$/../exceed/src/main/js/create-store.js" />
         <option value="$PROJECT_DIR$/../exceed/src/main/js/services.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/service/undo.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/ui/ActionComponent.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/ui/NewWindow.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/ui/PagingComponent.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/ui/Symbol.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/editor/domain-editor/DomainEditor.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/component/PropType.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/ExpressionUtil.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/view/ViewData.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/service/process.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/TButton.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/products/view/list.json" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/view/list.json" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/customers/view/list.json" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/RoutingTabelValidator.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/RoutingTableValidator.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/ApplicationMetaData.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryDefinition.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain/query/QOrdersPerMonth.json" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/actions/scope.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FormElement.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/products/view/detail.json" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/actions/form-state.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/reducers/form-state.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/form/form-state.js" />
       </list>
     </option>
   </component>
@@ -398,9 +400,10 @@
     <handled-path value="$PROJECT_DIR$/../exceed/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-4" />
-    <option name="width" value="1920" />
-    <option name="height" value="1084" />
+    <option name="x" value="-1" />
+    <option name="y" value="-11" />
+    <option name="width" value="1922" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -705,7 +708,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -737,134 +740,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="std" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="std" type="462c0819:PsiDirectoryNode" />
-              <item name="shim" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="shipping-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="shipping-app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="shipping-app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="shipping-app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="query" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -878,7 +760,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-test" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.43043044" />
@@ -886,7 +768,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="JavaScriptLanguageLevel" value="JSX" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="215" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="237" />
@@ -904,7 +786,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1131" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/sven/ideaprojects/exceed/src/test/java/de/quinscape/exceed/runtime/js/js-action-test/models/process/test/view/list.json&#10;hydr&#9;null&#9;null&#10;getFieldCur&#9;null&#9;null&#10;walk&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.js.TypeAnalyzerContext#walk&#10;hasFieldC&#9;null&#9;null&#10;QueryM&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.domain.JOOQDomainOperations.QueryMapper&#10;describe&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.ExpressionUtil#describe&#10;registerSt&#9;PSI&#9;JAVA://de.quinscape.exceed.model.meta.ApplicationMetaData#registerStateMachineIdentifiers&#10;getColl&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.ExpressionUtil#getCollectionType&#10;getCol&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.ExpressionUtil#getCollectionType&#10;resetA&#9;null&#9;null&#10;updateComp&#9;null&#9;null&#10;fieldOf&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.editor.completion.expression.PropCompleteOperations#fieldOf&#10;updateCom&#9;null&#9;null&#10;convertCom&#9;null&#9;null&#10;maxDec&#9;PSI&#9;JAVA://de.quinscape.exceed.model.config.DecimalConfig#setMaxDecimalPlaces&#10;initializeDef&#9;PSI&#9;JAVA://de.quinscape.exceed.model.translation.TranslationEditorState#initializeDefaults&#10;previewV&#9;null&#9;null&#10;enterV&#9;null&#9;null&#10;loadE&#9;null&#9;null&#10;loadEditor&#9;null&#9;null&#10;CLEAR_F&#9;null&#9;null&#10;searchM&#9;null&#9;null&#10;DOMAIN_TYPE_P&#9;PSI&#9;JAVA://de.quinscape.exceed.model.domain.DomainProperty#DOMAIN_TYPE_PROPERTY_TYPE&#10;saveV&#9;null&#9;null&#10;PreviewM&#9;null&#9;null&#10;loadEditorV&#9;null&#9;null&#10;applyL&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.model.ModelCompositionService#applyLayout&#10;getScopeQ&#9;null&#9;null&#10;ViewCom&#9;null&#9;null&#10;ViewWr&#9;null&#9;null&#10;getServerSideActionsInSystem&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.config.ExceedViewResolver#getServerSideActionsInSystem&#10;dumpV&#9;null&#9;null&#10;EditorState&#9;null&#9;null&#10;setCached&#9;PSI&#9;JAVA://de.quinscape.exceed.model.view.View#setCachedJSON&#10;Entity&#9;null&#9;null&#10;entity&#9;null&#9;null&#10;parseSing&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.Util#parseSingleQuotedString&#10;Col&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.controller.ActionController.CollectionConversion&#10;Coll&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.controller.ActionController.CollectionConversion&#10;CollectionC&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.controller.ActionController.CollectionConversion&#10;system&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.domain.SystemStorageExecutor&#10;modelStorage&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.config.DomainConfiguration#modelStorage&#10;domainSer&#9;FILE&#9;file:///home/sven/ideaprojects/exceed/src/main/java/de/quinscape/exceed/runtime/service/DomainServiceFactory.java&#10;ModelMapper&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.model.ModelJSONServiceImpl.ModelMapper&#10;route&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.application.DefaultRuntimeApplication#route&#10;TemporalU&#9;PSI&#9;JAVA://java.time.temporal.TemporalUnit&#10;defaultDataPro&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.config.ServiceConfiguration#defaultDataProvider" />
+    <property name="SearchEverywhereHistoryKey" value="describe&#9;FILE&#9;file:///home/sven/ideaprojects/exceed/src/main/js/util/describe-property.js&#10;hydr&#9;null&#9;null&#10;getFieldCur&#9;null&#9;null&#10;walk&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.js.TypeAnalyzerContext#walk&#10;hasFieldC&#9;null&#9;null&#10;QueryM&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.domain.JOOQDomainOperations.QueryMapper&#10;registerSt&#9;PSI&#9;JAVA://de.quinscape.exceed.model.meta.ApplicationMetaData#registerStateMachineIdentifiers&#10;getColl&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.ExpressionUtil#getCollectionType&#10;getCol&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.ExpressionUtil#getCollectionType&#10;resetA&#9;null&#9;null&#10;updateComp&#9;null&#9;null&#10;fieldOf&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.editor.completion.expression.PropCompleteOperations#fieldOf&#10;updateCom&#9;null&#9;null&#10;convertCom&#9;null&#9;null&#10;maxDec&#9;PSI&#9;JAVA://de.quinscape.exceed.model.config.DecimalConfig#setMaxDecimalPlaces&#10;initializeDef&#9;PSI&#9;JAVA://de.quinscape.exceed.model.translation.TranslationEditorState#initializeDefaults&#10;previewV&#9;null&#9;null&#10;enterV&#9;null&#9;null&#10;loadE&#9;null&#9;null&#10;loadEditor&#9;null&#9;null&#10;CLEAR_F&#9;null&#9;null&#10;searchM&#9;null&#9;null&#10;DOMAIN_TYPE_P&#9;PSI&#9;JAVA://de.quinscape.exceed.model.domain.DomainProperty#DOMAIN_TYPE_PROPERTY_TYPE&#10;saveV&#9;null&#9;null&#10;PreviewM&#9;null&#9;null&#10;loadEditorV&#9;null&#9;null&#10;applyL&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.model.ModelCompositionService#applyLayout&#10;getScopeQ&#9;null&#9;null&#10;ViewCom&#9;null&#9;null&#10;ViewWr&#9;null&#9;null&#10;getServerSideActionsInSystem&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.config.ExceedViewResolver#getServerSideActionsInSystem&#10;dumpV&#9;null&#9;null&#10;EditorState&#9;null&#9;null&#10;setCached&#9;PSI&#9;JAVA://de.quinscape.exceed.model.view.View#setCachedJSON&#10;Entity&#9;null&#9;null&#10;entity&#9;null&#9;null&#10;parseSing&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.Util#parseSingleQuotedString&#10;Col&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.controller.ActionController.CollectionConversion&#10;Coll&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.controller.ActionController.CollectionConversion&#10;CollectionC&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.controller.ActionController.CollectionConversion&#10;system&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.domain.SystemStorageExecutor&#10;modelStorage&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.config.DomainConfiguration#modelStorage&#10;domainSer&#9;FILE&#9;file:///home/sven/ideaprojects/exceed/src/main/java/de/quinscape/exceed/runtime/service/DomainServiceFactory.java&#10;ModelMapper&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.model.ModelJSONServiceImpl.ModelMapper&#10;route&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.application.DefaultRuntimeApplication#route&#10;TemporalU&#9;PSI&#9;JAVA://java.time.temporal.TemporalUnit&#10;defaultDataPro&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.config.ServiceConfiguration#defaultDataProvider" />
     <property name="javascript.nodejs.core.library.configured.version" value="7.10.1" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
@@ -964,18 +846,18 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/exceed-app/models/domain/enum" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../exceed/src/main/js/components/std/chart" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain/query" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/view" />
       <recent name="$PROJECT_DIR$/../exceed/src/main/js/components/std/form" />
       <recent name="$PROJECT_DIR$/../exceed/src/main/base/models/domain/property" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/view" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="de.quinscape.exceed.runtime.domain.property" />
       <recent name="de.quinscape.exceed.runtime.action" />
       <recent name="de.quinscape.exceed.runtime.action.param" />
       <recent name="de.quinscape.exceed.model.process" />
-      <recent name="de.quinscape.exceed.tooling" />
     </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="de.quinscape.exceed.model.domain.type.DomainType" />
@@ -985,11 +867,11 @@
       <recent name="de.quinscape.exceed.model.domain.PropertyTypeModel" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="de.quinscape.exceed.runtime.expression.query" />
       <recent name="de.quinscape.exceed.model.meta" />
       <recent name="de.quinscape.exceed.tooling" />
       <recent name="de.quinscape.exceed.runtime.expression.transform" />
       <recent name="de.quinscape.exceed.runtime.js.env" />
-      <recent name="de.quinscape.exceed.runtime.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1016,6 +898,26 @@
       <test-kind>TEST_FILE</test-kind>
       <test-file>$PROJECT_DIR$/../exceed/src/test/js/service/action.js</test-file>
     </configuration>
+    <configuration name="All in exceed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="exceed" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="Annotate" type="mocha-javascript-test-runner" factoryName="Mocha" singleton="false">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -1026,6 +928,52 @@
       <extra-mocha-options>--compilers js:babel-register</extra-mocha-options>
       <test-kind>TEST_FILE</test-kind>
       <test-file>$PROJECT_DIR$/../exceed/src/test/js/ui/Annotate.js</test-file>
+    </configuration>
+    <configuration name="AppConfiguration" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="de.quinscape.exceedapp.config.AppConfiguration" />
+      <option name="SHOW_IN_DASHBOARD" value="true" />
+      <module name="exceed-app" />
+      <envs />
+    </configuration>
+    <configuration name="CreateOrdersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="exceed-app" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreateOrdersTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CreateOrdersTest.testDSL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="exceed-app" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreateOrdersTest" />
+      <option name="METHOD_NAME" value="testDSL" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="DataGraph" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true">
       <node-interpreter>project</node-interpreter>
@@ -1038,56 +986,10 @@
       <test-kind>TEST_FILE</test-kind>
       <test-file>$PROJECT_DIR$/../exceed/src/test/js/domain/graph.js</test-file>
     </configuration>
-    <configuration name="DataGraph.Cursor.extracts array graph slices" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$/../exceed</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options>--compilers js:babel-register -r tooling/webpack</extra-mocha-options>
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/../exceed/src/test/js/domain/graph.js</test-file>
-      <test-names>
-        <name value="DataGraph" />
-        <name value="Cursor" />
-        <name value="extracts array graph slices" />
-      </test-names>
-    </configuration>
-    <configuration name="DataGraph.Cursor.extracts nested domain objects" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$/../exceed</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options>--compilers js:babel-register -r tooling/webpack</extra-mocha-options>
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/../exceed/src/test/js/domain/graph.js</test-file>
-      <test-names>
-        <name value="DataGraph" />
-        <name value="Cursor" />
-        <name value="extracts nested domain objects" />
-      </test-names>
-    </configuration>
-    <configuration name="DataGraph.supports complex object maps" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$/../exceed</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/../exceed/src/test/js/domain/graph.js</test-file>
-      <test-names>
-        <name value="DataGraph" />
-        <name value="supports complex object maps" />
-      </test-names>
-    </configuration>
     <configuration name="EditorConfiguration" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="de.quinscape.exceedapp.AppConfiguration" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <module name="exceed-app" />
       <envs />
     </configuration>
@@ -1104,26 +1006,6 @@
       <test-names>
         <name value="Settings" />
       </test-names>
-    </configuration>
-    <configuration name="StateMachineTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="exceed" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="de.quinscape.exceed.model.state" />
-      <option name="MAIN_CLASS_NAME" value="de.quinscape.exceed.model.state.StateMachineTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -1211,6 +1093,11 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SHOW_IN_DASHBOARD" value="true" />
+      <module name="" />
+      <envs />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -1332,11 +1219,6 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -1371,6 +1253,7 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <configuration name="create-store.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="create-store.js" node-parameters="-r babel-register" working-dir="$PROJECT_DIR$/../exceed/src/main/js" />
     <configuration name="exceed (spring-loaded)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="COMMON_VM_ARGUMENTS" value="-noverify -javaagent:$MAVEN_REPOSITORY$/org/springframework/springloaded/1.2.3.RELEASE/springloaded-1.2.3.RELEASE.jar -Dexceed.library.source=$PROJECT_DIR$/../exceed" />
@@ -1503,7 +1386,7 @@
       <test-kind>TEST_FILE</test-kind>
       <test-file>$PROJECT_DIR$/../exceed/src/test/js/util/parse-number.js</test-file>
     </configuration>
-    <list size="14">
+    <list size="15">
       <item index="0" class="java.lang.String" itemvalue="Application.GenerateModelDocs" />
       <item index="1" class="java.lang.String" itemvalue="Application.GenerateComponentClasses" />
       <item index="2" class="java.lang.String" itemvalue="Mocha.Annotate" />
@@ -1511,21 +1394,22 @@
       <item index="4" class="java.lang.String" itemvalue="Mocha.parseNumber" />
       <item index="5" class="java.lang.String" itemvalue="Mocha.Action Service" />
       <item index="6" class="java.lang.String" itemvalue="Spring Boot.EditorConfiguration" />
-      <item index="7" class="java.lang.String" itemvalue="Tomcat Server.exceed (spring-loaded)" />
-      <item index="8" class="java.lang.String" itemvalue="Tomcat Server.exceed" />
-      <item index="9" class="java.lang.String" itemvalue="JUnit.StateMachineTest.test" />
-      <item index="10" class="java.lang.String" itemvalue="Mocha.DataGraph" />
-      <item index="11" class="java.lang.String" itemvalue="Mocha.DataGraph.supports complex object maps" />
-      <item index="12" class="java.lang.String" itemvalue="Mocha.DataGraph.Cursor.extracts array graph slices" />
-      <item index="13" class="java.lang.String" itemvalue="Mocha.DataGraph.Cursor.extracts nested domain objects" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.AppConfiguration" />
+      <item index="8" class="java.lang.String" itemvalue="Tomcat Server.exceed (spring-loaded)" />
+      <item index="9" class="java.lang.String" itemvalue="Tomcat Server.exceed" />
+      <item index="10" class="java.lang.String" itemvalue="JUnit.All in exceed" />
+      <item index="11" class="java.lang.String" itemvalue="JUnit.CreateOrdersTest.testDSL" />
+      <item index="12" class="java.lang.String" itemvalue="JUnit.CreateOrdersTest" />
+      <item index="13" class="java.lang.String" itemvalue="Mocha.DataGraph" />
+      <item index="14" class="java.lang.String" itemvalue="Node.js.create-store.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.DataGraph" />
-        <item index="1" class="java.lang.String" itemvalue="Mocha.DataGraph.Cursor.extracts nested domain objects" />
-        <item index="2" class="java.lang.String" itemvalue="Mocha.DataGraph.Cursor.extracts array graph slices" />
-        <item index="3" class="java.lang.String" itemvalue="Mocha.DataGraph.supports complex object maps" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.StateMachineTest.test" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.create-store.js" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in exceed" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CreateOrdersTest.testDSL" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CreateOrdersTest" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.DataGraph" />
       </list>
     </recent_temporary>
   </component>
@@ -2326,6 +2210,17 @@
       <workItem from="1508259006551" duration="19841000" />
       <workItem from="1508321150341" duration="27950000" />
       <workItem from="1508401151819" duration="2862000" />
+      <workItem from="1508430142487" duration="12286000" />
+      <workItem from="1508492717271" duration="30185000" />
+      <workItem from="1508581069121" duration="12451000" />
+      <workItem from="1508597468870" duration="6000" />
+      <workItem from="1508598002973" duration="14334000" />
+      <workItem from="1508670677555" duration="22400000" />
+      <workItem from="1508753405472" duration="8720000" />
+      <workItem from="1508775173487" duration="1819000" />
+      <workItem from="1508779419225" duration="3278000" />
+      <workItem from="1508784614673" duration="2822000" />
+      <workItem from="1508835031383" duration="2651000" />
     </task>
     <task id="LOCAL-00001" summary="Shorten watcher thread name">
       <created>1445086219627</created>
@@ -2338,39 +2233,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DataGraph - 2017.10.18 at 16h 31m 23s.xml">
-      <configuration name="DataGraph" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="All_in_exceed - 2017.10.22 at 17h 13m 25s.xml">
+      <configuration name="All in exceed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataGraph - 2017.10.18 at 16h 40m 22s.xml">
-      <configuration name="DataGraph" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="CreateOrdersTest - 2017.10.21 at 17h 44m 05s.xml">
+      <configuration name="CreateOrdersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataGraph - 2017.10.18 at 16h 40m 58s.xml">
-      <configuration name="DataGraph" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="CreateOrdersTest_testDSL - 2017.10.21 at 17h 38m 19s.xml">
+      <configuration name="CreateOrdersTest.testDSL" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataGraph_Cursor_extracts_nested_domain_objects - 2017.10.18 at 16h 32m 56s.xml">
-      <configuration name="DataGraph.Cursor.extracts nested domain objects" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="CreateOrdersTest_testDSL - 2017.10.21 at 17h 38m 54s.xml">
+      <configuration name="CreateOrdersTest.testDSL" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataGraph_Cursor_extracts_nested_domain_objects - 2017.10.18 at 16h 35m 30s.xml">
-      <configuration name="DataGraph.Cursor.extracts nested domain objects" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="CreateOrdersTest_testDSL - 2017.10.21 at 17h 42m 19s.xml">
+      <configuration name="CreateOrdersTest.testDSL" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataGraph_Cursor_extracts_nested_domain_objects - 2017.10.18 at 16h 38m 22s.xml">
-      <configuration name="DataGraph.Cursor.extracts nested domain objects" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="CreateOrdersTest_testDSL - 2017.10.21 at 17h 47m 18s.xml">
+      <configuration name="CreateOrdersTest.testDSL" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataGraph_Cursor_extracts_nested_domain_objects - 2017.10.18 at 16h 38m 49s.xml">
-      <configuration name="DataGraph.Cursor.extracts nested domain objects" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="CreateOrdersTest_testDSL - 2017.10.21 at 17h 47m 29s.xml">
+      <configuration name="CreateOrdersTest.testDSL" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataGraph_Cursor_extracts_nested_domain_objects - 2017.10.18 at 16h 39m 22s.xml">
-      <configuration name="DataGraph.Cursor.extracts nested domain objects" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="CreateOrdersTest_testDSL - 2017.10.21 at 17h 54m 58s.xml">
+      <configuration name="CreateOrdersTest.testDSL" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataGraph_Cursor_extracts_nested_domain_objects - 2017.10.18 at 16h 39m 46s.xml">
-      <configuration name="DataGraph.Cursor.extracts nested domain objects" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="DomainConfigurationTest_testDSL - 2017.10.21 at 15h 00m 34s.xml">
+      <configuration name="DomainConfigurationTest.testDSL" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataGraph_Cursor_extracts_nested_domain_objects - 2017.10.18 at 16h 40m 17s.xml">
-      <configuration name="DataGraph.Cursor.extracts nested domain objects" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="DomainConfigurationTest_testDSL - 2017.10.21 at 15h 09m 01s.xml">
+      <configuration name="DomainConfigurationTest.testDSL" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6530336000" />
+    <option name="totallyTimeSpent" value="6641288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2382,7 +2277,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1922" height="1092" extended-state="6" />
+    <frame x="-1" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2391,36 +2286,37 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41415194" sideWeight="0.5255942" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="14" side_tool="false" content_ui="combo" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29369918" sideWeight="0.86206895" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09552845" sideWeight="0.49583334" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29369918" sideWeight="0.86206895" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32780084" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35416666" sideWeight="0.512474" order="0" side_tool="false" content_ui="combo" x="726" y="99" width="468" height="962" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35363883" sideWeight="0.512474" order="0" side_tool="false" content_ui="combo" x="726" y="99" width="468" height="962" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4054878" sideWeight="0.47440585" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920128" sideWeight="0.487526" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3912591" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3902439" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24440895" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24427083" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4054878" sideWeight="0.47440585" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -2433,32 +2329,33 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24440895" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24427083" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920128" sideWeight="0.487526" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3912591" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3902439" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32049948" sideWeight="0.48935038" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32012194" sideWeight="0.48935038" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="15" side_tool="false" content_ui="combo" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3007284" sideWeight="0.86206895" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31737775" sideWeight="0.49583334" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09552845" sideWeight="0.49583334" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29369918" sideWeight="0.86206895" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32780084" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35835996" sideWeight="0.512474" order="0" side_tool="false" content_ui="combo" x="726" y="99" width="468" height="962" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32780084" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35363883" sideWeight="0.512474" order="0" side_tool="false" content_ui="combo" x="726" y="99" width="468" height="962" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40582725" sideWeight="0.47440585" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4054878" sideWeight="0.47440585" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
@@ -2529,7 +2426,7 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryTransformerOperations.java</url>
-          <line>710</line>
+          <line>711</line>
           <properties />
           <option name="timeStamp" value="829" />
         </line-breakpoint>
@@ -2591,15 +2488,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/PropertyType.java</url>
-          <line>193</line>
+          <line>195</line>
           <properties />
           <option name="timeStamp" value="862" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/ContextUpdate.java</url>
-          <line>21</line>
+          <line>24</line>
           <properties />
           <option name="timeStamp" value="863" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/component/QueryDataProvider.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="869" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../exceed/src/test/js/domain/graph.js</url>
@@ -2620,7 +2523,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="869" />
+      <option name="time" value="870" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -2634,391 +2537,366 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/editor/domain-editor/MergeModal.js">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/editor/code/EditorDocument.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="178">
+          <caret line="206" column="0" lean-forward="false" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/npm/bin/npm-cli.js">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/editor/code/ExceedCompleter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="178">
+          <caret line="289" column="0" lean-forward="false" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/npm/bin/read-package-json.js">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/editor/code/XMLEditor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="186">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/npm/lib/build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="195" column="0" lean-forward="false" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/npm/lib/cache.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/npm/lib/completion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="206" column="0" lean-forward="false" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/npm/lib/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="277" column="0" lean-forward="false" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/npm/lib/dist-tag.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/npm/lib/help-search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="206" column="0" lean-forward="false" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/npm/lib/help.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/npm/lib/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/npm/lib/link.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/npm/lib/ls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/npm/lib/outdated.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/npm/lib/owner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="243" column="0" lean-forward="false" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/npm/lib/pack.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/npm/lib/publish.js">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/editor/gui/gui-context.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
-          <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+          <caret line="206" column="0" lean-forward="false" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/client/scope/TranslationReferenceVisitor.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/editor/util/match-url.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/hotreload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/websocket-fallback.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
-          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/client/provider/RuntimeTranslationProvider.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/base/resources/css/editor.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="75" column="68" lean-forward="true" selection-start-line="75" selection-start-column="68" selection-end-line="75" selection-end-column="68" />
+        <state relative-caret-position="186">
+          <caret line="387" column="0" lean-forward="false" selection-start-line="387" selection-start-column="0" selection-end-line="387" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/component/PropType.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/chart/RadarChart.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/ExpressionUtil.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/runtime-view-api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="439" column="41" lean-forward="true" selection-start-line="439" selection-start-column="41" selection-end-line="439" selection-end-column="41" />
+        <state relative-caret-position="1065">
+          <caret line="71" column="13" lean-forward="false" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/ApplicationModel.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/ui/ErrorReport.es5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="219" column="12" lean-forward="false" selection-start-line="219" selection-start-column="12" selection-end-line="219" selection-end-column="12" />
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/view/ViewData.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/ui/ErrorBoundary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/application/ComponentError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/ui/ComponentError.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/resources/css/shippingApp-layout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="104" column="16" lean-forward="true" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/process.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/config/DummyOrderService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/AppSpecificProviderFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="52" column="18" lean-forward="false" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/form/TButton.js">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/ExceedApplicationConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="98" column="16" lean-forward="false" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="450">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/ExpressionTypeValidator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/config/AppConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        <state relative-caret-position="240">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/ApplicationError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/ModelValidationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/ModelValidator.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/misc/exceed-tech-stack.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/products/view/list.json">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FKSelect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="73" column="69" lean-forward="false" selection-start-line="73" selection-start-column="69" selection-end-line="73" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/view-renderer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="419" column="10" lean-forward="false" selection-start-line="419" selection-start-column="10" selection-end-line="419" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/gfx/svg-layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="53" lean-forward="false" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/util/DocumentClick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/domain/tables/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="34" column="39" lean-forward="false" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/param/ContextPropertyValueProviderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/action/ExceedContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jooq/jooq/3.6.2/jooq-3.6.2-sources.jar!/org/jooq/impl/AbstractTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="92" column="15" lean-forward="false" selection-start-line="92" selection-start-column="15" selection-end-line="92" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jooq/jooq/3.6.2/jooq-3.6.2-sources.jar!/org/jooq/impl/TableImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="66" column="55" lean-forward="false" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/quinscape/exceedapp/config/ShopActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="4" lean-forward="false" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/orders.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/view/detail.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/chart/BarChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4035">
+          <caret line="269" column="0" lean-forward="false" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/util/is-array.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="81" lean-forward="false" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/util/convert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3705">
+          <caret line="247" column="48" lean-forward="false" selection-start-line="247" selection-start-column="48" selection-end-line="247" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/chart/RadarChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2115">
+          <caret line="141" column="32" lean-forward="false" selection-start-line="141" selection-start-column="32" selection-end-line="141" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/chart/components.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/java/jdk1.8/src.zip!/java/util/LinkedHashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="152" column="11" lean-forward="false" selection-start-line="152" selection-start-column="11" selection-end-line="152" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/collect/Sets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2685">
+          <caret line="199" column="31" lean-forward="false" selection-start-line="199" selection-start-column="31" selection-end-line="199" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/DomainUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2865">
+          <caret line="191" column="70" lean-forward="false" selection-start-line="191" selection-start-column="70" selection-end-line="191" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/domain/graph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2445">
+          <caret line="163" column="39" lean-forward="false" selection-start-line="163" selection-start-column="38" selection-end-line="163" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/process/EndState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/process/SubprocessState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
-          <caret line="49" column="66" lean-forward="false" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="66" />
+          <caret line="55" column="27" lean-forward="false" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/orders/view/list.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="83" lean-forward="false" selection-start-line="57" selection-start-column="83" selection-end-line="57" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/customers/view/list.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="91" lean-forward="false" selection-start-line="60" selection-start-column="91" selection-end-line="60" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/routing/RoutingTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-          <folding>
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1097#1098#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/RoutingTableValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/ApplicationMetaData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5610">
-          <caret line="398" column="9" lean-forward="false" selection-start-line="398" selection-start-column="9" selection-end-line="398" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/view/Home.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/view/AdminHome.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/domain/type/QueryTypeModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="315" column="0" lean-forward="false" selection-start-line="315" selection-start-column="0" selection-end-line="315" selection-end-column="0" />
-          <folding>
-            <element signature="e#7423#7424#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain/query/QCustomerWithAddresses.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain/query/QOrdersPerMonth.json">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/ui/FormProvider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/property-converter.js">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/service/view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/customers/view/detail2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="127" column="78" lean-forward="false" selection-start-line="127" selection-start-column="78" selection-end-line="127" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/process/products/view/detail.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="47" column="73" lean-forward="false" selection-start-line="47" selection-start-column="73" selection-end-line="47" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/form/Field.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-799">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/actions/scope.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3420">
-          <caret line="246" column="16" lean-forward="false" selection-start-line="246" selection-start-column="16" selection-end-line="246" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/actions/form-state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/form/Form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="89" column="20" lean-forward="false" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/form/FormElement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="119" column="24" lean-forward="false" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/reducers/form-state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="180" column="16" lean-forward="false" selection-start-line="180" selection-start-column="16" selection-end-line="180" selection-end-column="16" />
+        <state relative-caret-position="1665">
+          <caret line="111" column="21" lean-forward="false" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/form/form-state.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7110">
+          <caret line="474" column="27" lean-forward="false" selection-start-line="474" selection-start-column="27" selection-end-line="474" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/actions/editor/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/editor/ConfigEditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="58" lean-forward="false" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/node_modules/redux/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
-          <caret line="457" column="65" lean-forward="false" selection-start-line="457" selection-start-column="65" selection-end-line="457" selection-end-column="65" />
+          <caret line="261" column="13" lean-forward="false" selection-start-line="261" selection-start-column="13" selection-end-line="261" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/create-store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-944">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="80" column="42" lean-forward="false" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
           <folding />
         </state>
       </provider>

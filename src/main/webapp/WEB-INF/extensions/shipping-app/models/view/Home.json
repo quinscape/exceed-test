@@ -5,7 +5,6 @@
         "main": {
             "name": "Grid",
             "attrs": {
-                "fluid": "{ true }"
             },
             "kids": [
                 {
@@ -17,20 +16,6 @@
                                 "md": "{ 12 }"
                             },
                             "kids": [
-                                {
-                                    "name": "div",
-                                    "attrs": {
-                                        "style" : "{ { textAlign : 'center' }}"
-                                    },
-                                    "kids" : [
-                                        {
-                                            "name": "ResourceImage",
-                                            "attrs": {
-                                                "resource": "/image/acme_logo.jpg"
-                                            }
-                                        }
-                                    ]
-                                },
                                 {
                                     "name": "h1",
                                     "attrs": {
@@ -44,6 +29,76 @@
                                             }
                                         }
                                     ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Row",
+                    "kids": [
+                        {
+                            "name": "Col",
+                            "attrs": {
+                                "md": "{ 6 }"
+                            },
+                            "kids": [
+                                {
+                                    "name": "h2",
+                                    "attrs": {
+                                        "className": "text-center"
+                                    },
+                                    "kids" : [
+                                        {
+                                            "name": "[String]",
+                                            "attrs": {
+                                                "value": "{ i18n('Turnover per Month') }"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "BarChart",
+                                    "attrs": {
+                                        "id" : "turnoverChart",
+                                        "width" : "{ 500 }",
+                                        "height" : "{ 500 }",
+                                        "round" : "{ 1000000000 }",
+
+                                        "queries": "{[{name: 'Turnover per Month', className: 'perMonth', data: actionQuery('queryOrderSums', 6)}]}"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Col",
+                            "attrs": {
+                                "md": "{ 6 }"
+                            },
+                            "kids": [
+                                {
+                                    "name": "h2",
+                                    "attrs": {
+                                        "className": "text-center"
+                                    },
+                                    "kids" : [
+                                        {
+                                            "name": "[String]",
+                                            "attrs": {
+                                                "value": "{ i18n('Orders by Status') }"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "RadarChart",
+                                    "attrs": {
+                                        "id" : "statusChart",
+                                        "width" : "{ 500 }",
+                                        "height" : "{ 500 }",
+
+                                        "queries": "{[{name: 'Last Month', className: 'lastMonth', data: exec(query(QOrderStateCounts.as(q).fields('label', 'value')).params({interval: '1 month'}))}, {name: 'Last Two Months', className: 'last2Months', data: exec(query(QOrderStateCounts.as(q).fields('label', 'value')).params({interval: '2 month'}))}]}"
+                                    }
                                 }
                             ]
                         }

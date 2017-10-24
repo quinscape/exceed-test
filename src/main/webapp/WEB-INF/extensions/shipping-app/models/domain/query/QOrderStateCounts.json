@@ -1,0 +1,24 @@
+{
+    "query" : "select status, count(*) from shipping.\"order\" where status <> 'PAID' AND accepted > current_date - cast(? as interval) group by status order by status",
+    "count" : "8 /* don't forget to update when state machine changes */",
+    "parameterTypes" :[
+        {
+            "name" : "interval",
+            "type":"PlainText",
+            "defaultValue" : "'1 month'"
+        }
+    ],
+    "columnTypes" : [
+        {
+            "name" : "label",
+            "type":"State",
+            "typeParam" : "OrderStatus"
+        },
+        {
+            "name" : "value",
+            "type" : "Integer"
+        }
+    ]
+}
+
+

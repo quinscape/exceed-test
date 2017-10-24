@@ -1,25 +1,34 @@
 package de.quinscape.exceedapp.config;
 
-import de.quinscape.exceed.model.annotation.ExceedPropertyType;
+import com.google.common.collect.ImmutableMap;
+import de.quinscape.exceed.model.domain.property.DomainProperty;
 import de.quinscape.exceed.model.meta.PropertyType;
-import de.quinscape.exceed.model.state.StateMachine;
 import de.quinscape.exceed.runtime.RuntimeContext;
 import de.quinscape.exceed.runtime.action.Action;
 import de.quinscape.exceed.runtime.action.ActionEnvironment;
 import de.quinscape.exceed.runtime.action.CustomLogic;
+import de.quinscape.exceed.runtime.action.ExceedContext;
+import de.quinscape.exceed.runtime.component.DataGraph;
 import de.quinscape.exceed.runtime.domain.DomainObject;
 import de.quinscape.exceed.runtime.util.DomainUtil;
-import de.quinscape.exceedapp.OrderStatus;
 import de.quinscape.exceedapp.domain.tables.pojos.Address;
 import de.quinscape.exceedapp.domain.tables.pojos.Customer;
 import de.quinscape.exceedapp.domain.tables.pojos.Order;
 import de.quinscape.exceedapp.domain.tables.pojos.Product;
-import de.quinscape.exceedapp.service.OrderService;
 import org.jooq.DSLContext;
+import org.jooq.DatePart;
+import org.jooq.Field;
+import org.jooq.Table;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.math.BigDecimal;
+import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
@@ -37,6 +46,13 @@ public class ShopActions
 
     private final DSLContext dslContext;
 
+    /**
+     * Static Column definition for {@link #queryOrderSums(int)}
+     */
+    private final static ImmutableMap<String, DomainProperty> ORDER_SUMS_COLUMNS = ImmutableMap.of(
+        "label", DomainProperty.builder().withType(PropertyType.PLAIN_TEXT).build(),
+        "value", DomainProperty.builder().withType(PropertyType.CURRENCY).build()
+    );
 
     @Autowired
     public ShopActions(
@@ -45,51 +61,13 @@ public class ShopActions
     {
         this.dslContext = dslContext;
     }
-
-    @Action
-    public void shopChangeOrderStatus(
-        RuntimeContext runtimeContext,
-        Order order,
-        String newState
-    )
-    {
-        final StateMachine stateMachine = runtimeContext.getApplicationModel().getStateMachines().get(ORDER_STATUS);
-
-        final String currentState = order.getStatus();
-        if (!stateMachine.isValidTransition(currentState, newState))
-        {
-            throw new IllegalStateException("Cannot change order state from " + currentState + " to " + newState );
-        }
-
-        order.setStatus(newState);
-        order.update(runtimeContext);
-
-        log.info("ORDER {} set to {}", order.getId(), newState);
-    }
-
-
-
-
+    
     @Action(
         env = ActionEnvironment.SERVER
     )
     public String newCustomerNumber()
     {
-        final Integer maxNumber = dslContext.select(
-                    max(
-                        cast(
-                            substring(
-                                CUSTOMER.NUMBER,
-                                2
-                            ),
-                            Integer.class
-                        )
-                    )
-                )
-                .from(CUSTOMER)
-                .fetchOneInto(Integer.class);
-
-        return String.format("A%08d", maxNumber + 1);
+        return findMaxPlusOne(CUSTOMER, CUSTOMER.NUMBER, "A%08d");
     }
 
     @Action(
@@ -97,21 +75,7 @@ public class ShopActions
     )
     public String newOrderNumber()
     {
-        final Integer maxNumber = dslContext.select(
-                    max(
-                        cast(
-                            substring(
-                                ORDER.NUMBER,
-                                2
-                            ),
-                            Integer.class
-                        )
-                    )
-                )
-                .from(ORDER)
-                .fetchOneInto(Integer.class);
-
-        return String.format("B%08d", maxNumber == null ? 1 : maxNumber + 1);
+        return findMaxPlusOne(ORDER, ORDER.NUMBER, "B%08d");
     }
 
 
@@ -120,23 +84,30 @@ public class ShopActions
     )
     public String newProductNumber()
     {
-        final Integer maxNumber = dslContext.select(
-                    max(
-                        cast(
-                            substring(
-                                PRODUCT.NUMBER,
-                                2
-                            ),
-                            Integer.class
-                        )
-                    )
-                )
-                .from(PRODUCT)
-                .fetchOneInto(Integer.class);
-
-        return String.format("P%08d", maxNumber == null ? 1 : maxNumber + 1);
+        return findMaxPlusOne(PRODUCT, PRODUCT.NUMBER, "P$08d");
     }
 
+    private String findMaxPlusOne(
+        Table<?> customer, Field<String> field,
+        String format
+    )
+    {
+        final Integer maxNumber = dslContext.select(
+            max(
+                cast(
+                    substring(
+                        field,
+                        2
+                    ),
+                    Integer.class
+                )
+            )
+        )
+            .from(customer)
+            .fetchOneInto(Integer.class);
+
+        return String.format(format, maxNumber != null ? maxNumber + 1 : 1);
+    }
 
     /**
      * Example of an action method with generated domain parameters. The classes are generated from JOOQ on the basis of
@@ -189,12 +160,13 @@ public class ShopActions
         }
     }
 
-    @Action()
-    public void shopTakeOrder(RuntimeContext runtimeContext, Order current)
+    @Action
+    public void shopTakeOrder(
+        RuntimeContext runtimeContext,
+        Order current,
+        @ExceedContext("orderItems") List<DomainObject> orderItems
+    )
     {
-        final List<DomainObject> orderItems = (List<DomainObject>) runtimeContext.getScopedContextChain().getProperty("orderItems");
-
-
         current.setProperty("sum", 0L);
         current.insert(runtimeContext);
         for (DomainObject orderItem : orderItems)
@@ -227,5 +199,55 @@ public class ShopActions
         current.setProperty("sum", sum);
         current.update(runtimeContext);
 
+    }
+
+
+    /**
+     * Action based JOOQ query that provides the data for the status chart.
+     *
+     * @param months    Number of past months to look up
+     *
+     * @return  data graph to be injected into the bar chart component
+     */
+    @Action
+    public DataGraph queryOrderSums(int months)
+    {
+        final List<Map> rows =
+                dslContext.select(
+                    trunc(ORDER.ACCEPTED, DatePart.MONTH).as("label"),
+                    sum(PRODUCT.PRICE.multiply(ORDER_ITEM.QUANTITY))
+                )
+
+                .from(ORDER)
+                    .join(ORDER_ITEM).on(
+                        ORDER_ITEM.ORDER_ID.eq(ORDER.ID)
+                    )
+                    .join(PRODUCT).on(
+                        ORDER_ITEM.PRODUCT_ID.eq(PRODUCT.ID)
+                    )
+
+                .where(
+                    ORDER.STATUS.eq("PAID").and(
+                        ORDER.ACCEPTED.greaterThan(Timestamp.valueOf(LocalDateTime.now().minus(months, ChronoUnit.MONTHS)))
+                    )
+                )
+
+                .groupBy(field("label"))
+
+                .orderBy(field("label")).fetch( r -> {
+
+                    final Map<String, Object> map = new HashMap<>();
+
+                    map.put("label", new SimpleDateFormat("MMM Y").format(r.getValue(0)));
+                    map.put("value", ((BigDecimal)r.getValue(1)).longValue());
+                    return map;
+                });
+
+        return new DataGraph(
+            ORDER_SUMS_COLUMNS,
+            rows,
+            rows.size(),
+            DataGraph.QUERY_QUALIFIER
+        );
     }
 }
