@@ -27,7 +27,7 @@ import javax.validation.constraints.Size;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Order extends GeneratedDomainObject implements Serializable {
 
-	private static final long serialVersionUID = 1638635341;
+	private static final long serialVersionUID = 1957210096;
 
 	private String    id;
 	private Long      sum;
@@ -109,6 +109,7 @@ public class Order extends GeneratedDomainObject implements Serializable {
 	}
 
 	@NotNull
+	@Size(max = 16)
 	public String getStatus() {
 		return this.status;
 	}
