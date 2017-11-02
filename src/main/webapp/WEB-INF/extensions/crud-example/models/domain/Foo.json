@@ -1,0 +1,32 @@
+{
+    "name":"Foo",
+    "properties":[
+        {
+            "name":"id",
+            "type":"UUID",
+            "required":true,
+            "maxLength":36
+        },
+        {
+            "name":"name",
+            "type":"PlainText",
+            "required":true,
+            "maxLength":120
+        },
+        {
+            "name":"type",
+            "type":"Enum",
+            "typeParam":"FooType",
+            "required":true,
+            "defaultValue" : "FooType.BASIC"
+        },
+        {
+            "name":"ownerId",
+            "type":"UUID",
+            "maxLength":36,
+            "foreignKey":{
+                "type":"AppUser"
+            }
+        }
+    ]
+}

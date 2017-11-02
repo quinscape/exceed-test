@@ -1,0 +1,101 @@
+{
+    "title": "{ i18n('Foo Detail') }",
+    "domainType" : "Foo",
+    "content": {
+        "main": {
+            "name": "Form",
+            "attrs": {
+                "id": "myForm",
+                "data": "{ current }"
+            },
+            "kids": [
+                {
+                    "name": "Grid",
+                    "attrs": {
+                    },
+                    "kids": [
+                        {
+                            "name": "Row",
+                            "kids": [
+                                {
+                                    "name": "Col",
+                                    "attrs": {
+                                        "md": "{ 12 }"
+                                    },
+                                    "kids": [
+                                        {
+                                            "name": "Heading",
+                                            "attrs": {
+                                                "value": "{ i18n('Foo {0}', current.id) }"
+                                            }
+                                        },
+                                        {
+                                            "name": "Field",
+                                            "attrs": {
+                                                "value": "name"
+                                            }
+                                        },
+                                        {
+                                            "name": "Field",
+                                            "attrs": {
+                                                "value": "type"
+                                            }
+                                        },
+                                        {
+                                            "name": "FKSelect",
+                                            "attrs": {
+                                                "value": "ownerId",
+                                                "title": "{ i18n('Select Owner') }",
+                                                "icon": "user",
+                                                "limit": "{ 5 }"
+                                            },
+                                            "kids": [
+                                                {
+                                                    "name": "FKSelect.Property",
+                                                    "attrs": {
+                                                        "name": "login"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Toolbar",
+                                            "kids": [
+                                                {
+                                                    "name": "TButton",
+                                                    "attrs": {
+                                                        "text": "{ i18n('Cancel') }",
+                                                        "icon" : "remove",
+                                                        "transition": "cancel"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "TButton",
+                                                    "attrs": {
+                                                        "text": "{ i18n('Delete') }",
+                                                        "className" : "btn-danger",
+                                                        "icon" : "erase",
+                                                        "transition": "delete"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "TButton",
+                                                    "attrs": {
+                                                        "text": "{ i18n('Save') }",
+                                                        "className" : "btn-primary",
+                                                        "icon" : "save",
+                                                        "transition": "save"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+
+    "startTransition": {
+        "to": "list"
+    },
+    "context": {
+        "properties": {
+        }
+    },
+    "states": {
+        "list": {
+            "type": "xcd.process.ViewState",
+            "transitions": {
+                "newFoo": {
+                    "to": "detail",
+                    "action": "current = newObject('Foo')"
+                },
+                "detail": {
+                    "to": "detail"
+                }
+            }
+        },
+        "detail": {
+            "type": "xcd.process.ViewState",
+            "transitions": {
+                "cancel": {
+                    "to": "list",
+                    "discard": true,
+                    "description" : "Cancel transition"
+                },
+                "save": {
+                    "to": "list",
+                    "action": "store(current)",
+                    "description" : "Save transition"
+                },
+                "delete": {
+                    "to": "list",
+                    "confirmation": {
+                        "title": "'Delete Foo?'",
+                        "message": "'Do you really want to delete this Foo? It will be gone!'",
+                        "okLabel": "'Delete'"
+                    },
+                    "action": "delete(current)",
+                    "description" : "Save transition"
+                }
+            }
+        }
+    }
+}

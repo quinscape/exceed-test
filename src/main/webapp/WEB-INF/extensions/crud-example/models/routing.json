@@ -1,0 +1,17 @@
+{
+    "mappings": {
+        "/": {
+            "classes" : [ "hidden" ],
+            "viewName": "Home"
+        },
+        "/admin": {
+            "classes" : [ "admin" ],
+            "viewName": "AdminHome"
+        },
+        "/edit-foos": {
+            "classes" : [ "top" ],
+            "processName": "crud",
+            "title" : "'Edit Foos'"
+        }
+    }
+}

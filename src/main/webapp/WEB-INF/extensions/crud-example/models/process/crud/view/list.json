@@ -1,0 +1,90 @@
+{
+    "title": "{ i18n('List of Foos') }",
+    "content": {
+        "main": {
+            "name": "Grid",
+            "attrs": {
+                "fluid": "{ true }"
+            },
+            "kids": [
+                {
+                    "name": "Row",
+                    "kids": [
+                        {
+                            "name": "Col",
+                            "attrs": {
+                                "md": "{ 12 }"
+                            },
+                            "kids": [
+                                {
+                                    "name": "Heading",
+                                    "attrs": {
+                                        "value": "{ i18n('Foos Overview') }"
+                                    }
+                                },
+                                {
+                                    "name": "Toolbar",
+                                    "kids": [
+                                        {
+                                            "name": "TButton",
+                                            "attrs": {
+                                                "transition": "newFoo",
+                                                "text": "{ i18n('New Foo') }"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "DataGrid",
+                                    "attrs": {
+                                        "id": "fooTable",
+                                        "limit": "{ 10 }",
+                                        "type": "{ Foo.as(f).leftOuterJoin(AppUser.as(u)).on(f.ownerId == u.id) }"
+                                    },
+                                    "kids": [
+                                        {
+                                            "name": "DataGrid.Column",
+                                            "attrs": {
+                                                "id": "detailColumn",
+                                                "name": "f.id",
+                                                "heading": "Detail"
+                                            },
+                                            "kids": [
+                                                {
+                                                    "name": "TButton",
+                                                    "attrs": {
+                                                        "transition": "detail",
+                                                        "className": "btn-primary",
+                                                        "text": "{ i18n('Detail') }"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "DataGrid.Column",
+                                            "attrs": {
+                                                "name": "name"
+                                            }
+                                        },
+                                        {
+                                            "name": "DataGrid.Column",
+                                            "attrs": {
+                                                "name": "type"
+                                            }
+                                        },
+                                        {
+                                            "name": "DataGrid.Column",
+                                            "attrs": {
+                                                "name": "u.login"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
