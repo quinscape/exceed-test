@@ -1,0 +1,48 @@
+{
+    "startTransition": {
+        "to": "main"
+    },
+    "context": {
+        "properties": {
+            "value": {
+                "type": "Integer",
+                "defaultValue": "0"
+            },
+
+            "limit": {
+                "type": "Integer",
+                "defaultValue": "10"
+            }
+        }
+    },
+    "states": {
+        "main": {
+            "type": "xcd.process.ViewState",
+            "transitions": {
+                "inc": {
+                    "to": "check",
+                    "action": "value = value + 1"
+                }
+            }
+        },
+        "check": {
+            "type": "xcd.process.DecisionState",
+            "decisions": [
+                {
+                    "expression": "value >= limit",
+                    "transition": {
+                        "to": "end",
+                        "action" : "syslog('Jumping to End')"
+                    }
+                }
+            ],
+            "defaultTransition": {
+                "to": "main",
+                "discard": true
+            }
+        },
+        "end": {
+            "type": "xcd.process.ViewState"
+        }
+    }
+}

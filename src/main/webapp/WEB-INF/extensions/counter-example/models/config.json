@@ -1,0 +1,10 @@
+{
+    "schema" : "counter",
+    
+    "styleSheets": [
+        "/resources/css/bootstrap.min.css",
+        "/resources/css/slate-bootstrap.min.css",
+        "/resources/css/editor.css",
+        "/resources/css/layout.css"
+    ]
+}

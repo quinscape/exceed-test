@@ -1,0 +1,17 @@
+{
+    "mappings": {
+        "/": {
+            "classes" : [ "hidden" ],
+            "viewName": "Home"
+        },
+        "/admin": {
+            "classes" : [ "admin" ],
+            "viewName": "AdminHome"
+        },
+        "/counter": {
+            "classes" : [ "top" ],
+            "processName": "counter",
+            "title" : "'Counter'"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "content": {
+        "main": {
+            "name": "Grid",
+            "attrs": {
+                "fluid": "{ true }"
+            },
+            "kids": [
+                {
+                    "name": "Row",
+                    "kids": [
+                        {
+                            "name": "Col",
+                            "attrs": {
+                                "md": "{ 6 }"
+                            },
+                            "kids": [
+                                {
+                                    "name": "Heading",
+                                    "attrs": {
+                                        "id": "myHeading",
+                                        "value": "Limit reached"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

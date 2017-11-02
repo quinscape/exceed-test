@@ -1,0 +1,37 @@
+{
+    "name": "Home",
+    "title": "Home",
+    "content": {
+        "main": {
+            "name": "Grid",
+            "attrs": {
+            },
+            "kids": [
+                {
+                    "name": "Row",
+                    "kids": [
+                        {
+                            "name": "Col",
+                            "attrs": {
+                                "md": "{ 12 }"
+                            },
+                            "kids": [
+                                {
+                                    "name": "h1",
+                                    "kids": [
+                                        {
+                                            "name": "[String]",
+                                            "attrs": {
+                                                "value": "CRUD EXAMPLE"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
