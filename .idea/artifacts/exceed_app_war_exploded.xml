@@ -31,7 +31,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:4.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:4.2.2.RELEASE" />
-          <element id="archive" name="exceed-0.2-SNAPSHOT.jar">
+          <element id="archive" name="exceed-0.3.2.jar">
             <element id="module-output" name="exceed" />
           </element>
           <element id="library" level="project" name="Maven: com.esotericsoftware:reflectasm:1.11.1" />

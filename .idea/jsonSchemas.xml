@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsonSchemaMappingsProjectConfiguration">
+    <state>
+      <map>
+        <entry key="swagger-2.0">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="swagger-2.0" />
+              <option name="relativePathToSchema" value="misc/swagger-2.0.json" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="swag.json" />
+                    <option name="pattern" value="true" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+      </map>
+    </state>
+  </component>
+</project>
