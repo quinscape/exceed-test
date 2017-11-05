@@ -21,7 +21,9 @@
 
 
     <!-- Debug log schema operations (and other JdbcTemplate operations) -->
+    <!--
     <logger name="org.springframework.jdbc.core.JdbcTemplate" level="DEBUG" />
+    -->
 
     <!-- Debug module and file reloading -->
     <!--
@@ -42,15 +44,15 @@
     
     <!-- Debug log server side expression bundle -->
     <!--
-    -->
     <logger name="de.quinscape.exceed.runtime.js.DefaultExpressionCompiler" level="DEBUG" />
-    <!--
     <logger name="org.jooq" level="DEBUG"/>
     -->
-
+    <!--
     <logger name="de.quinscape.exceed.runtime.component.QueryDataProvider" level="DEBUG"/>
     <logger name="de.quinscape.exceed.runtime.controller.ApplicationController" level="DEBUG"/>
     <logger name="de.quinscape.exceed.runtime.js.env.ExpressionFunction" level="DEBUG"/>
+    -->
+
     <logger name="org.jooq.Constants" level="WARN"/>
     <root level="INFO"/>
 </configuration>
