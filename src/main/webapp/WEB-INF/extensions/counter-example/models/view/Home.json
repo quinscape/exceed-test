@@ -22,7 +22,7 @@
                                         {
                                             "name": "[String]",
                                             "attrs": {
-                                                "value": "CRUD EXAMPLE"
+                                                "value": "COUNTER EXAMPLE"
                                             }
                                         }
                                     ]
