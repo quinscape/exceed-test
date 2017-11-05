@@ -6,6 +6,7 @@ import de.quinscape.exceedapp.config.ShopActions;
 import de.quinscape.exceedapp.domain.tables.pojos.Customer;
 import de.quinscape.exceedapp.domain.tables.pojos.Product;
 import org.jooq.DSLContext;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -35,8 +36,10 @@ import static de.quinscape.exceedapp.domain.Tables.*;
     ModelConfiguration.class,
     DomainConfiguration.class,
     ServiceConfiguration.class,
+    TestConfiguration.class
 })
 @Transactional
+@Ignore
 public class CreateOrdersTest
 {
     private final static Logger log = LoggerFactory.getLogger(CreateOrdersTest.class);
