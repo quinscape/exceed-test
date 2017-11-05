@@ -18,24 +18,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b50f12fa-5932-4d66-94d4-086e06f13a6c" name="Default" comment="Shorten watcher thread name">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain/query/QCustomerWithAddresses.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain/state/OrderStatus.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/resources/css/cerulan-bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/resources/css/slate-bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/resources/css/solar-bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/resources/image/acme_logo.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/resources/css/shippingApp-layout.css" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/resources/css/shipping-app-layout.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Test.java" afterPath="$PROJECT_DIR$/src/test/java/TestCase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/exceed_app_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/exceed_app_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/GenerateModelDocs.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/GenerateModelDocs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/cfg/exceed-app.properties" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/cfg/exceed-app.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/config.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/config.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/ExceedApplicationConfiguration.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/ExceedApplicationConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/DefaultAppConfiguration.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/DefaultAppConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ApplicationService.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ApplicationService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ApplicationServiceImpl.java" afterPath="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ApplicationServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/cfg/exceed-config.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/cfg/exceed-config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/counter-example/models/view/Home.json" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/counter-example/models/view/Home.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CreateOrdersTest.java" afterPath="$PROJECT_DIR$/src/test/java/CreateOrdersTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/js/components/std/common/StandardNav.js" afterPath="$PROJECT_DIR$/../exceed/src/main/js/components/std/common/StandardNav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../exceed/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/src/test/resources/log4j2-test.xml" afterPath="$PROJECT_DIR$/../exceed/src/test/resources/log4j2-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/test.js" afterPath="$PROJECT_DIR$/../exceed/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../exceed/test.json" afterPath="$PROJECT_DIR$/../exceed/test.json" />
     </list>
     <ignored path="editor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,11 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DefaultAppConfiguration.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DefaultAppConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/DefaultAppConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="119" column="49" lean-forward="false" selection-start-line="119" selection-start-column="49" selection-end-line="119" selection-end-column="49" />
+            <state relative-caret-position="188">
+              <caret line="121" column="47" lean-forward="false" selection-start-line="121" selection-start-column="47" selection-end-line="121" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -80,8 +73,48 @@
       <file leaf-file-name="exceed-config.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/cfg/exceed-config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="480">
+              <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/counter-example/models/routing.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/counter-example/models/view/Home.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="65" lean-forward="false" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StandardNav.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/common/StandardNav.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="85" column="51" lean-forward="false" selection-start-line="85" selection-start-column="51" selection-end-line="85" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventListener.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/event/EventListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="68" column="18" lean-forward="false" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -90,8 +123,8 @@
       <file leaf-file-name="ApplicationServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ApplicationServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="98" column="57" lean-forward="false" selection-start-line="98" selection-start-column="57" selection-end-line="98" selection-end-column="57" />
+            <state relative-caret-position="165">
+              <caret line="195" column="18" lean-forward="false" selection-start-line="195" selection-start-column="18" selection-end-line="195" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -100,82 +133,28 @@
       <file leaf-file-name="ApplicationService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ApplicationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExceedConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/startup/ExceedConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="47" column="24" lean-forward="false" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-              <folding>
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#1698#1699#0" expanded="true" />
-                <element signature="e#1733#1734#0" expanded="true" />
-                <element signature="e#1789#1790#0" expanded="true" />
-                <element signature="e#1830#1831#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExceedPropertySourceFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/startup/ExceedPropertySourceFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExceedPropertySource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/startup/ExceedPropertySource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-              <folding>
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PropertySource.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/org/springframework/core/env/PropertySource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="117" column="43" lean-forward="false" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PropertyResolver.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/org/springframework/core/env/PropertyResolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="92" column="11" lean-forward="false" selection-start-line="92" selection-start-column="11" selection-end-line="92" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExceedApplicationConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/ExceedApplicationConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="87" lean-forward="false" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
+              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationListener.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/ApplicationListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="35" column="80" lean-forward="false" selection-start-line="35" selection-start-column="80" selection-end-line="35" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventListener.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/local/java/jdk1.8/src.zip!/java/util/EventListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -201,44 +180,38 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>jooqT</find>
-      <find>SpringS</find>
-      <find>Secr</find>
-      <find>SecurityCont</find>
-      <find>sendNotFoundError(</find>
-      <find>applicationContextModel</find>
-      <find>doc-tem</find>
-      <find>col-md-2</find>
-      <find>Application</find>
-      <find>DEFAULT_USERS</find>
-      <find>glyphicons-halflings-regular.ttf</find>
-      <find>\</find>
-      <find>\n\n</find>
-      <find>noA</find>
-      <find>showAdmin</find>
-      <find>showBranding</find>
-      <find>&quot;AppUser&quot;</find>
-      <find>getSchema()</find>
-      <find>schemaName</find>
-      <find>.getSchema()</find>
-      <find>getAuthSchema()</find>
-      <find>alter table</find>
-      <find>ADD CO</find>
-      <find>ADD</find>
-      <find>persistent_logins</find>
-      <find>exceed-app</find>
-      <find>exceed-app.properties</find>
-      <find>exceed.application.extensions</find>
-      <find>exceed-config.json</find>
-      <find>EXCEED_DEFAULT_CONFIG</find>
+      <find>keysMap</find>
+      <find>dbI</find>
+      <find>throw</find>
+      <find>messageHubRegistry</find>
+      <find>LOGINS_TYPE</find>
+      <find>PROPERTY_LAST_USED</find>
+      <find>UserConfig</find>
+      <find>?</find>
+      <find>jooq</find>
+      <find>maven-compiler-plugin</find>
+      <find>public</find>
+      <find>docsMap</find>
+      <find>ComponentPackageDescriptor</find>
+      <find>getSortedProps</find>
+      <find>sort</find>
+      <find>Extension</find>
+      <find>ExtensionStructure</find>
+      <find>.type</find>
+      <find>type</find>
+      <find>modelType</find>
+      <find>css</find>
+      <find>type-ass</find>
+      <find>zzz</find>
+      <find>[String]</find>
+      <find>spring</find>
+      <find>resources</find>
+      <find>defaultApp</find>
+      <find>allResources</find>
+      <find>ApplicationEvent</find>
+      <find>ApplicationLis</find>
     </findStrings>
     <replaceStrings>
-      <replace>renderedIf</replace>
-      <replace>OrderStatus</replace>
-      <replace>&quot;transition&quot; : &quot;changeState</replace>
-      <replace>td&gt;</replace>
-      <replace>Number</replace>
-      <replace>&quot;</replace>
       <replace>queries</replace>
       <replace>query.name</replace>
       <replace>160</replace>
@@ -263,6 +236,12 @@
       <replace>sendNotFoundError(HttpServletResponse.SC_NOT_FOUND,</replace>
       <replace>defaultUsers</replace>
       <replace>,</replace>
+      <replace>String</replace>
+      <replace>= other.</replace>
+      <replace>APP_CONFIG_TYPE</replace>
+      <replace>USER_CONFIG_TYPE</replace>
+      <replace>?</replace>
+      <replace>=</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/../exceed/src/test/js/domain/test-lists</dir>
@@ -290,57 +269,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/cfg/exceed-app.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/crud-example/models/process/crud/crud.json" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryCondition.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/SecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/test/java/MiscTest.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/DomainService.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/DomainServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/TestDomainServiceBase.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/application/ApplicationSecurityException.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/controller/ApplicationController.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/base/models/domain/AppUser.json" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/crud-example/models/process/crud/view/detail.json" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/doc/models-process.md" />
-        <option value="$PROJECT_DIR$/../exceed/tooling/doc/doc-template.html" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/doc/theme/media/readme.md" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/doc/theme/doc-template.html" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/doc/concept.md" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/doc/page-a.md" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/doc/theme/css/exceed-docs.css" />
-        <option value="$PROJECT_DIR$/../exceed/tooling/doc/renderDoc.js" />
-        <option value="$PROJECT_DIR$/../exceed/tooling/build-docs.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/doc/models-about.md" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/doc/models-domain.md" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/counter-example/models/process/counter/counter.json" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/doc/models-unified.md" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/doc/page-types.md" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/config/ApplicationConfig.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/application/DefaultAppUsers.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/test/resources/injector-base/resources/js/test.txt" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/common/components.json" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/HasPrefix.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/security/ExceedSecurityException.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/security/ApplicationUserDetails.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/ServiceConfiguration.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/schema/DDLOperations.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/security/ApplicationUserDetailsService.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/DBUtil.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/schema/InformationSchemaOperations.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/application/DefaultRuntimeApplication.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/base/models/domain/AppUserConfig.json" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/crud-example/models/config.json" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/AppAuthentication.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/DomainUtil.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/common/StandardNav.js" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/schema/DefaultSchemaService.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/startup/ExceedPropertySourceFactory.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/ExceedApplicationConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/cfg/exceed-config.json" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/startup/ExceedPropertySource.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/application/ApplicationStatus.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/startup/AppStateBuilder.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/startup/AppState.java" />
         <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/startup/ExceedConfig.java" />
-        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/DefaultAppConfiguration.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/ExceedApplicationConfiguration.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ApplicationService.java" />
         <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ApplicationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/startup/ExceedPropertySource.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/startup/ExceedPropertySourceFactory.java" />
+        <option value="$PROJECT_DIR$/../exceed/tooling/build-docs.js" />
+        <option value="$PROJECT_DIR$/../exceed/tooling/doc/ExtensionStructure.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/doc/theme/css/exceed-docs.css" />
+        <option value="$PROJECT_DIR$/../exceed/tooling/doc/ExtensionDir.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/tooling/GenerateModelDocs.java" />
+        <option value="$PROJECT_DIR$/../exceed/tooling/doc/ModelDocs.js" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/annotation/package-info.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/change/package-info.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/component/package-info.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/config/package-info.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/context/package-info.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/domain/property/package-info.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/domain/type/package-info.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/domain/package-info.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/package-info.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/process/package-info.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/routing/package-info.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/startup/package-info.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/translation/package-info.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/ComponentModel.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/package-info.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/TopLevelModel.java" />
+        <option value="$PROJECT_DIR$/../exceed/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/TestConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CreateOrdersTest.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/resource/stream/ServletResourceRoot.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/resource/stream/ClassPathResourceRoot.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/Util.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/resource/stream/ClassPathResource.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/startup/ExceedConfig.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/FileExtension.java" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/tooling/GenerateLibraryResourceLists.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/DefaultAppConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/cfg/exceed-config.json" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/counter-example/models/view/Home.json" />
+        <option value="$PROJECT_DIR$/../exceed/src/main/js/components/std/common/StandardNav.js" />
       </list>
     </option>
   </component>
@@ -387,10 +366,9 @@
     <handled-path value="$PROJECT_DIR$/../exceed/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="y" value="-11" />
-    <option name="width" value="1922" />
-    <option name="height" value="1092" />
+    <option name="y" value="27" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -694,68 +672,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="runtime" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed" type="462c0819:PsiDirectoryNode" />
-              <item name="runtime" type="462c0819:PsiDirectoryNode" />
-              <item name="startup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
               <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="misc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
@@ -767,6 +691,13 @@
               <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
@@ -832,45 +763,6 @@
               <item name="extensions" type="462c0819:PsiDirectoryNode" />
               <item name="counter-example" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="process" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="counter-example" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="process" type="462c0819:PsiDirectoryNode" />
-              <item name="counter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="counter-example" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="process" type="462c0819:PsiDirectoryNode" />
-              <item name="counter" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="counter-example" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -900,194 +792,20 @@
               <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
               <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="crud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
               <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="crud-example" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="crud-example" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="process" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="crud-example" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="process" type="462c0819:PsiDirectoryNode" />
-              <item name="crud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="crud-example" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="process" type="462c0819:PsiDirectoryNode" />
-              <item name="crud" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="crud-example" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="crud-example" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="process" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="process" type="462c0819:PsiDirectoryNode" />
-              <item name="testvc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="process" type="462c0819:PsiDirectoryNode" />
-              <item name="testvc" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="shipping-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="shipping-app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="shipping-app" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exceed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exceed-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="shipping-app" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -1127,7 +845,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1131" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="prioritySo&#9;null&#9;null&#10;defaultSto&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.schema.DefaultStorageConfiguration&#10;describe&#9;FILE&#9;file:///home/sven/ideaprojects/exceed/src/main/js/util/describe-property.js&#10;hydr&#9;null&#9;null&#10;getFieldCur&#9;null&#9;null&#10;walk&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.js.TypeAnalyzerContext#walk&#10;hasFieldC&#9;null&#9;null&#10;QueryM&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.domain.JOOQDomainOperations.QueryMapper&#10;registerSt&#9;PSI&#9;JAVA://de.quinscape.exceed.model.meta.ApplicationMetaData#registerStateMachineIdentifiers&#10;getColl&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.ExpressionUtil#getCollectionType&#10;getCol&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.ExpressionUtil#getCollectionType&#10;resetA&#9;null&#9;null&#10;updateComp&#9;null&#9;null&#10;fieldOf&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.editor.completion.expression.PropCompleteOperations#fieldOf&#10;updateCom&#9;null&#9;null&#10;convertCom&#9;null&#9;null&#10;maxDec&#9;PSI&#9;JAVA://de.quinscape.exceed.model.config.DecimalConfig#setMaxDecimalPlaces&#10;initializeDef&#9;PSI&#9;JAVA://de.quinscape.exceed.model.translation.TranslationEditorState#initializeDefaults&#10;previewV&#9;null&#9;null&#10;enterV&#9;null&#9;null&#10;loadE&#9;null&#9;null&#10;loadEditor&#9;null&#9;null&#10;CLEAR_F&#9;null&#9;null&#10;searchM&#9;null&#9;null&#10;DOMAIN_TYPE_P&#9;PSI&#9;JAVA://de.quinscape.exceed.model.domain.DomainProperty#DOMAIN_TYPE_PROPERTY_TYPE&#10;saveV&#9;null&#9;null&#10;PreviewM&#9;null&#9;null&#10;loadEditorV&#9;null&#9;null&#10;applyL&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.model.ModelCompositionService#applyLayout&#10;getScopeQ&#9;null&#9;null&#10;ViewCom&#9;null&#9;null&#10;ViewWr&#9;null&#9;null&#10;getServerSideActionsInSystem&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.config.ExceedViewResolver#getServerSideActionsInSystem&#10;dumpV&#9;null&#9;null&#10;EditorState&#9;null&#9;null&#10;setCached&#9;PSI&#9;JAVA://de.quinscape.exceed.model.view.View#setCachedJSON&#10;Entity&#9;null&#9;null&#10;entity&#9;null&#9;null&#10;parseSing&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.Util#parseSingleQuotedString&#10;Col&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.controller.ActionController.CollectionConversion&#10;Coll&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.controller.ActionController.CollectionConversion&#10;CollectionC&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.controller.ActionController.CollectionConversion&#10;system&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.domain.SystemStorageExecutor&#10;modelStorage&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.config.DomainConfiguration#modelStorage&#10;domainSer&#9;FILE&#9;file:///home/sven/ideaprojects/exceed/src/main/java/de/quinscape/exceed/runtime/service/DomainServiceFactory.java&#10;ModelMapper&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.model.ModelJSONServiceImpl.ModelMapper&#10;route&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.application.DefaultRuntimeApplication#route&#10;TemporalU&#9;PSI&#9;JAVA://java.time.temporal.TemporalUnit&#10;defaultDataPro&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.config.ServiceConfiguration#defaultDataProvider" />
+    <property name="SearchEverywhereHistoryKey" value="jooqF&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.DBUtil#jooqField&#10;prioritySo&#9;null&#9;null&#10;defaultSto&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.schema.DefaultStorageConfiguration&#10;describe&#9;FILE&#9;file:///home/sven/ideaprojects/exceed/src/main/js/util/describe-property.js&#10;hydr&#9;null&#9;null&#10;getFieldCur&#9;null&#9;null&#10;walk&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.js.TypeAnalyzerContext#walk&#10;hasFieldC&#9;null&#9;null&#10;QueryM&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.domain.JOOQDomainOperations.QueryMapper&#10;registerSt&#9;PSI&#9;JAVA://de.quinscape.exceed.model.meta.ApplicationMetaData#registerStateMachineIdentifiers&#10;getColl&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.ExpressionUtil#getCollectionType&#10;getCol&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.ExpressionUtil#getCollectionType&#10;resetA&#9;null&#9;null&#10;updateComp&#9;null&#9;null&#10;fieldOf&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.editor.completion.expression.PropCompleteOperations#fieldOf&#10;updateCom&#9;null&#9;null&#10;convertCom&#9;null&#9;null&#10;maxDec&#9;PSI&#9;JAVA://de.quinscape.exceed.model.config.DecimalConfig#setMaxDecimalPlaces&#10;initializeDef&#9;PSI&#9;JAVA://de.quinscape.exceed.model.translation.TranslationEditorState#initializeDefaults&#10;previewV&#9;null&#9;null&#10;enterV&#9;null&#9;null&#10;loadE&#9;null&#9;null&#10;loadEditor&#9;null&#9;null&#10;CLEAR_F&#9;null&#9;null&#10;searchM&#9;null&#9;null&#10;DOMAIN_TYPE_P&#9;PSI&#9;JAVA://de.quinscape.exceed.model.domain.DomainProperty#DOMAIN_TYPE_PROPERTY_TYPE&#10;saveV&#9;null&#9;null&#10;PreviewM&#9;null&#9;null&#10;loadEditorV&#9;null&#9;null&#10;applyL&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.model.ModelCompositionService#applyLayout&#10;getScopeQ&#9;null&#9;null&#10;ViewCom&#9;null&#9;null&#10;ViewWr&#9;null&#9;null&#10;getServerSideActionsInSystem&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.config.ExceedViewResolver#getServerSideActionsInSystem&#10;dumpV&#9;null&#9;null&#10;EditorState&#9;null&#9;null&#10;setCached&#9;PSI&#9;JAVA://de.quinscape.exceed.model.view.View#setCachedJSON&#10;Entity&#9;null&#9;null&#10;entity&#9;null&#9;null&#10;parseSing&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.util.Util#parseSingleQuotedString&#10;Col&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.controller.ActionController.CollectionConversion&#10;Coll&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.controller.ActionController.CollectionConversion&#10;CollectionC&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.controller.ActionController.CollectionConversion&#10;system&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.domain.SystemStorageExecutor&#10;modelStorage&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.config.DomainConfiguration#modelStorage&#10;domainSer&#9;FILE&#9;file:///home/sven/ideaprojects/exceed/src/main/java/de/quinscape/exceed/runtime/service/DomainServiceFactory.java&#10;ModelMapper&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.model.ModelJSONServiceImpl.ModelMapper&#10;route&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.application.DefaultRuntimeApplication#route&#10;TemporalU&#9;PSI&#9;JAVA://java.time.temporal.TemporalUnit&#10;defaultDataPro&#9;PSI&#9;JAVA://de.quinscape.exceed.runtime.config.ServiceConfiguration#defaultDataProvider" />
     <property name="javascript.nodejs.core.library.configured.version" value="7.10.1" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
@@ -1173,11 +891,11 @@
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="de.quinscape.exceed.runtime.js.env" />
       <recent name="de.quinscape.exceed.runtime.js" />
       <recent name="de.quinscape.exceed.runtime.action.builtin" />
       <recent name="de.quinscape.exceed.runtime.action" />
-      <recent name="de.quinscape.exceed.expression" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../exceed/src/main/doc/theme" />
@@ -1187,18 +905,18 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/shipping-app/models/domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/crud-example/resources/css" />
-      <recent name="$PROJECT_DIR$/../exceed/src/main/doc" />
-      <recent name="$PROJECT_DIR$/../exceed/src/main/doc/theme" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/counter-example/models/process" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions" />
+      <recent name="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view" />
+      <recent name="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/translation" />
+      <recent name="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/startup" />
+      <recent name="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/routing" />
+      <recent name="$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/process" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.quinscape.exceed.runtime.startup" />
+      <recent name="de.quinscape.exceed.model.startup" />
+      <recent name="de.quinscape.exceed.runtime.scope" />
       <recent name="de.quinscape.exceed.runtime.service.client" />
       <recent name="de.quinscape.exceed.runtime.service.client.provider" />
-      <recent name="de.quinscape.exceed.runtime.expression.annotation" />
-      <recent name="" />
-      <recent name="de.quinscape.exceed.runtime.domain.property" />
     </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="de.quinscape.exceed.runtime.util.AppAuthentication" />
@@ -1208,11 +926,11 @@
       <recent name="de.quinscape.exceed.model.meta.PropertyType" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="de.quinscape.exceed.runtime.startup" />
+      <recent name="" />
       <recent name="de.quinscape.exceed.runtime.security" />
+      <recent name="de.quinscape.exceed.runtime.service" />
+      <recent name="de.quinscape.exceed.runtime.startup" />
       <recent name="de.quinscape.exceed.runtime.application" />
-      <recent name="de.quinscape.exceed.runtime.expression.query" />
-      <recent name="de.quinscape.exceed.model.meta" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1316,6 +1034,18 @@
       </option>
       <envs />
       <patterns />
+    </configuration>
+    <configuration name="Remote:8000" type="Remote" factoryName="Remote">
+      <module name="exceed-app" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="8000" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8000" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
     </configuration>
     <configuration name="Settings" type="mocha-javascript-test-runner" factoryName="Mocha" singleton="false">
       <node-interpreter>project</node-interpreter>
@@ -1749,30 +1479,31 @@
       <test-kind>TEST_FILE</test-kind>
       <test-file>$PROJECT_DIR$/../exceed/src/test/js/util/parse-number.js</test-file>
     </configuration>
-    <list size="15">
+    <list size="16">
       <item index="0" class="java.lang.String" itemvalue="Application.GenerateModelDocs" />
       <item index="1" class="java.lang.String" itemvalue="Application.GenerateComponentClasses" />
       <item index="2" class="java.lang.String" itemvalue="Mocha.Annotate" />
       <item index="3" class="java.lang.String" itemvalue="Mocha.Settings" />
       <item index="4" class="java.lang.String" itemvalue="Mocha.parseNumber" />
       <item index="5" class="java.lang.String" itemvalue="Mocha.Action Service" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.EditorConfiguration" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.AppConfiguration" />
-      <item index="8" class="java.lang.String" itemvalue="Tomcat Server.exceed (spring-loaded)" />
-      <item index="9" class="java.lang.String" itemvalue="Tomcat Server.exceed" />
-      <item index="10" class="java.lang.String" itemvalue="JUnit.All in exceed" />
+      <item index="6" class="java.lang.String" itemvalue="Remote.Remote:8000" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.EditorConfiguration" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.AppConfiguration" />
+      <item index="9" class="java.lang.String" itemvalue="Tomcat Server.exceed (spring-loaded)" />
+      <item index="10" class="java.lang.String" itemvalue="Tomcat Server.exceed" />
       <item index="11" class="java.lang.String" itemvalue="Application.GenerateModelDocs (1)" />
-      <item index="12" class="java.lang.String" itemvalue="JUnit.TestCase.test" />
-      <item index="13" class="java.lang.String" itemvalue="JUnit.TestCase" />
-      <item index="14" class="java.lang.String" itemvalue="JUnit.MiscTest" />
+      <item index="12" class="java.lang.String" itemvalue="JUnit.All in exceed" />
+      <item index="13" class="java.lang.String" itemvalue="JUnit.TestCase.test" />
+      <item index="14" class="java.lang.String" itemvalue="JUnit.TestCase" />
+      <item index="15" class="java.lang.String" itemvalue="JUnit.MiscTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MiscTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.GenerateModelDocs (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestCase.test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestCase" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.All in exceed" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in exceed" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MiscTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.GenerateModelDocs (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestCase.test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -2594,7 +2325,11 @@
       <workItem from="1509470364344" duration="765000" />
       <workItem from="1509472940563" duration="6079000" />
       <workItem from="1509534864847" duration="9689000" />
-      <workItem from="1509618001003" duration="5967000" />
+      <workItem from="1509618001003" duration="9659000" />
+      <workItem from="1509629721122" duration="11940000" />
+      <workItem from="1509646730756" duration="12733000" />
+      <workItem from="1509702059979" duration="13971000" />
+      <workItem from="1509796238916" duration="21070000" />
     </task>
     <task id="LOCAL-00001" summary="Shorten watcher thread name">
       <created>1445086219627</created>
@@ -2607,11 +2342,11 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MiscTest - 2017.10.30 at 18h 35m 11s.xml">
-      <configuration name="MiscTest" configurationId="JUnit" />
+    <history-entry file="All_in_exceed - 2017.11.04 at 13h 08m 48s.xml">
+      <configuration name="All in exceed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCase_test - 2017.10.28 at 16h 05m 02s.xml">
-      <configuration name="TestCase.test" configurationId="JUnit" />
+    <history-entry file="All_in_exceed - 2017.11.04 at 13h 10m 30s.xml">
+      <configuration name="All in exceed" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestCase_test - 2017.10.28 at 16h 08m 40s.xml">
       <configuration name="TestCase.test" configurationId="JUnit" />
@@ -2639,7 +2374,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6794521000" />
+    <option name="totallyTimeSpent" value="6857927000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2651,30 +2386,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
+    <frame x="-1" y="-11" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3194589" sideWeight="0.48935038" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31935483" sideWeight="0.48935038" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41415194" sideWeight="0.5255942" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="15" side_tool="false" content_ui="combo" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09552845" sideWeight="0.49583334" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29344434" sideWeight="0.86206895" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2924731" sideWeight="0.86206895" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32780084" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37912673" sideWeight="0.512474" order="0" side_tool="false" content_ui="combo" x="726" y="99" width="468" height="962" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3913738" sideWeight="0.512474" order="0" side_tool="false" content_ui="combo" x="726" y="99" width="468" height="962" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40478668" sideWeight="0.47440585" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40430108" sideWeight="0.47440585" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920128" sideWeight="0.487526" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39021853" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3892473" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2693,6 +2428,46 @@
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41415194" sideWeight="0.5255942" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24427083" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920128" sideWeight="0.487526" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3892473" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31935483" sideWeight="0.48935038" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="15" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09552845" sideWeight="0.49583334" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2924731" sideWeight="0.86206895" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32780084" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38711396" sideWeight="0.512474" order="0" side_tool="false" content_ui="combo" x="726" y="99" width="468" height="962" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40430108" sideWeight="0.47440585" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -2758,124 +2533,37 @@
           <properties class="de.quinscape.exceed.runtime.js.InvalidReferenceException" package="de.quinscape.exceed.runtime.js" />
           <option name="timeStamp" value="840" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/query/QueryTransformerOperations.java</url>
-          <line>878</line>
-          <properties />
-          <option name="timeStamp" value="829" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/js/TypeAnalyzerTest.java</url>
-          <line>361</line>
-          <properties />
-          <option name="timeStamp" value="837" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/context/ScopeMetaModel.java</url>
-          <line>223</line>
-          <properties />
-          <option name="timeStamp" value="841" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <condition expression="ExpressionRenderer.render(astExpression).equals(&quot;newObject()&quot;)" language="JAVA" custom="de.quinscape.exceed.runtime.model.ExpressionRenderer" />
-          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/DefaultExpressionCompiler.java</url>
-          <line>583</line>
-          <properties />
-          <option name="timeStamp" value="846" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/expression/transform/ActionExpressionTest.java</url>
-          <line>352</line>
-          <properties />
-          <option name="timeStamp" value="847" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/expression/transform/ActionExpressionTest.java</url>
-          <line>161</line>
-          <properties />
-          <option name="timeStamp" value="848" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/StateMachineValueTransformer.java</url>
-          <line>144</line>
-          <properties />
-          <option name="timeStamp" value="854" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <condition expression="ExpressionUtil.renderExpressionOf(node).contains(&quot;.isValid(&quot;)" language="JAVA" />
-          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/TypeAnalyzer.java</url>
-          <line>57</line>
-          <properties />
-          <option name="timeStamp" value="857" />
-        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="879" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="886" />
+        </breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/js/env/CurrentTypeResolver.java</url>
-          <line>28</line>
+          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/DomainUtil.java</url>
+          <line>231</line>
           <properties />
-          <option name="timeStamp" value="859" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/expression/transform/ActionExpressionTransformer.java</url>
-          <line>309</line>
-          <properties />
-          <option name="timeStamp" value="860" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/PropertyType.java</url>
-          <line>195</line>
-          <properties />
-          <option name="timeStamp" value="862" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/ContextUpdate.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="863" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/component/QueryDataProvider.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="869" />
+          <option name="timeStamp" value="880" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/tooling/GenerateModelDocs.java</url>
-          <line>583</line>
+          <line>171</line>
           <properties />
-          <option name="timeStamp" value="872" />
+          <option name="timeStamp" value="885" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/tooling/JavaDocs.java</url>
-          <line>114</line>
+          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/application/ResourceInjector.java</url>
+          <line>103</line>
           <properties />
-          <option name="timeStamp" value="876" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/security/ApplicationUserDetails.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="877" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../exceed/src/test/js/domain/graph.js</url>
-          <line>507</line>
-          <option name="timeStamp" value="865" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../exceed/src/main/js/domain/cursor.js</url>
-          <line>392</line>
-          <option name="timeStamp" value="866" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../exceed/src/test/js/domain/graph.js</url>
-          <line>531</line>
-          <option name="timeStamp" value="867" />
+          <option name="timeStamp" value="887" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="879" />
+      <option name="time" value="888" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -2889,227 +2577,127 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../exceed/src/test/resources/injector-base/resources/js/test.txt">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/domain/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/common/components.json">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/domain/DomainVersion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="136" column="110" lean-forward="false" selection-start-line="136" selection-start-column="110" selection-end-line="136" selection-end-column="110" />
+        <state relative-caret-position="341">
+          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/crud-example/models/routing.json">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/expression/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="74" lean-forward="true" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/java/jdk1.8/src.zip!/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/HasPrefix.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.2.RELEASE/spring-security-core-4.2.2.RELEASE-sources.jar!/org/springframework/security/core/AuthenticationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="46" column="11" lean-forward="false" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/security/ExceedSecurityException.java" />
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/security/ApplicationUserDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="63" column="55" lean-forward="false" selection-start-line="63" selection-start-column="55" selection-end-line="63" selection-end-column="55" />
-          <folding>
-            <element signature="e#2868#2869#0" expanded="true" />
-            <element signature="e#2920#2921#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/java/jdk1.8/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="110" column="19" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+          <caret line="3" column="115" lean-forward="false" selection-start-line="3" selection-start-column="115" selection-end-line="3" selection-end-column="115" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/migration/MigrationStep.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/PropertyTypeKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/domain/migration/RenamePropertyStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/ServiceConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="90" column="4" lean-forward="false" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
+        <state relative-caret-position="180">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/security/ApplicationUserDetailsService.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/process/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="84" column="12" lean-forward="true" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="12" />
+        <state relative-caret-position="15">
+          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/DBUtil.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/routing/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        <state relative-caret-position="15">
+          <caret line="1" column="57" lean-forward="false" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/domain/DefaultNamingStrategyTest.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/startup/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="68" lean-forward="false" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/translation/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="61" lean-forward="false" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/TextNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/ComponentModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="281" column="64" lean-forward="false" selection-start-line="281" selection-start-column="64" selection-end-line="281" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/ComponentSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="62" lean-forward="false" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/test/java/de/quinscape/exceed/runtime/domain/DomainObjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="31" column="43" lean-forward="false" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/schema/DDLOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="74" column="9" lean-forward="false" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/domain/property/ForeignKeyDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/schema/InformationSchemaOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4620">
-          <caret line="314" column="19" lean-forward="false" selection-start-line="314" selection-start-column="19" selection-end-line="314" selection-end-column="19" />
-          <folding>
-            <marker date="1509562202758" expanded="true" signature="1695:1764" ph="select schem... schemata" />
-            <marker date="1509562202758" expanded="true" signature="1935:1967" ph="DROP SCHEMA " />
-            <marker date="1509562202758" expanded="true" signature="2067:2081" ph="CREATE SCHEM... missingValue" />
-            <marker date="1509562202758" expanded="true" signature="2201:2272" ph="SELECT table... tables" />
-            <marker date="1509562202758" expanded="true" signature="5744:5775" ph="ALTER TABLE missingValue.missingValue... " />
-            <marker date="1509562202758" expanded="true" signature="8185:8295" ph="ALTER TABLE missingValue.missingValue... " />
-            <marker date="1509562202758" expanded="true" signature="8622:8675" ph="ALTER TABLE missingValue.missingValue... " />
-            <marker date="1509562202758" expanded="true" signature="9197:9228" ph="ALTER TABLE missingValue.missingValue... " />
-            <marker date="1509562202758" expanded="true" signature="10193:10248" ph="ALTER TABLE missingValue.missingValue... " />
-            <marker date="1509562202758" expanded="true" signature="11341:11423" ph="SELECT * FRO... columns" />
-            <marker date="1509562202758" expanded="true" signature="11913:12018" ph="ALTER TABLE missingValue.missingValue... " />
-            <marker date="1509562202758" expanded="true" signature="12163:12368" ph="SELECT DISTI... KEY_COLUMN_USAGE" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/application/DefaultRuntimeApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6105">
-          <caret line="410" column="33" lean-forward="false" selection-start-line="410" selection-start-column="33" selection-end-line="410" selection-end-column="33" />
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/crud-example/models/config.json">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/ComponentModelBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="65" column="32" lean-forward="false" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/DialogState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/view/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <caret line="1" column="50" lean-forward="false" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/AppAuthentication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="123" lean-forward="false" selection-start-line="13" selection-start-column="123" selection-end-line="13" selection-end-column="123" />
-          <folding>
-            <element signature="e#2564#2565#0" expanded="true" />
-            <element signature="e#2634#2635#0" expanded="true" />
-            <element signature="e#3085#3086#0" expanded="true" />
-            <element signature="e#3156#3157#0" expanded="true" />
-            <element signature="e#3197#3198#0" expanded="true" />
-            <element signature="e#3265#3266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/DomainUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3420">
-          <caret line="228" column="32" lean-forward="false" selection-start-line="228" selection-start-column="32" selection-end-line="228" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/common/StandardNav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/authentication/rememberme/PersistentTokenRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/SecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="44" column="31" lean-forward="false" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE.jar!/org/springframework/security/web/authentication/rememberme/JdbcTokenRepositoryImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <marker date="1493645439004" expanded="true" signature="1415:1493" ph="select usern... persistent_logins" />
-            <marker date="1493645439004" expanded="true" signature="1533:1615" ph="insert into persistent_logins... " />
-            <marker date="1493645439004" expanded="true" signature="1655:1725" ph="update persi... " />
-            <marker date="1493645439004" expanded="true" signature="1770:1818" ph="delete from " />
-            <marker date="1493645439004" expanded="true" signature="2026:2178" ph="create table... persistent_logins" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE-sources.jar!/org/springframework/security/web/authentication/rememberme/PersistentTokenRepository.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -3117,211 +2705,296 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.2.RELEASE/spring-security-web-4.2.2.RELEASE-sources.jar!/org/springframework/security/web/authentication/rememberme/JdbcTokenRepositoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/TopLevelModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="33" />
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/TopLevelModelVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="122" column="31" lean-forward="false" selection-start-line="122" selection-start-column="31" selection-end-line="122" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
           <folding>
-            <marker date="1509619004683" expanded="true" signature="1521:1681" ph="create table... persistent_logins" />
-            <marker date="1509619004683" expanded="true" signature="1807:1885" ph="select usern... persistent_logins" />
-            <marker date="1509619004683" expanded="true" signature="1996:2078" ph="insert into persistent_logins... " />
-            <marker date="1509619004683" expanded="true" signature="2186:2256" ph="update persi... " />
-            <marker date="1509619004683" expanded="true" signature="2375:2423" ph="delete from " />
+            <element signature="e#251#252#0" expanded="false" />
+            <element signature="e#298#299#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/schema/DefaultSchemaService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CreateOrdersTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        <state relative-caret-position="195">
+          <caret line="41" column="7" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/org/springframework/core/io/support/PropertySourceFactory.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/resource/stream/ServletResourceRoot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/jndi/JndiPropertySource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="52" column="50" lean-forward="false" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+        <state relative-caret-position="256">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding>
-            <element signature="e#2738#2739#0" expanded="false" />
-            <element signature="e#2810#2811#0" expanded="false" />
-            <element signature="e#3007#3008#0" expanded="false" />
-            <element signature="e#3038#3039#0" expanded="false" />
+            <element signature="e#595#596#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.8.RELEASE/spring-test-4.3.8.RELEASE.jar!/org/springframework/mock/env/MockPropertySource.class">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/resource/stream/AbstractStreamResourceRoot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="488">
+          <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.8.RELEASE/spring-test-4.3.8.RELEASE-sources.jar!/org/springframework/mock/env/MockPropertySource.java">
+    <entry file="jar:///usr/local/java/jdk1.8/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="211" column="6" lean-forward="false" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/org/springframework/core/io/ClassPathResource.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="159" column="23" lean-forward="false" selection-start-line="159" selection-start-column="23" selection-end-line="159" selection-end-column="23" />
+        <state relative-caret-position="173">
+          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/org/springframework/core/io/InputStreamSource.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/application/ResourceInjector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="53" column="16" lean-forward="false" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        <state relative-caret-position="248">
+          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/org/springframework/core/io/support/EncodedResource.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/meta/ApplicationMetaData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="153" column="38" lean-forward="true" selection-start-line="153" selection-start-column="38" selection-end-line="153" selection-end-column="38" />
+        <state relative-caret-position="175">
+          <caret line="128" column="5" lean-forward="false" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/org/springframework/core/io/Resource.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/resource/stream/ClassPathResourceRoot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="136" column="11" lean-forward="false" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
+        <state relative-caret-position="173">
+          <caret line="21" column="73" lean-forward="false" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/annotation/PropertySource.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/resource/ResourceRoot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="155" column="18" lean-forward="false" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="18" />
+        <state relative-caret-position="301">
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/local/java/jdk1.8/jre/lib/rt.jar!/java/lang/Object.class">
+    <entry file="file://$PROJECT_DIR$/../exceed/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="190">
+          <caret line="596" column="92" lean-forward="false" selection-start-line="596" selection-start-column="92" selection-end-line="596" selection-end-column="92" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/cfg/exceed-app.properties">
+    <entry file="jar:///usr/local/java/jdk1.8/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="935" column="0" lean-forward="false" selection-start-line="935" selection-start-column="0" selection-end-line="935" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#262622#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/security/ExceedTokenRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="88" column="112" lean-forward="false" selection-start-line="88" selection-start-column="112" selection-end-line="88" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/model/startup/ExceedConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="60" column="41" lean-forward="false" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/resource/ResourceLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="109" column="25" lean-forward="false" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
+          <folding>
+            <element signature="e#3406#3407#0" expanded="false" />
+            <element signature="e#3478#3479#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/resource/AppResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/resource/stream/ClassPathResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="e#502#503#0" expanded="false" />
+            <element signature="e#586#587#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/resource/stream/AbstractStreamResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/spring/ExceedViewResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="56" column="32" lean-forward="false" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/util/FileExtension.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="29" />
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/org/springframework/core/env/PropertyResolver.java">
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/tooling/GenerateLibraryResourceLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="92" column="11" lean-forward="false" selection-start-line="92" selection-start-column="11" selection-end-line="92" selection-end-column="11" />
+        <state relative-caret-position="375">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/org/springframework/core/env/PropertySource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="117" column="43" lean-forward="false" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
+        <state relative-caret-position="489">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/startup/ExceedPropertySourceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/ExceedApplicationConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="87" lean-forward="false" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/startup/ExceedPropertySource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding>
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/cfg/exceed-config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/startup/ExceedConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="47" column="24" lean-forward="false" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-          <folding>
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#1698#1699#0" expanded="true" />
-            <element signature="e#1733#1734#0" expanded="true" />
-            <element signature="e#1789#1790#0" expanded="true" />
-            <element signature="e#1830#1831#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ApplicationServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="98" column="57" lean-forward="false" selection-start-line="98" selection-start-column="57" selection-end-line="98" selection-end-column="57" />
+        <state relative-caret-position="165">
+          <caret line="195" column="18" lean-forward="false" selection-start-line="195" selection-start-column="18" selection-end-line="195" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/service/ApplicationService.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/java/jdk1.8/src.zip!/java/util/EventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/ApplicationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <caret line="35" column="80" lean-forward="false" selection-start-line="35" selection-start-column="80" selection-end-line="35" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/org/springframework/context/event/EventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="68" column="18" lean-forward="false" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../exceed/src/main/java/de/quinscape/exceed/runtime/config/DefaultAppConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="119" column="49" lean-forward="false" selection-start-line="119" selection-start-column="49" selection-end-line="119" selection-end-column="49" />
+        <state relative-caret-position="188">
+          <caret line="121" column="47" lean-forward="false" selection-start-line="121" selection-start-column="47" selection-end-line="121" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/cfg/exceed-config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/counter-example/models/routing.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/extensions/counter-example/models/view/Home.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="65" lean-forward="false" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exceed/src/main/js/components/std/common/StandardNav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="85" column="51" lean-forward="false" selection-start-line="85" selection-start-column="51" selection-end-line="85" selection-end-column="51" />
           <folding />
         </state>
       </provider>
