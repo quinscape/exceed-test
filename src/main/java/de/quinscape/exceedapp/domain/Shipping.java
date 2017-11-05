@@ -5,9 +5,11 @@ package de.quinscape.exceedapp.domain;
 
 
 import de.quinscape.exceedapp.domain.tables.Address;
-import de.quinscape.exceedapp.domain.tables.AppState;
+import de.quinscape.exceedapp.domain.tables.AppConfig;
+import de.quinscape.exceedapp.domain.tables.AppLogin;
 import de.quinscape.exceedapp.domain.tables.AppTranslation;
 import de.quinscape.exceedapp.domain.tables.AppUser;
+import de.quinscape.exceedapp.domain.tables.AppUserConfig;
 import de.quinscape.exceedapp.domain.tables.Customer;
 import de.quinscape.exceedapp.domain.tables.Order;
 import de.quinscape.exceedapp.domain.tables.OrderItem;
@@ -36,7 +38,7 @@ import org.jooq.impl.SchemaImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Shipping extends SchemaImpl {
 
-	private static final long serialVersionUID = 586568059;
+	private static final long serialVersionUID = -1830783881;
 
 	/**
 	 * The reference instance of <code>shipping</code>
@@ -60,9 +62,11 @@ public class Shipping extends SchemaImpl {
 	private final List<Table<?>> getTables0() {
 		return Arrays.<Table<?>>asList(
 			Address.ADDRESS,
-			AppState.APP_STATE,
+			AppConfig.APP_CONFIG,
+			AppLogin.APP_LOGIN,
 			AppTranslation.APP_TRANSLATION,
 			AppUser.APP_USER,
+			AppUserConfig.APP_USER_CONFIG,
 			Customer.CUSTOMER,
 			Order.ORDER,
 			OrderItem.ORDER_ITEM,

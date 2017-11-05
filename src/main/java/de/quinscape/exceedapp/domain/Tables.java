@@ -5,9 +5,11 @@ package de.quinscape.exceedapp.domain;
 
 
 import de.quinscape.exceedapp.domain.tables.Address;
-import de.quinscape.exceedapp.domain.tables.AppState;
+import de.quinscape.exceedapp.domain.tables.AppConfig;
+import de.quinscape.exceedapp.domain.tables.AppLogin;
 import de.quinscape.exceedapp.domain.tables.AppTranslation;
 import de.quinscape.exceedapp.domain.tables.AppUser;
+import de.quinscape.exceedapp.domain.tables.AppUserConfig;
 import de.quinscape.exceedapp.domain.tables.Customer;
 import de.quinscape.exceedapp.domain.tables.Order;
 import de.quinscape.exceedapp.domain.tables.OrderItem;
@@ -35,9 +37,14 @@ public class Tables {
 	public static final Address ADDRESS = de.quinscape.exceedapp.domain.tables.Address.ADDRESS;
 
 	/**
-	 * The table shipping.app_state
+	 * The table shipping.app_config
 	 */
-	public static final AppState APP_STATE = de.quinscape.exceedapp.domain.tables.AppState.APP_STATE;
+	public static final AppConfig APP_CONFIG = de.quinscape.exceedapp.domain.tables.AppConfig.APP_CONFIG;
+
+	/**
+	 * The table shipping.app_login
+	 */
+	public static final AppLogin APP_LOGIN = de.quinscape.exceedapp.domain.tables.AppLogin.APP_LOGIN;
 
 	/**
 	 * The table shipping.app_translation
@@ -48,6 +55,11 @@ public class Tables {
 	 * The table shipping.app_user
 	 */
 	public static final AppUser APP_USER = de.quinscape.exceedapp.domain.tables.AppUser.APP_USER;
+
+	/**
+	 * The table shipping.app_user_config
+	 */
+	public static final AppUserConfig APP_USER_CONFIG = de.quinscape.exceedapp.domain.tables.AppUserConfig.APP_USER_CONFIG;
 
 	/**
 	 * The table shipping.customer

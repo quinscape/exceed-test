@@ -34,7 +34,7 @@ import org.jooq.impl.TableImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class AppUser extends TableImpl<AppUserRecord> {
 
-	private static final long serialVersionUID = 1948262205;
+	private static final long serialVersionUID = 1937959622;
 
 	/**
 	 * The reference instance of <code>shipping.app_user</code>
@@ -80,6 +80,11 @@ public class AppUser extends TableImpl<AppUserRecord> {
 	public final TableField<AppUserRecord, String> ROLES = createField("roles", org.jooq.impl.SQLDataType.VARCHAR.length(255).nullable(false), this, "");
 
 	/**
+	 * The column <code>shipping.app_user.disabled</code>.
+	 */
+	public final TableField<AppUserRecord, Boolean> DISABLED = createField("disabled", org.jooq.impl.SQLDataType.BOOLEAN, this, "");
+
+	/**
 	 * Create a <code>shipping.app_user</code> table reference
 	 */
 	public AppUser() {
@@ -114,7 +119,7 @@ public class AppUser extends TableImpl<AppUserRecord> {
 	 */
 	@Override
 	public List<UniqueKey<AppUserRecord>> getKeys() {
-		return Arrays.<UniqueKey<AppUserRecord>>asList(Keys.PK_APP_USER);
+		return Arrays.<UniqueKey<AppUserRecord>>asList(Keys.PK_APP_USER, Keys.UC_APP_USER_LOGIN);
 	}
 
 	/**

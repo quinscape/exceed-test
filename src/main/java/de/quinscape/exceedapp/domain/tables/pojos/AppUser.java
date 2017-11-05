@@ -27,7 +27,7 @@ import javax.validation.constraints.Size;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class AppUser extends GeneratedDomainObject implements Serializable {
 
-	private static final long serialVersionUID = -624297021;
+	private static final long serialVersionUID = -621943202;
 
 	private String    id;
 	private String    login;
@@ -35,6 +35,7 @@ public class AppUser extends GeneratedDomainObject implements Serializable {
 	private Timestamp created;
 	private Timestamp lastLogin;
 	private String    roles;
+	private Boolean   disabled;
 
 	public AppUser() {}
 
@@ -45,6 +46,7 @@ public class AppUser extends GeneratedDomainObject implements Serializable {
 		this.created = value.created;
 		this.lastLogin = value.lastLogin;
 		this.roles = value.roles;
+		this.disabled = value.disabled;
 	}
 
 	public AppUser(
@@ -53,7 +55,8 @@ public class AppUser extends GeneratedDomainObject implements Serializable {
 		String    password,
 		Timestamp created,
 		Timestamp lastLogin,
-		String    roles
+		String    roles,
+		Boolean   disabled
 	) {
 		this.id = id;
 		this.login = login;
@@ -61,6 +64,7 @@ public class AppUser extends GeneratedDomainObject implements Serializable {
 		this.created = created;
 		this.lastLogin = lastLogin;
 		this.roles = roles;
+		this.disabled = disabled;
 	}
 
 	@NotNull
@@ -119,5 +123,13 @@ public class AppUser extends GeneratedDomainObject implements Serializable {
 
 	public void setRoles(String roles) {
 		this.roles = roles;
+	}
+
+	public Boolean getDisabled() {
+		return this.disabled;
+	}
+
+	public void setDisabled(Boolean disabled) {
+		this.disabled = disabled;
 	}
 }

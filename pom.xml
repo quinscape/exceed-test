@@ -46,7 +46,7 @@
         <dependency>
             <groupId>de.quinscape</groupId>
             <artifactId>exceed</artifactId>
-            <version>0.3.2</version>
+            <version>0.3.3</version>
         </dependency>
 
         <dependency>
@@ -97,6 +97,7 @@
             <artifactId>guava</artifactId>
             <version>18.0</version>
         </dependency>
+
 
         <!-- TEST DEPENDENCIES -->
 
@@ -246,7 +247,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.3</version>
+                <version>3.7.0</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>

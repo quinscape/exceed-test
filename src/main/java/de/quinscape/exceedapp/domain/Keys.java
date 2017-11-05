@@ -5,16 +5,20 @@ package de.quinscape.exceedapp.domain;
 
 
 import de.quinscape.exceedapp.domain.tables.Address;
-import de.quinscape.exceedapp.domain.tables.AppState;
+import de.quinscape.exceedapp.domain.tables.AppConfig;
+import de.quinscape.exceedapp.domain.tables.AppLogin;
 import de.quinscape.exceedapp.domain.tables.AppTranslation;
 import de.quinscape.exceedapp.domain.tables.AppUser;
+import de.quinscape.exceedapp.domain.tables.AppUserConfig;
 import de.quinscape.exceedapp.domain.tables.Customer;
 import de.quinscape.exceedapp.domain.tables.Order;
 import de.quinscape.exceedapp.domain.tables.OrderItem;
 import de.quinscape.exceedapp.domain.tables.Product;
 import de.quinscape.exceedapp.domain.tables.records.AddressRecord;
-import de.quinscape.exceedapp.domain.tables.records.AppStateRecord;
+import de.quinscape.exceedapp.domain.tables.records.AppConfigRecord;
+import de.quinscape.exceedapp.domain.tables.records.AppLoginRecord;
 import de.quinscape.exceedapp.domain.tables.records.AppTranslationRecord;
+import de.quinscape.exceedapp.domain.tables.records.AppUserConfigRecord;
 import de.quinscape.exceedapp.domain.tables.records.AppUserRecord;
 import de.quinscape.exceedapp.domain.tables.records.CustomerRecord;
 import de.quinscape.exceedapp.domain.tables.records.OrderItemRecord;
@@ -52,9 +56,14 @@ public class Keys {
 	// -------------------------------------------------------------------------
 
 	public static final UniqueKey<AddressRecord> PK_ADDRESS = UniqueKeys0.PK_ADDRESS;
-	public static final UniqueKey<AppStateRecord> PK_APP_STATE = UniqueKeys0.PK_APP_STATE;
+	public static final UniqueKey<AppConfigRecord> PK_APP_CONFIG = UniqueKeys0.PK_APP_CONFIG;
+	public static final UniqueKey<AppLoginRecord> PK_APP_LOGIN = UniqueKeys0.PK_APP_LOGIN;
+	public static final UniqueKey<AppLoginRecord> UC_APP_LOGIN_SERIES = UniqueKeys0.UC_APP_LOGIN_SERIES;
 	public static final UniqueKey<AppTranslationRecord> PK_APP_TRANSLATION = UniqueKeys0.PK_APP_TRANSLATION;
 	public static final UniqueKey<AppUserRecord> PK_APP_USER = UniqueKeys0.PK_APP_USER;
+	public static final UniqueKey<AppUserRecord> UC_APP_USER_LOGIN = UniqueKeys0.UC_APP_USER_LOGIN;
+	public static final UniqueKey<AppUserConfigRecord> PK_APP_USER_CONFIG = UniqueKeys0.PK_APP_USER_CONFIG;
+	public static final UniqueKey<AppUserConfigRecord> UC_APP_USER_CONFIG_LOGIN = UniqueKeys0.UC_APP_USER_CONFIG_LOGIN;
 	public static final UniqueKey<CustomerRecord> PK_CUSTOMER = UniqueKeys0.PK_CUSTOMER;
 	public static final UniqueKey<OrderRecord> PK_ORDER = UniqueKeys0.PK_ORDER;
 	public static final UniqueKey<OrderItemRecord> PK_ORDER_ITEM = UniqueKeys0.PK_ORDER_ITEM;
@@ -64,6 +73,7 @@ public class Keys {
 	// FOREIGN KEY definitions
 	// -------------------------------------------------------------------------
 
+	public static final ForeignKey<AppUserConfigRecord, AppUserRecord> APP_USER_CONFIG__FK_APP_USER_CONFIG_LOGIN = ForeignKeys0.APP_USER_CONFIG__FK_APP_USER_CONFIG_LOGIN;
 	public static final ForeignKey<CustomerRecord, AddressRecord> CUSTOMER__FK_CUSTOMER_BILLING_ADDRESS_ID = ForeignKeys0.CUSTOMER__FK_CUSTOMER_BILLING_ADDRESS_ID;
 	public static final ForeignKey<CustomerRecord, AddressRecord> CUSTOMER__FK_CUSTOMER_DELIVERY_ADDRESS_ID = ForeignKeys0.CUSTOMER__FK_CUSTOMER_DELIVERY_ADDRESS_ID;
 	public static final ForeignKey<OrderRecord, CustomerRecord> ORDER__FK_ORDER_CUSTOMER_ID = ForeignKeys0.ORDER__FK_ORDER_CUSTOMER_ID;
@@ -76,9 +86,14 @@ public class Keys {
 
 	private static class UniqueKeys0 extends AbstractKeys {
 		public static final UniqueKey<AddressRecord> PK_ADDRESS = createUniqueKey(Address.ADDRESS, Address.ADDRESS.ID);
-		public static final UniqueKey<AppStateRecord> PK_APP_STATE = createUniqueKey(AppState.APP_STATE, AppState.APP_STATE.ID);
+		public static final UniqueKey<AppConfigRecord> PK_APP_CONFIG = createUniqueKey(AppConfig.APP_CONFIG, AppConfig.APP_CONFIG.ID);
+		public static final UniqueKey<AppLoginRecord> PK_APP_LOGIN = createUniqueKey(AppLogin.APP_LOGIN, AppLogin.APP_LOGIN.ID);
+		public static final UniqueKey<AppLoginRecord> UC_APP_LOGIN_SERIES = createUniqueKey(AppLogin.APP_LOGIN, AppLogin.APP_LOGIN.SERIES);
 		public static final UniqueKey<AppTranslationRecord> PK_APP_TRANSLATION = createUniqueKey(AppTranslation.APP_TRANSLATION, AppTranslation.APP_TRANSLATION.ID);
 		public static final UniqueKey<AppUserRecord> PK_APP_USER = createUniqueKey(AppUser.APP_USER, AppUser.APP_USER.ID);
+		public static final UniqueKey<AppUserRecord> UC_APP_USER_LOGIN = createUniqueKey(AppUser.APP_USER, AppUser.APP_USER.LOGIN);
+		public static final UniqueKey<AppUserConfigRecord> PK_APP_USER_CONFIG = createUniqueKey(AppUserConfig.APP_USER_CONFIG, AppUserConfig.APP_USER_CONFIG.ID);
+		public static final UniqueKey<AppUserConfigRecord> UC_APP_USER_CONFIG_LOGIN = createUniqueKey(AppUserConfig.APP_USER_CONFIG, AppUserConfig.APP_USER_CONFIG.LOGIN);
 		public static final UniqueKey<CustomerRecord> PK_CUSTOMER = createUniqueKey(Customer.CUSTOMER, Customer.CUSTOMER.ID);
 		public static final UniqueKey<OrderRecord> PK_ORDER = createUniqueKey(Order.ORDER, Order.ORDER.ID);
 		public static final UniqueKey<OrderItemRecord> PK_ORDER_ITEM = createUniqueKey(OrderItem.ORDER_ITEM, OrderItem.ORDER_ITEM.ID);
@@ -86,6 +101,7 @@ public class Keys {
 	}
 
 	private static class ForeignKeys0 extends AbstractKeys {
+		public static final ForeignKey<AppUserConfigRecord, AppUserRecord> APP_USER_CONFIG__FK_APP_USER_CONFIG_LOGIN = createForeignKey(de.quinscape.exceedapp.domain.Keys.UC_APP_USER_LOGIN, AppUserConfig.APP_USER_CONFIG, AppUserConfig.APP_USER_CONFIG.LOGIN);
 		public static final ForeignKey<CustomerRecord, AddressRecord> CUSTOMER__FK_CUSTOMER_BILLING_ADDRESS_ID = createForeignKey(de.quinscape.exceedapp.domain.Keys.PK_ADDRESS, Customer.CUSTOMER, Customer.CUSTOMER.BILLING_ADDRESS_ID);
 		public static final ForeignKey<CustomerRecord, AddressRecord> CUSTOMER__FK_CUSTOMER_DELIVERY_ADDRESS_ID = createForeignKey(de.quinscape.exceedapp.domain.Keys.PK_ADDRESS, Customer.CUSTOMER, Customer.CUSTOMER.DELIVERY_ADDRESS_ID);
 		public static final ForeignKey<OrderRecord, CustomerRecord> ORDER__FK_ORDER_CUSTOMER_ID = createForeignKey(de.quinscape.exceedapp.domain.Keys.PK_CUSTOMER, Order.ORDER, Order.ORDER.CUSTOMER_ID);

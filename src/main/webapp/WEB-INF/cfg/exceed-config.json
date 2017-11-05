@@ -1,0 +1,35 @@
+{
+    "env" : {
+        "spring.profiles.active" : "development",
+
+        "deactivated.apps" : [
+            {
+                "name" : "exceed",
+                "extensions" : [
+                    "exceed-app"
+                ]
+            }
+        ]
+    },
+
+    "apps" : [
+        {
+            "name" : "shipping",
+            "extensions" : [
+                "shipping-app"
+            ]
+        },
+        {
+            "name" : "counter",
+            "extensions" : [
+                "counter-example"
+            ]
+        },
+        {
+            "name" : "crud",
+            "extensions" : [
+                "crud-example"
+            ]
+        }
+    ]
+}
