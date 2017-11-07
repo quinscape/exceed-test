@@ -20,15 +20,9 @@
             ]
         },
         {
-            "name" : "counter",
+            "name" : "examples",
             "extensions" : [
-                "counter-example"
-            ]
-        },
-        {
-            "name" : "crud",
-            "extensions" : [
-                "crud-example"
+                "counter-example", "crud-example"
             ]
         }
     ]
