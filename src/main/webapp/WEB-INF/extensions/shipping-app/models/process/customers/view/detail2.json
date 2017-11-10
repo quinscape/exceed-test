@@ -89,12 +89,6 @@
                                                     "attrs": {
                                                         "value": "country"
                                                     }
-                                                },
-                                                {
-                                                    "name": "Field",
-                                                    "attrs": {
-                                                        "value": "{ hasDeliveryAddress }"
-                                                    }
                                                 }
                                             ]
                                         }
@@ -146,9 +140,7 @@
                                                         "discard" : "{ true }",
                                                         "icon" : "list-alt",
                                                         "text": "{ i18n('Edit Delivery Address') }",
-                                                        "action": "{ delAddrDialog = DialogState.OPEN }",
-
-                                                        "disabledIf" : "{ !hasDeliveryAddress }"
+                                                        "action": "{ delAddrDialog = DialogState.OPEN }"
                                                     }
                                                 }
                                             ]
@@ -175,6 +167,12 @@
                                         "md": "{ 6 }"
                                     },
                                     "kids": [
+                                        {
+                                            "name": "Field",
+                                            "attrs": {
+                                                "value": "{ hasDeliveryAddress }"
+                                            }
+                                        },
                                         {
                                             "name": "FormBlock",
                                             "attrs": {
