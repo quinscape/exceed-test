@@ -1,0 +1,14 @@
+{
+    "dataSources" : {
+        "defaultDataSource": {
+            "type": "xcd.staging.AtomikosDataSourceModel",
+            "xaProperties": {
+                "databaseName": "exceed",
+                "user": "exceed",
+                "password": "exceed",
+                "serverName": "localhost",
+                "portNumber": "5432"
+            }
+        }
+    }
+}
