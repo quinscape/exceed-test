@@ -71,7 +71,7 @@ public class CreateOrdersTest
 
         Random rnd = new Random();
 
-        final ShopActions shopActions = new ShopActions(dslContext);
+        final ShopActions shopActions = new ShopActions();
 
         for (int i = 0; i < 100; i++)
         {
@@ -82,7 +82,7 @@ public class CreateOrdersTest
             log.info("CREATE ORDER: {}",
                 dslContext.insertInto(ORDER)
                 .set(ORDER.ID, orderId)
-                .set(ORDER.NUMBER, shopActions.newOrderNumber())
+                .set(ORDER.NUMBER, shopActions.newOrderNumber(dslContext))
                 .set(ORDER.CUSTOMER_ID, customer.getId())
                 .set(ORDER.ACCEPTED, Timestamp.valueOf(LocalDateTime.now().minus( rnd.nextInt(180), ChronoUnit.DAYS).toLocalDate().atStartOfDay()))
                 .set(ORDER.SHIPPING_TYPE, 0)

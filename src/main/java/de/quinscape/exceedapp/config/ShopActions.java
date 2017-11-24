@@ -44,50 +44,41 @@ public class ShopActions
 
     private static final String ORDER_STATUS = "OrderStatus";
 
-    private final DSLContext dslContext;
-
     /**
-     * Static Column definition for {@link #queryOrderSums(int)}
+     * Static Column definition for {@link #queryOrderSums(DSLContext, int)}}
      */
     private final static ImmutableMap<String, DomainProperty> ORDER_SUMS_COLUMNS = ImmutableMap.of(
         "label", DomainProperty.builder().withType(PropertyType.PLAIN_TEXT).build(),
         "value", DomainProperty.builder().withType(PropertyType.CURRENCY).build()
     );
 
-    @Autowired
-    public ShopActions(
-        DSLContext dslContext
-    )
-    {
-        this.dslContext = dslContext;
-    }
-    
     @Action(
         env = ActionEnvironment.SERVER
     )
-    public String newCustomerNumber()
+    public String newCustomerNumber(DSLContext dslContext)
     {
-        return findMaxPlusOne(CUSTOMER, CUSTOMER.NUMBER, "A%08d");
+        return findMaxPlusOne(dslContext, CUSTOMER, CUSTOMER.NUMBER, "A%08d");
     }
 
     @Action(
         env = ActionEnvironment.SERVER
     )
-    public String newOrderNumber()
+    public String newOrderNumber(DSLContext dslContext)
     {
-        return findMaxPlusOne(ORDER, ORDER.NUMBER, "B%08d");
+        return findMaxPlusOne(dslContext, ORDER, ORDER.NUMBER, "B%08d");
     }
 
 
     @Action(
         env = ActionEnvironment.SERVER
     )
-    public String newProductNumber()
+    public String newProductNumber(DSLContext dslContext)
     {
-        return findMaxPlusOne(PRODUCT, PRODUCT.NUMBER, "P$08d");
+        return findMaxPlusOne(dslContext, PRODUCT, PRODUCT.NUMBER, "P$08d");
     }
 
     private String findMaxPlusOne(
+        DSLContext dslContext,
         Table<?> customer, Field<String> field,
         String format
     )
@@ -163,6 +154,7 @@ public class ShopActions
     @Action
     public void shopTakeOrder(
         RuntimeContext runtimeContext,
+        DSLContext dslContext,
         Order current,
         @ExceedContext("orderItems") List<DomainObject> orderItems
     )
@@ -210,7 +202,7 @@ public class ShopActions
      * @return  data graph to be injected into the bar chart component
      */
     @Action
-    public DataGraph queryOrderSums(int months)
+    public DataGraph queryOrderSums(DSLContext dslContext, int months)
     {
         final List<Map> rows =
                 dslContext.select(
